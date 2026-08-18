@@ -1,0 +1,14 @@
+# Parametric Urban Canopy Structure Generator
+
+## 簡介
+
+The Parametric Urban Canopy Structure Generator is a free AI prompt that creates photorealistic renderings of contemporary pedestrian infrastructure with organic computational geometry for architects, urban designers, and landscape planners. This parametric urban canopy prompt for Midjourney, Flux, and Nano Banana produces eye-level architectural photography showing flowing lattice structures that wrap around existing trees, integrate bench seating into the canopy form, and create shaded walkways with honeycomb-inspired perforated patterns. The prompt generates images from a 35mm pedestrian perspective, capturing how people interact with the space while daylight filters through the parametric geometry to cast intricate shadows on the ground surface. Output images show the canopy material, ground paving treatment, and urban context you specify through three customizable variables. Reach for this prompt when you need to visualize pedestrian comfort strategies, present tree-preservation infrastructure concepts, or communicate computational design approaches in public space proposals. ● Produces flowing organic canopy structures with cellular lattice geometry that wraps naturally around preserved existing trees. ● Generates eye-level architectural photography showing people walking, sitting, and relaxing under the shaded structure at human scale. ● Creates shadow-play visualizations that demonstrate how perforated parametric patterns filter daylight onto paving surfaces. ● Outputs clean, realistic urban design imagery suitable for client presentations, competition boards, and public engagement materials. ## Prompt
+
+```
+A contemporary urban design project featuring a flowing parametric pedestrian canopy along {{urban-setting}}. The structure is organic and cellular, wrapping around existing trees and forming a continuous shaded walkway. The canopy is made of {{canopy-material}} perforated lattice with honeycomb-inspired computational geometry. Integrated benches are seamlessly carved into the structure. The ground is paved with {{ground-surface}}. People walk, sit, and relax under the canopy at human scale. Trees pass through openings in the structure without cutting. Soft daylight filters through the parametric pattern, creating beautiful shadow play on warm-toned paving. Natural greens and tree bark tones in environment. Ultra-realistic architectural photography style, 35mm eye-level pedestrian perspective, deep focus, crisp shadows, clean modern calm urban atmosphere.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{canopy-material}}、{{ground-surface}}、{{urban-setting}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Visual_Architecture&Creative_Engineering · Visual_Asset_Candidate_Bundle_Generator
+- 適用 / Use when: The Parametric Urban Canopy Structure Generator is a free AI prompt that creates photorealistic renderings of …

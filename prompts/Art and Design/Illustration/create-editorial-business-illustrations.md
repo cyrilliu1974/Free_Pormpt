@@ -1,0 +1,16 @@
+# Editorial Business Illustration Generator
+
+## 簡介
+
+The Editorial Business Illustration Generator is a free AI prompt that produces modern, metaphor-driven visuals for business publications, annual reports, and corporate communications. This editorial business illustration prompt for Midjourney, Flux, and similar image models creates clean line-art compositions with simplified human figures, architectural blocks, and financial elements arranged in vertical hierarchical layouts. You define the concept, main action, and a symbolic object - the prompt then generates publication-ready graphics with thin black line art, minimal geometric proportions, and flat accent colors (blue, green, yellow) applied sparingly to key elements against a pure white background. Real use cases include investor presentations, financial magazine editorials, corporate annual reports, and business marketing materials that require polished visual storytelling without photorealistic detail. Reach for this prompt when you need professional editorial illustrations that communicate abstract business concepts through symbolic imagery and precise, consistent line weight - without hiring specialized illustrators. ● Produces minimalist compositions with abstract geometric figures, architectural elements, and financial symbols in thin black line art. ● Applies flat accent colors to specific elements only - no gradients, shadows, or depth effects - for maximum visual impact and brand alignment. ● Generates vertical hierarchical layouts with symbolic objects as visual metaphors for growth, progress, and forward momentum. ● Delivers publication-ready graphics with precise line weight and neutral professional tone ideal for annual reports, investor decks, and business magazines. ## Prompt
+
+```
+Modern editorial illustration in minimalist line-art style representing {{concept}}. Composition shows {{main-action}} through symbolic, metaphor-driven visual storytelling. Human figures are simplified and abstract with thin black line art, neutral professional expressions, and geometric proportions with minimal facial features. Architectural blocks and financial elements (charts, bars, geometric shapes) are clean and minimal. At the top, incorporate {{symbol-object}} as a visual metaphor for growth and progress. Limited color palette: predominantly black and white with flat accent colors (blue, green, yellow) applied sparingly to key elements only. No gradients, no shadows, no depth effects. Pure white background. Vertical hierarchical composition emphasizing balance, structure, and optimistic forward momentum. Precise, consistent line weight throughout. Tone suitable for financial editorials, business magazines, annual reports, and investor presentations.
+
+Avoid: photorealism, 3D rendering, realistic anatomy, detailed faces, gradients, shadows, neon colors, playful cartoon aesthetics, cluttered layouts.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{concept}}、{{main-action}}、{{symbol-object}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Visual_Architecture&Creative_Engineering · Visual_Asset_Candidate_Bundle_Generator
+- 適用 / Use when: The Editorial Business Illustration Generator is a free AI prompt that produces modern, metaphor-driven visual…

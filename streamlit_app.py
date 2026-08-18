@@ -1,0 +1,125 @@
+# streamlit_app.py — God of Prompt 離線庫 · 雙語 Web 檢索介面 (lexical / hybrid)
+# 啟動 / Start:
+#   streamlit run streamlit_app.py --server.port 8501 --server.headless true
+#
+# 功能 / Features:
+#  - 中英雙語介面 (Bilingual UI)
+#  - 上層分類 → 下層分類 連動下拉 (cascading dropdown)
+#  - 選定類別 → 搜尋範圍限定該類別; 未選 → 全域搜尋
+#  - 檢索模式切換: 詞彙 Lexical (欄位加權 + 同義/中英擴展) | 混合 Hybrid (推薦, lexical + 本地 embedding + RRF)
+#  - 純本地, 不呼叫任何 LLM API
+#  - 回傳 路徑 / 選取理由 / 分數 / 完整 prompt / 框架型態 / 相關技能
+
+import os
+import sys
+import streamlit as st
+
+# 讓 import hybrid_search 可用 (與本檔同目錄)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import hybrid_search as hs
+
+PROMPTS_DIR = hs.PROMPTS_DIR
+
+@st.cache_data
+def load_index():
+    return hs.load_index()
+
+@st.cache_resource
+def get_resources():
+    # 載入索引 + (必要時) corpus embedding 快取; 首次會下載模型並建立, 之後只讀 .npy
+    index = load_index()
+    emb = hs.ensure_embeddings(index, verbose=False)
+    return index, emb
+
+index, emb = get_resources()
+cats = sorted({e["category"] for e in index if e.get("category")})
+subs_map = {}
+for e in index:
+    if e.get("category") and e.get("subcategory"):
+        subs_map.setdefault(e["category"], set()).add(e["subcategory"])
+subs_map = {k: sorted(v) for k, v in subs_map.items()}
+
+# —— 頁面 ——
+st.set_page_config(page_title="Prompt 檢索 / Prompt Search", layout="wide")
+st.title("📚 AI Prompt 離線庫 · 檢索介面")
+st.caption("AI Prompt Library — Offline Search UI ｜ 中英雙語 / Bilingual")
+
+with st.expander("ℹ️ 使用說明 / How to use", expanded=True):
+    st.markdown(
+        """
+        **中文 / Chinese**
+        1. 選擇「大類」(如 Marketing、Real Estate);選了之後下方才會出現對應的「類別」。
+        2. 類別可選可不選:選了就把搜尋範圍限制在該類別;都不選則為**全域搜尋**。
+        3. 選擇**檢索模式**:`混合 Hybrid`(推薦, 詞彙+本地語意 embedding, 對自然語言需求最準) 或 `詞彙 Lexical`(純關鍵字/同義/欄位加權)。
+        4. 在輸入框打入你的需求(支援中文,會自動展開為英文關鍵字),按「搜尋」。
+        5. 結果可展開看完整 prompt、框架型態與相關技能。
+
+        **English**
+        1. Pick a **top category** (e.g. Marketing, Real Estate); the **subcategory** dropdown appears below it.
+        2. Subcategory is optional: picking one scopes search to that subcategory; leaving both = **global search**.
+        3. Choose **retrieval mode**: `混合 Hybrid` (recommended — lexical + local semantic embedding, best for natural-language needs) or `詞彙 Lexical` (pure keyword/synonym/field-weighted).
+        4. Type your need in the box (Chinese is supported — it auto-expands to English keywords) and press **Search**.
+        5. Expand any result to see the full prompt, its framework type and related skills.
+
+        ⚙️ 檢索技術 / Retrieval: 本地 **詞彙語意檢索 (lexical + 同義詞/中英擴展 + 欄位加權)**,可疊加 **本地多語言 embedding + RRF 混合檢索** — **不呼叫任何 LLM API / no LLM API calls**.
+        """
+    )
+
+ALL = "(全部 / All)"
+cat_opts = [ALL] + cats
+def on_cat_change():
+    st.session_state.sub = ALL
+cat = st.selectbox("① 選擇大類 / Select top category", cat_opts, key="cat", on_change=on_cat_change)
+if cat == ALL:
+    sub_opts = [ALL]; cat_arg = None
+else:
+    sub_opts = [ALL] + subs_map.get(cat, []); cat_arg = cat
+sub = st.selectbox("② 選擇類別 / Select subcategory", sub_opts, key="sub")
+sub_arg = None if sub == ALL else sub
+
+mode = st.radio(
+    "③ 檢索模式 / Retrieval mode",
+    ["混合 Hybrid (推薦)", "詞彙 Lexical"],
+    horizontal=True,
+    help="Hybrid = 詞彙 + 本地語意 embedding (RRF 融合); Lexical = 純關鍵字/同義/欄位加權",
+)
+mode_arg = "hybrid" if mode.startswith("混合") else "lexical"
+
+with st.form("search_form"):
+    q = st.text_input(
+        "④ 輸入需求 / Enter your need",
+        placeholder="例如 / e.g. 我想評估房地產現金買家報價是否可靠 ｜ write a high-converting landing page ad copy",
+    )
+    col1, col2 = st.columns([1, 3])
+    with col1:
+        topN = st.slider("結果數 / Top N", 1, 20, 5)
+    with col2:
+        st.write("")  # spacer
+    submitted = st.form_submit_button("🔍 搜尋 / Search")
+
+if submitted and q.strip():
+    try:
+        res = hs.search(q.strip(), topN, cat_arg, sub_arg, mode_arg, index=index, emb=emb)
+        st.success(f"找到 {res['count']} 筆相符 / Found {res['count']} matches"
+                   + (f" ｜ 範圍 / scope: {cat_arg or '全部'}{('/ '+sub_arg) if sub_arg else ''}")
+                   + f" ｜ 模式 / mode: {mode_arg}")
+        if res["count"] == 0:
+            st.info("試試更通用的關鍵字,或瀏覽 prompts/index.md 的分類總覽。\n"
+                    "Try broader keywords, or browse the category index in prompts/index.md.")
+        for r in res["results"]:
+            head = f"#{r['rank']} · {r['score']} 分 / pts · {r['title']}"
+            with st.expander(head):
+                st.markdown(f"**大類/類別 / Category:** {r['category']} / {r['subcategory']}")
+                if r.get("archetype"):
+                    st.markdown(f"**框架型態 / Framework:** {r['archetype']}")
+                st.markdown(f"**路徑 / Path:** `{r['path']}`")
+                if r.get("related_skills"):
+                    st.markdown("**相關技能 (skills.json) / Related skills:** "
+                                + "; ".join(f"{x['cat']} · {x['skill']}" for x in r["related_skills"]))
+                st.markdown("**選取理由 / Reasons:** " + "; ".join(r["reasons"]))
+                st.markdown("**完整 Prompt / Full prompt:**")
+                st.code(r["content"], language="markdown")
+    except Exception as ex:
+        st.error("執行檢索時發生錯誤 / Error running search: " + str(ex))
+elif submitted:
+    st.warning("請先輸入需求 / Please enter a query first.")

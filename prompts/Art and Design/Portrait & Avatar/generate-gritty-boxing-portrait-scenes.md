@@ -1,0 +1,14 @@
+# Gritty Boxing Portrait Prompt for Midjourney
+
+## 簡介
+
+The Gritty Boxing Portrait Prompt for Midjourney is a free AI prompt that produces hyperrealistic boxing photography showing fighters in the corner of the ring between rounds, complete with sweat, cuts, and raw athletic exhaustion. This boxing portrait prompt for Midjourney generates close-up shots from a low angle with 85mm lens compression, chiaroscuro lighting from overhead spotlights, and blurred ring ropes in the foreground. It captures the visceral details of combat sports: swollen eyes, blood smears on trunks, vaseline on cheeks, water being squeezed into the fighter's mouth, and the hazy arena atmosphere with distant camera flashes. The prompt works on Midjourney, Flux, and Nano Banana, delivering cinematic documentary-style imagery ideal for sports marketing, fitness brand content, motivational campaigns, and editorial visuals. Reach for this prompt when you need emotionally charged sports photography that conveys struggle, determination, and the brutal beauty of boxing without coordinating athlete shoots or arena access. ● Produces hyperrealistic battle damage including sweat sheen, facial cuts, swollen eyes, and visible exhaustion markers. ● Customizable fighter appearance and expression while maintaining sports documentary authenticity and ring-corner framing. ● Delivers dramatic chiaroscuro lighting with harsh overhead spots, blurred foreground elements, and hazy arena backgrounds. ● Generates professional-grade sports photography suitable for brand storytelling, fitness marketing, and motivational content. ## Prompt
+
+```
+Sports documentary style portrait, 85mm lens, 16:9 aspect ratio. Close-up shot from a low angle looking up at {{fighter-description}} in early 30s sitting in the corner of a boxing ring between rounds, heavy breathing. Dark brown buzz cut drenched in sweat. Expression: {{expression}}. Shirtless with heavy sweat sheen, muscle definition, veins visible. Boxing trunks in navy blue with blood smear on waistband. Face shows swollen eye, cut on eyebrow, vaseline smeared on cheeks. Towel draped over head. Red boxing gloves on hands. Water bottle being squeezed into mouth by a trainer's hand (off-screen). Ring ropes blurred in foreground, trainer's shoulder blurred in foreground. Dark arena background with haze from crowd heat, camera flashes popping in distance. Single harsh overhead spotlight creating deep shadows on face (chiaroscuro). Tense, visceral, dramatic atmosphere. Sharp pores, gritty noise, dramatic shadows texture.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{expression}}、{{fighter-description}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Axiomatic_Logic&Audit_Systems · Structured_Analytical_Decomposition
+- 適用 / Use when: The Gritty Boxing Portrait Prompt for Midjourney is a free AI prompt that produces hyperrealistic boxing photo…

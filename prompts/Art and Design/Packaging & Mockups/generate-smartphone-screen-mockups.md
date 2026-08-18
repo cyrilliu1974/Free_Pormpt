@@ -1,0 +1,14 @@
+# Smartphone Screen Mockup Generator
+
+## 簡介
+
+The Smartphone Screen Mockup Generator is a free AI prompt that creates ultra-photorealistic studio product photography of smartphones held in a natural hand pose with custom screen content for designers, marketers, and app developers. This smartphone mockup prompt for Midjourney, Flux, and Nano Banana produces commercial-grade images with realistic perspective warp that follows the screen curvature, simulated OLED screen emission, glass reflections, and studio lighting setups including front-left softbox key light and subtle fill light. You specify the device model, background environment, and what appears on the screen - the prompt handles accurate hand anatomy, metal frame reflections, edge lighting, and maintains screen content within the device bezel. Use it to showcase app interfaces, website designs, or any digital content in a professional product photography context without hiring a photographer or renting studio equipment. Reach for this prompt when you need high-resolution marketing visuals, app store screenshots, portfolio pieces, or client presentations that require believable device mockups with natural lighting and realistic material rendering. ● Integrates custom screen content with realistic perspective distortion, OLED glow, and glass reflections that match the phone's curvature and viewing angle. ● Renders accurate hand anatomy from wrist up with natural skin texture, no extra fingers, and believable grip on the device. ● Applies professional studio lighting with diffused softbox key light, fill light, edge highlights on the device frame, and natural soft shadows. ● Maintains sharp device details including metal frame reflections, screen bezel boundaries, and high-resolution commercial photography quality. ## Prompt
+
+```
+Ultra photorealistic studio product shot of a single hand holding a {{device}} vertically, slightly angled front-left perspective, device centered with hand visible from wrist up, {{background}}. The screen displays {{screen-content}} with realistic perspective warp matching the screen curvature, subtle glass reflection, edge light wrap, and simulated OLED screen emission—never a flat overlay. Soft studio lighting: front-left diffused softbox as key light, subtle right-side fill, soft edge highlight on device frame, natural soft shadow under hand, neutral white color temperature. Preserve accurate hand anatomy with natural skin texture, no extra fingers, maintain metal frame reflections, no device warping, screen content stays within bezel. High resolution studio commercial quality, no added text or graphics.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{background}}、{{device}}、{{screen-content}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Context&Session_Management · Context_Audit&Triage
+- 適用 / Use when: The Smartphone Screen Mockup Generator is a free AI prompt that creates ultra-photorealistic studio product ph…

@@ -1,0 +1,14 @@
+# Glamorous Fashion Portrait Generator
+
+## 簡介
+
+The Glamorous Fashion Portrait Generator is a free AI prompt that creates high-fashion editorial portraits of women in sequined evening attire for designers, marketers, and content creators. This fashion portrait prompt for ChatGPT, Midjourney, Flux, and Nano Banana produces full-body images with specific pose direction - a confident stance against a white pillar, one leg bent and lifted - paired with detailed styling: sequined crop tops, high-waisted maxi skirts with side slits, strappy heels, statement jewelry, and editorial makeup. You control the color scheme, setting backdrop, and occasion aesthetic through three variables, letting you adapt the same polished composition for cocktail parties, red-carpet events, luxury brand campaigns, or lifestyle blogs. The prompt specifies warm bokeh lighting, photorealistic rendering, and magazine-quality details including hair texture, makeup contouring, and fabric transitions from glitter to matte. Reach for this prompt when you need consistent, runway-ready fashion imagery without scheduling models or renting studio space. ● Specifies exact pose, wardrobe construction, accessories, hair, and makeup for repeatable high-fashion results. ● Adjustable color-scheme, setting, and occasion-style variables to match brand identity or campaign themes. ● Includes technical photography direction - bokeh background blur, warm ambient lighting, editorial framing - for polished output. ● Outputs full-body portraits suitable for e-commerce hero images, social media ads, mood boards, and lookbook layouts. ## Prompt
+
+```
+Full-body portrait of a woman posing confidently against a white pillar, leaning back with her left hand, right leg bent and lifted, right hand resting on her thigh. She wears a {{color-scheme}} long-sleeve sequined crop top with deep square neckline paired with a high-waisted maxi skirt featuring a high side slit—sequined glitter fabric on top transitioning to matte flowy fabric below. Pointed-toe high-heel sandals with ankle strap, sparkling choker necklace, ankle bracelet, and large hoop earrings complete the look. Dark brown shoulder-length hair in loose waves. Bold red lipstick, dramatic eye makeup, and contoured cheeks. Warm ambient evening lighting with bokeh lights softly blurred in the background. {{setting}}. Glamorous, seductive, high-fashion mood with {{occasion-style}} aesthetic. Photorealistic, editorial fashion photography style.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{color-scheme}}、{{occasion-style}}、{{setting}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Academic_Research_Synthesis_Pipeline · Scientific_Figure_Design_Decision_Framework
+- 適用 / Use when: The Glamorous Fashion Portrait Generator is a free AI prompt that creates high-fashion editorial portraits of …

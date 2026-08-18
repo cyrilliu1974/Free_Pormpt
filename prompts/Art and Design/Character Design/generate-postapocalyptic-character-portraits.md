@@ -1,0 +1,16 @@
+# Post-Apocalyptic Character Portrait Generator
+
+## 簡介
+
+The Post-Apocalyptic Character Portrait Generator is a free AI prompt that produces film-quality images of dystopian survivors in abandoned cityscapes for concept artists, writers, and game developers. This post-apocalyptic character prompt for Midjourney, Flux, and Nano Banana creates hyperrealistic wide-angle portraits of weathered travelers in their 30s, complete with authentic survival gear, dirt-streaked faces, and layered clothing textures that convey years of hardship. The prompt generates full-body compositions showing characters moving diagonally through overgrown urban environments where nature has reclaimed civilization - cracked streets, collapsed storefronts, ivy-covered signage, and wildlife returning to ruined spaces. Writers developing dystopian novels, game studios building concept art libraries, and content creators producing narrative visuals will find this prompt delivers professional 16:9 compositions with natural lighting and sharp environmental detail. ● Produces full-body character portraits with authentic survival gear details - distressed layered clothing, weathered backpacks, improvised accessories, and visible signs of long-term travel through hostile terrain. ● Generates atmospheric abandoned urban settings where vegetation bursts through infrastructure, wildlife reclaims streets, and architectural decay creates compelling visual storytelling backdrops. ● Delivers 35mm wide-lens cinematic framing with 16:9 aspect ratio, soft natural lighting, and muted color palettes optimized for book covers, game assets, and narrative projects. ● Supports customizable character archetypes and environment settings, allowing creators to generate consistent visual themes across multiple scenes and story chapters. ## Prompt
+
+```
+Cinematic realism, 35mm wide lens, 16:9 aspect ratio. Full-body portrait of a {{character-archetype}} in their mid to late 30s walking diagonally through frame. Alert expression scanning surroundings, fatigue visible in sun-worn face with dirt streaks and natural roughness. Salt-and-pepper hair untamed, beard untrimmed. Weathered clothing: distressed plaid flannel in faded reds and blues layered under worn denim jacket with torn elbows and sun-faded fabric covered in dust and grime; heavy dark grey jeans with dirt-caked knees and ripped edges. Large olive-green survival backpack, threadbare and patched, with rolled bed mat strapped on top. Cracked analog watch on wrist, metal chain necklace holding wedding band, flashlight clipped to pack strap.
+
+Setting: {{environment-setting}}. Tilted street, broken bus stop shelter, vines wrapping collapsed storefronts. Abandoned vehicles pushed aside, plant growth bursting through road fractures, ivy crawling up shattered signage. Wild deer silhouette visible deeper in the ruins. Soft cloud-covered daylight with diffuse shadows. Sharp foliage detail, natural muted color palette emphasizing texture and environmental decay.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{character-archetype}}、{{environment-setting}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Human_In_Loop_Workflow_Engineering · Prompt_Assembly_Integrity_Protocol
+- 適用 / Use when: The Post-Apocalyptic Character Portrait Generator is a free AI prompt that produces film-quality images of dys…

@@ -1,0 +1,20 @@
+# Parametric Urban District Rendering Generator
+
+## 簡介
+
+The Parametric Urban District Rendering Generator is a free AI prompt that creates photorealistic aerial views of honeycomb-patterned community architecture carved into natural landscapes for architects, urban planners, and design professionals. This parametric architecture prompt for Midjourney, Flux, and Nano Banana produces high-angle drone shots showing interconnected circular and oval modules forming community districts that follow natural topography. The prompt generates sunken cellular structures with curved pathways, colorful interior floors, planted voids, and realistic human figures at proper scale - ideal for architectural presentations, design competitions, and client proposals that demand editorial-quality visualizations of biophilic urban planning concepts. Reach for this prompt when you need to visualize large-scale organic community design embedded in specific terrain - rolling hills, cliffsides, or valleys - with customizable material palettes and sustainability features. ● Creates interconnected circular module districts with semi-open courtyards, pedestrian bridges, and amphitheater-like openings carved into customizable terrain contexts. ● Specifies 24mm aerial drone perspective at 35-45 degrees with deep focus, late afternoon lighting, and ultra-realistic photographic detail. ● Populates scenes with people at realistic scale engaged in community activities - working, reading, gathering - to communicate human-centered design intent. ● Produces colorful interior floor treatments visible through circular openings while maintaining neutral exterior material systems and abundant greenery between modules. ## Prompt
+
+```
+A highly detailed visionary urban design project embedded into a natural landscape, showing a large-scale organic cellular architectural district carved into {{terrain-context}}. The district is composed of interconnected circular and oval modules like a honeycomb / biological cell network. Each module forms a semi-open courtyard or indoor-outdoor room, linked by curving pedestrian paths and ramps. The overall massing is partially sunken into the land and precisely follows the topography, with {{exterior-materials}} shells, rounded edges, and large circular openings acting as patios, light wells, and gathering amphitheaters. Inside each circular room, floors are colorful and playful {{interior-materials}} while the exterior remains neutral {{exterior-materials}}. Insert abundant greenery between modules: planted voids, small trees, vines, and pocket gardens. Populate the scene with people at realistic scale: walking along curved bridges, sitting at round tables, reading, working on laptops, families and friends interacting in communal zones. The mood is calm, sustainable, and utopian—an architectural landmark urban oasis.
+
+Aerial drone shot, high-angle top-down 35-45 degrees, 24mm lens, deep focus with everything tack sharp. District centered, landscape context visible around edges. Late afternoon soft warm sunlight, realistic shadows, clean air with slight haze in far background. Cell modules must be clearly circular/oval and interconnected. Topography integration must be visible with sunken areas and carved edges. Colorful interior floors visible through openings. People scale must look realistic compared to openings. Greenery must appear naturally growing through gaps.
+
+Ultra-realistic, photorealistic, crisp detail, high dynamic range, contemporary editorial architecture photography style.
+
+Avoid: boxy rectangular buildings, sharp corners, glass skyscrapers, futuristic neon city, cyberpunk, low detail, blurry, cartoon, illustration, unrealistic scale, overcrowded, messy clutter, text, logos, watermarks
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{exterior-materials}}、{{interior-materials}}、{{terrain-context}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Human_In_Loop_Workflow_Engineering · Tiny_Commit_Refactor_RFC_Builder
+- 適用 / Use when: The Parametric Urban District Rendering Generator is a free AI prompt that creates photorealistic aerial views…

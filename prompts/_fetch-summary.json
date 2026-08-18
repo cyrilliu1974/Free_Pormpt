@@ -1,0 +1,83 @@
+{
+  "total": 6728,
+  "ok": 6119,
+  "fail": 609,
+  "sampleFailures": [
+    {
+      "ok": false,
+      "slug": "prepare-ai-coding-assistants",
+      "err": "no-pre"
+    },
+    {
+      "ok": false,
+      "slug": "create-cinematic-motion-blur-editorials",
+      "status": 500
+    },
+    {
+      "ok": false,
+      "slug": "analyze-subscription-cancellation-requests",
+      "status": 500
+    },
+    {
+      "ok": false,
+      "slug": "build-canned-chat-response-libraries",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "structure-buyer-seller-financing-deals",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "develop-property-staging-strategies",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "generate-urban-portrait-photography-sessions",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "create-architectural-landmark-comparisons",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "build-minimalist-project-management-dashboards",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "generate-golden-hour-selfie-portraits",
+      "err": "no-pre"
+    },
+    {
+      "ok": false,
+      "slug": "create-cinematic-chiaroscuro-portraits",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "create-inclusive-gamification-designs",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "create-stunning-portrait-images",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "get-behind-the-scenes-content-ideas",
+      "err": "The operation was aborted due to timeout"
+    },
+    {
+      "ok": false,
+      "slug": "create-product-advertisement-concepts",
+      "err": "The operation was aborted due to timeout"
+    }
+  ],
+  "elapsedSec": 2983
+}

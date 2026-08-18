@@ -1,0 +1,14 @@
+# Adaptive Workspace Architecture Render Generator
+
+## 簡介
+
+The Adaptive Workspace Architecture Render Generator is a free AI prompt that creates photo-realistic architectural renders of flexible, community-focused commercial buildings for architects, developers, and urban designers. This workspace architecture prompt for Midjourney, Flux, and Nano Banana produces street-level perspectives that emphasize transparency, warmth, and urban integration. The prompt specifies exposed concrete, reclaimed brick, steel frames, and warm wood accents, with large floor-to-ceiling windows that reveal active interior spaces and connect buildings to street life. It works for any building type - coworking spaces, creative studios, office conversions, or mixed-use developments - and generates renders showing both daytime natural light and nighttime warm artificial lighting that highlights social activity inside. Reach for this prompt when you need client-ready architectural imagery that communicates adaptive reuse potential, human-centered design, and neighborhood fit without commissioning expensive 3D rendering services. ● Produces street-level architectural renders with visible warm interiors, pedestrian context, and realistic urban wear that communicate welcoming, socially active spaces. ● Customizable by building type (coworking hub, creative office, adaptive reuse project, mixed-use building) to match specific project needs. ● Specifies material palettes (exposed concrete, reclaimed brick, steel, warm wood) and lighting conditions (natural daylight or warm artificial night lighting) for realism and atmosphere. ● Avoids formal corporate aesthetics in favor of transparency, street connection, and human-scale design that appeals to modern tenants and community stakeholders. ## Prompt
+
+```
+Photo-realistic architectural render from street-level perspective. Modern {{building-type}} designed for flexibility, community, and adaptive reuse within an existing urban block. Exterior features large floor-to-ceiling windows with warm interior lighting visible from the street, creating a welcoming presence connected to street life. Ground-floor entrance is transparent and inviting. Materials: exposed concrete, reclaimed brick, steel frames, warm wood accents. Setting: dense mixed-use neighborhood with realistic urban wear, glass reflections, and pedestrian activity. Interior spaces visible through windows showcase creative, social, energetic atmosphere. Abundant natural daylight during day; warm artificial lighting at night highlights social activity inside. Avoid formal corporate appearance or closed-off facades.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{building-type}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Meta_Prompt&System_Design · Skill_Prompt_Spec_Extractor
+- 適用 / Use when: The Adaptive Workspace Architecture Render Generator is a free AI prompt that creates photo-realistic architec…

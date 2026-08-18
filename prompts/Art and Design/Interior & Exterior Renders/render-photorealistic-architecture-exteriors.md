@@ -1,0 +1,14 @@
+# Photorealistic Architecture Exterior Render Prompt
+
+## 簡介
+
+The Photorealistic Architecture Exterior Render Prompt is a free AI prompt that creates street-level exterior views of contemporary mixed-use buildings for architects, developers, and real estate marketers. This architecture exterior render prompt for Midjourney produces 5-7 story buildings with clean rectilinear forms, customizable facade materials, and natural shadow play in late afternoon light. It outputs high-resolution images showing ground-floor retail and café spaces with large glazing, active streetscapes with pedestrians for scale, integrated landscaping, and warm interior glow visible through windows. The prompt works on Midjourney, Flux, and Nano Banana, delivering real architectural photography aesthetics with balanced proportions and human-scale references. Use it for competition boards, client presentations, developer pitches, or real estate marketing when you need professional exterior visuals without commissioning traditional rendering services. ● Produces contemporary mixed-use buildings with customizable facade materials, subtle setbacks, and strong depth through natural shadow play. ● Generates street-level perspectives with active ground floors, large glazing, pedestrians for scale, street trees, and integrated planters. ● Creates late afternoon lighting with soft sunlight, warm interior glow through windows, and subtle facade lighting for realistic ambiance. ● Outputs 16:9 or 4:5 high-resolution images with real architectural photography aesthetics, timeless proportions, and no fantasy or cartoon elements. ## Prompt
+
+```
+Photorealistic exterior architectural render of a contemporary mixed-use building, 5–7 stories, clean rectilinear massing with subtle setbacks and softened edges. {{facade-materials}} creating strong depth and natural shadow play. Ground floor features retail and café spaces with large glazing for transparency and inviting entrances. {{urban-context}} with street trees, stone paving, integrated planters, and few pedestrians for scale. Late afternoon soft sunlight, warm interior glow visible through windows, subtle facade lighting. Street-level perspective, 35mm architectural lens, building centered with surroundings visible. Real architectural photography aesthetic—timeless, balanced proportions, human scale, active street presence. No text, logos, fantasy forms, sci-fi elements, cartoon style, or exaggerated geometry. High resolution, 16:9 or 4:5 aspect ratio.
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{facade-materials}}、{{urban-context}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Human_In_Loop_Workflow_Engineering · Prompt_Assembly_Integrity_Protocol
+- 適用 / Use when: The Photorealistic Architecture Exterior Render Prompt is a free AI prompt that creates street-level exterior …

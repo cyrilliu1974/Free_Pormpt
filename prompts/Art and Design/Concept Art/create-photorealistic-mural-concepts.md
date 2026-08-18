@@ -1,0 +1,14 @@
+# Photorealistic Mural Concept Generator
+
+## 簡介
+
+The Photorealistic Mural Concept Generator is a free AI prompt that creates hyperrealistic street-art murals showing classical marble statues seamlessly transforming into modern urban architectural elements. This photorealistic mural prompt for Midjourney produces ultra-detailed images where carved marble sculpture melts into contemporary city structures, complete with spray-paint technique, visible drips and chipping, weathered surface texture, and trompe-l'oeil optical illusion effects that create dramatic three-dimensional depth on flat walls. The prompt renders ultra-detailed marble veining and polish alongside street-art aesthetics, using architectural photography lighting and chaos 33 with stylize 400 parameters to generate 16:9 compositions in raw style. Public artists use it to pitch commissioned murals that blend neoclassical and urban themes, concept designers rely on it for portfolio pieces that explore historical-contemporary fusion, and interior designers apply it to visualize statement wall installations for commercial and residential spaces. Reach for this prompt when you need photorealistic concept art that merges fine-art sculpture with gritty street aesthetics, whether you're developing large-scale public art proposals, building a visual portfolio, or exploring mural themes for architectural environments. ● Produces 16:9 photorealistic images of marble statues melting into urban architecture with authentic spray-paint drips, weathering, and chipping effects ● Renders ultra-detailed marble veining and polish alongside trompe-l'oeil three-dimensional depth illusions on flat wall surfaces ● Uses chaos 33, stylize 400, and raw style parameters to balance creative variation with hyperrealistic architectural photography lighting ● Outputs gallery-ready mural concepts suitable for client pitches, installation planning, and portfolio development across public art and interior design projects ## Prompt
+
+```
+Photorealistic street-art mural depicting a classical marble statue seamlessly melting and transforming into modern urban architectural elements. {{statue-subject}}. {{city-elements}}. Street art aesthetic with spray paint technique, visible paint drips and chipping, weathered surface texture. Ultra-detailed carved marble texture showing veining and polish on the statue portions. Trompe-l'oeil optical illusion creating dramatic three-dimensional depth against the flat wall. Hyperrealistic rendering, architectural photography lighting, sharp focus throughout --chaos 33 --ar 16:9 --style raw --stylize 400
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{city-elements}}、{{statue-subject}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Human_In_Loop_Workflow_Engineering · Tiny_Commit_Refactor_RFC_Builder
+- 適用 / Use when: The Photorealistic Mural Concept Generator is a free AI prompt that creates hyperrealistic street-art murals s…

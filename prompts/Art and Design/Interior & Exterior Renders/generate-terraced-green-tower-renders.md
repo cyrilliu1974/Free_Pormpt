@@ -1,0 +1,14 @@
+# Terraced Green Tower Architectural Render Prompt
+
+## 簡介
+
+The Terraced Green Tower Architectural Render Prompt is a free AI prompt that produces photorealistic visualizations of diagonal terraced skyscrapers with spiraling garden platforms and visible structural engineering for architects, developers, and urban planners. This terraced green tower prompt for Midjourney, Flux, and Nano Banana creates architectural renders that showcase deep soil-filled terrace slabs wrapping towers in dramatic spirals, exposed mega-frame columns and beams that support heavy planted platforms, and visible water management channels integrated as architectural features. The output emphasizes structural honesty and engineering reality required for mature vegetation at height, with sharp architectural photography aesthetics, precise material definition, and photorealistic vegetation rendering. You control the vegetation palette to specify plant types and seasonal color, and set the aspect ratio to match your presentation format. Reach for this prompt when you need credible visualizations of sustainable high-rise concepts that communicate both biophilic design ambition and structural feasibility. ● Produces diagonal spiral terrace configurations with visible soil depth and structural support systems that convey engineering credibility. ● Renders exposed mega-frame columns, beams, and water management channels as integrated architectural elements rather than hidden systems. ● Generates sharp architectural photography lighting with accurate shadow casting, material definition, and photorealistic vegetation texture. ● Supports custom vegetation palettes to explore tropical, temperate, or arid planting schemes and seasonal color variation. ## Prompt
+
+```
+Ultra-realistic architectural render of a diagonal terraced green skyscraper. Cascading garden platforms wrap the tower in a dramatic spiral, each deep terrace slab filled with visible soil depth and structural honesty. Exposed mega-frame columns and beams support the heavy planted platforms, showing the engineering required for mature vegetation. Water management channels and drainage systems are visible as integrated architectural elements. {{vegetation-palette}} creating lush vertical landscapes with varied textures and seasonal color. Sharp architectural photography aesthetic with precise material definition, accurate shadow casting, and photorealistic vegetation rendering. Daylight with partly cloudy sky emphasizing depth and structural drama. {{aspect-ratio}}
+```
+
+## 用法 / Usage
+- 必填變數 / Variables: {{aspect-ratio}}、{{vegetation-palette}} — 執行前填入對應內容
+- 建議搭配技能 / Pair with skill: Meta_Prompt&System_Design · Skill_Prompt_Spec_Extractor
+- 適用 / Use when: The Terraced Green Tower Architectural Render Prompt is a free AI prompt that produces photorealistic visualiz…

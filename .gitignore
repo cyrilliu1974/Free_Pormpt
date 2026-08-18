@@ -1,0 +1,74 @@
+# ——— Python ———
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+*.log
+
+# 虛擬環境 / venv
+streamlit_venv/
+venv/
+.venv/
+env/
+ENV/
+
+# ——— 生成快取 (可重建，不需上傳) ———
+prompts/_embeddings.npy
+prompts/_embed_meta.json
+fastembed_cache/
+
+# ——— 整樹備份 (佔用極大，不進版控) ———
+prompts_pre-v*-backup/
+prompts_pre-*-backup/
+*.bak
+*.tmp
+
+# ——— WorkBuddy / 專案工具 ———
+.workbuddy-ai/
+.workbuddy/
+.muse/
+.claude/
+
+# ——— OS 垃圾檔 ———
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# ——— 編輯器 / IDE ———
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# ——— 環境變數與金鑰 ———
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ——— Node (若未來加入前端) ———
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ——— 其他 ———
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
