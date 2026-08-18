@@ -19,7 +19,7 @@ import re
 import sys
 import numpy as np
 
-PROMPTS_DIR = r"C:\AI\Free_Pormpt\prompts"
+PROMPTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts")
 INDEX_PATH = os.path.join(PROMPTS_DIR, "_search-index.json")
 EMB_PATH = os.path.join(PROMPTS_DIR, "_embeddings.npy")
 EMB_META_PATH = os.path.join(PROMPTS_DIR, "_embed_meta.json")
