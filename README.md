@@ -48,7 +48,7 @@ if (typeof document !== 'undefined') { document.getElementById('en').style.displ
 
 ## 數量與分類
 
-- **實際封存:6,398 個 prompt**(其餘約 330 個因來源站累積限速未能抓取,見下方說明)
+- **實際封存:6,398 個 prompt**
 - 分類架構:**21 大類 / 143 類別**(由資料 frontmatter 的 `category` / `subcategory` 驅動,非硬編碼)
   - 21 大類:AI Agents · Art and Design · Audio · Careers · Coding · Customer Service · Data Analysis · Education · Finance · Human Resources · Legal · Marketing · Operations · Productivity · Real Estate · Research · SEO · Sales · Strategy · Video · Writing
   - 較大類別舉例:Marketing(701) · Art and Design(808) · SEO(512) · Coding(497) · Strategy(444) · Productivity(379) · Operations(376) · Writing(359) · Education(436) · Human Resources(334) · Research(279) · Finance(295) · Legal(216)
@@ -68,7 +68,7 @@ if (typeof document !== 'undefined') { document.getElementById('en').style.displ
 ## 重點特色
 - (以 ● 開頭的 bullet list)
 
-## 用法 / Usage          # v7 新增: 精簡、對執行有用, 不堆裝飾分析
+## 用法 / Usage        
 - 必填變數 / Variables: {{topic-and-subject}} — 執行前填入對應內容
 - 建議搭配技能 / Pair with skill (細節請提出客製化需求): Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
 - 適用 / Use when: <一句適用場景>
@@ -143,7 +143,7 @@ repo/
 
 ## Volume & taxonomy
 
-- **Archived: 6,398 prompts** (the other ~330 failed due to source-site rate limits, see notes below)
+- **Archived: 6,398 prompts** 
 - Taxonomy: **21 top categories / 143 subcategories** (driven by each item's `category` / `subcategory`, not hard-coded)
   - 21 top categories: AI Agents · Art and Design · Audio · Careers · Coding · Customer Service · Data Analysis · Education · Finance · Human Resources · Legal · Marketing · Operations · Productivity · Real Estate · Research · SEO · Sales · Strategy · Video · Writing
   - Larger examples: Marketing (701) · Art and Design (808) · SEO (512) · Coding (497) · Strategy (444) · Productivity (379) · Operations (376) · Writing (359) · Education (436) · Human Resources (334) · Research (279) · Finance (295) · Legal (216)
@@ -162,7 +162,7 @@ repo/
 ## 重點特色 / Highlights
 - (● bullets)
 
-## 用法 / Usage          # v7: concise, execution-useful, no decorative analysis
+## 用法 / Usage          
 - 必填變數 / Variables: {{topic-and-subject}} — fill before running
 - 建議搭配技能 / Pair with skill (details — submit a custom request): Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
 - 適用 / Use when: <one-line use case>
