@@ -32,6 +32,10 @@ INDEX_PATH = os.path.join(PROMPTS_DIR, "_search-index.json")
 EMB_PATH = os.path.join(PROMPTS_DIR, "_embeddings.npy")
 EMB_META_PATH = os.path.join(PROMPTS_DIR, "_embed_meta.json")
 EMB_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+# dense 相似度門檻: 只有 >= 此值才納入 hybrid 候選 (詞彙命中者不受限)。
+# 依實測分佈選定 0.30: 房地產/寫詩 下離題的 Art/Ad 圖像檔 dense sim 僅 0.08~0.20 被擋掉,
+# 而「廣告圖」下它們 sim 0.42 仍正確保留; 相關文件通常 >= 0.39。
+DENSE_MIN_SIM = 0.30
 
 # ---------- 中英對照詞典 (中文觸發 → 英文展開) ----------
 SYN = [
@@ -230,6 +234,22 @@ def search(query, top_n=5, cat=None, sub=None, mode='hybrid', index=None, emb=No
     if sub:
         pool = [e for e in pool if (e.get('subcategory') or '').lower() == sub.lower()]
 
+    # —— 瀏覽模式: 顯示所選 (大類/類別) 底下的「全部」prompt, 不排序/不檢索 ——
+    if mode == 'all':
+        pool_sorted = sorted(pool, key=lambda e: (e.get('title') or '').lower())
+        results = []
+        for rank, e in enumerate(pool_sorted, start=1):
+            results.append({
+                'rank': rank, 'score': 0,
+                'title': e.get('title'), 'category': e.get('category'),
+                'subcategory': e.get('subcategory'), 'path': e.get('path'),
+                'archetype': e.get('archetype') or None,
+                'related_skills': e.get('related_skills') or [],
+                'reasons': set(),
+                'content': read_content(e.get('path') or '')[:6000],
+            })
+        return {'query': query, 'cat': cat, 'sub': sub, 'mode': mode, 'count': len(results), 'results': results}
+
     scored = [(i, *lexical_score(e, ql, qt, bigrams)) for i, e in enumerate(pool)]
     scored = [x for x in scored if x[1] > 0]
     scored.sort(key=lambda x: x[1], reverse=True)
@@ -249,29 +269,21 @@ def search(query, top_n=5, cat=None, sub=None, mode='hybrid', index=None, emb=No
         sims = pool_vecs @ qvec
         dense_rank = sorted(range(len(pool)), key=lambda k: float(sims[k]), reverse=True)
         k = 60
-        # 候選集策略: dense 只用來「重排詞彙候選」, 不允許把零詞彙命中的離題文件拉進結果。
-        # 例: "房地產" 在舊 Hybrid 下會被 embedding 誤關聯到 "Photorealistic ... real ..." (real 子串 / 房產視覺),
-        #      那些文件詞彙得分為 0, 若放進全量融合就會污染結果。
-        #      詞彙命中足夠 (>= top_n) 時, 限制 dense 只在詞彙候選內重排; 命中過少才回退全量融合,
-        #      以保證純語意 / 轉述查詢仍有結果。
-        lexical_cands = list(lex_rank)
-        if len(lexical_cands) >= max(top_n, 5):
-            cand_set = set(lexical_cands)
-            rrf = {}
-            for rank, gi in enumerate(lexical_cands, start=1):
+        # 統一候選集 = 詞彙命中 (scored>0) ∪ dense 相似度達標者。
+        # dense 只能「補充詞彙沒抓到的相關項」, 絕不許把低相似度(離題)文件拉進結果 ——
+        # 如此對所有查詢都成立 (不再只針對單一關鍵字): "房地產"/"寫詩" 下 Art/Ad 圖像檔
+        # dense sim 僅 0.15~0.20 被門檻擋掉; "廣告圖" 下它們 sim 0.42 則正確保留。
+        cand_set = set(lex_rank)
+        for gi in range(len(pool)):
+            if float(sims[gi]) >= DENSE_MIN_SIM:
+                cand_set.add(gi)
+        rrf = {}
+        for rank, gi in enumerate(lex_rank, start=1):
+            rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+        for rank, gi in enumerate(dense_rank, start=1):
+            if gi in cand_set:
                 rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
-            for rank, gi in enumerate(dense_rank, start=1):
-                if gi in cand_set:
-                    rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
-            dense_top = {gi for gi in dense_rank[:10] if gi in cand_set}
-        else:
-            # 詞彙命中過少 -> 傳統 hybrid 全量融合 (詞彙 + dense 全池)
-            rrf = {}
-            for rank, gi in enumerate(lex_rank, start=1):
-                rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
-            for rank, gi in enumerate(dense_rank, start=1):
-                rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
-            dense_top = set(dense_rank[:10])
+        dense_top = {gi for gi in dense_rank[:10] if gi in cand_set}
         fused = sorted(rrf.keys(), key=lambda gi: rrf[gi], reverse=True)
         final = fused[:top_n]
     else:
