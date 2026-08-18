@@ -14,10 +14,18 @@
 #             => 不劣化精確命中, 且明顯優於純 lexical 的自然語言需求描述
 
 import json
+import multiprocessing
 import os
 import re
 import sys
 import numpy as np
+
+# Streamlit Cloud 容器環境不支援 forkserver; 強制用 spawn 避免 ConnectionResetError
+try:
+    multiprocessing.set_start_method('spawn')
+except RuntimeError:
+    pass  # 已設定過則忽略
+
 
 PROMPTS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "prompts")
 INDEX_PATH = os.path.join(PROMPTS_DIR, "_search-index.json")
@@ -186,7 +194,16 @@ def ensure_embeddings(index, verbose=True):
     from fastembed import TextEmbedding
     model = TextEmbedding(model_name=EMB_MODEL)
     texts = [doc_text(e) for e in index]
-    vecs = np.vstack([np.asarray(v, dtype=np.float32) for v in model.embed(texts, batch_size=64, parallel=0)])
+    try:
+        vecs = np.vstack([np.asarray(v, dtype=np.float32) for v in model.embed(texts, batch_size=64, parallel=0)])
+    except (ConnectionResetError, OSError) as exc:
+        # 部分容器環境 spawn 仍會失敗, 逐條 embed 避免多進程
+        if verbose:
+            print(f"[hybrid] 批次 embedding 失敗 ({exc}), 回退到逐條模式...", file=sys.stderr)
+        vecs_list = []
+        for t in texts:
+            vecs_list.append(np.asarray(next(model.embed([t])), dtype=np.float32))
+        vecs = np.vstack(vecs_list)
     norms = np.linalg.norm(vecs, axis=1, keepdims=True)
     norms[norms == 0] = 1.0
     vecs = vecs / norms
