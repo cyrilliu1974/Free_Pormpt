@@ -19,7 +19,7 @@ if (typeof document !== 'undefined') { document.getElementById('en').style.displ
 ### 為什麼用這個 repo / Why this repo
 
 - 🗂️ **人工分類瀏覽**:21 大類 / 143 類別,從 `prompts/index.md` 總索引逐層鑽取。適合「還不知道自己要什麼、想逛」的人。
-- 🔎 **關鍵字搜尋**:支援中文(自動 CN→EN 展開)與英文,採 **詞彙 + 同義擴展 + 欄位加權**;還可疊加 **本地多語言 embedding + RRF 混合檢索**,對自然語言需求描述最準。
+- 🔎 **關鍵字搜尋**:支援中文(自動 CN→EN 展開)與英文,採 **詞彙 + 同義擴展 + 欄位加權**;還可疊加 **本地多語言 embedding + txtai 風格凸組合混合檢索**,對自然語言需求描述最準。
 - 📦 **數量龐大**:實際封存 **6,398 個 prompt**,橫跨行銷 / 寫作 / 程式 / 法務 / 財務 / 不動產 / 教育 / 人資 / 研究 / 影片… **涵蓋面極廣**。
 - 💡 **每個 prompt 都可直接貼進 LLM 使用**,並附 `## 用法 / Usage`(必填變數 + 建議搭配技能 + 適用場景)。
 
@@ -41,7 +41,7 @@ if (typeof document !== 'undefined') { document.getElementById('en').style.displ
 │   │       ├── index.md            # ★ 該類別: 所屬 prompt 清單 + 一個完整 prompt 範例
 │   │       └── <slug>.md           # 單一 prompt
 │   └── ...
-├── hybrid_search.py                # 本地 hybrid 檢索 (lexical + dense + RRF), 純 Python
+├── hybrid_search.py                # 本地 hybrid 檢索 (lexical + dense, txtai 風格凸組合融合), 純 Python
 ├── streamlit_app.py                # 雙語 Web 檢索介面 (lexical / hybrid)
 └── prompts_pre-vN-backup/          # 各版整樹備份 (可還原)
 ```
@@ -100,7 +100,7 @@ node query.mjs --cat "Marketing" --sub "Landing Page Copy" "<需求>" [topN]   #
 streamlit run streamlit_app.py --server.port 8501 --server.headless true
 ```
 - 中英雙語、上層→下層分類連動下拉、選定類別限定範圍(未選則全域)。
-- **檢索模式**:`混合 Hybrid`(lexical + 本地多語言 embedding + RRF, 對自然語言最準) 或 `詞彙 Lexical`(純關鍵字/同義/欄位加權)。
+- **檢索模式**:`混合 Hybrid`(lexical + 本地多語言 embedding, txtai 風格 RRF/凸組合融合, 對自然語言最準) 或 `詞彙 Lexical`(純關鍵字/同義/欄位加權)。
 - 純本地,不呼叫 LLM API。首次執行 hybrid 會自動下載多語言模型並建立 `_embeddings.npy` 快取(之後只讀)。
 
 > 若需要針對特定場景**建議搭配技能**，請另外提出**客製化諮詢**。
@@ -116,7 +116,7 @@ This repo is an **offline archive + categorized index** of 6,000+ free prompts f
 ### Why this repo
 
 - 🗂️ **Manual category browsing**: 21 top categories / 143 subcategories, drill down from the `prompts/index.md` master index. Great when you "don't yet know what you want and just want to explore."
-- 🔎 **Keyword search**: supports Chinese (auto CN→EN expansion) and English, using **lexical + synonym expansion + field weighting**; can be upgraded to **local multilingual embedding + RRF hybrid retrieval** for the most accurate natural-language queries.
+- 🔎 **Keyword search**: supports Chinese (auto CN→EN expansion) and English, using **lexical + synonym expansion + field weighting**; can be upgraded to **local multilingual embedding + txtai-style convex-combination hybrid retrieval** for the most accurate natural-language queries.
 - 📦 **Huge volume**: **6,398 prompts** archived, spanning Marketing / Writing / Coding / Legal / Finance / Real Estate / Education / HR / Research / Video … **extremely broad coverage**.
 - 💡 **Every prompt is paste-ready into an LLM**, and ships with a `## 用法 / Usage` block (required variables + suggested skill + when-to-use).
 
@@ -137,7 +137,7 @@ repo/
 │   │   └── <subcategory>/          # e.g. Deal Analysis / Landing Page Copy ...
 │   │       ├── index.md            # ★ prompt list + one full example
 │   │       └── <slug>.md           # single prompt
-├── hybrid_search.py                # local hybrid retriever (lexical + dense + RRF), pure Python
+├── hybrid_search.py                # local hybrid retriever (lexical + dense, txtai-style convex-combination fusion), pure Python
 ├── streamlit_app.py                # bilingual web UI (lexical / hybrid)
 ```
 
@@ -189,7 +189,7 @@ node query.mjs --cat "Marketing" --sub "Landing Page Copy" "<need>" [topN]
 streamlit run streamlit_app.py --server.port 8501 --server.headless true
 ```
 - Bilingual, cascading category dropdowns, optional category scoping (global if none).
-- **Retrieval mode**: `混合 Hybrid` (lexical + local multilingual embedding + RRF — best for natural language) or `詞彙 Lexical` (pure keyword/synonym/field-weighted).
+- **Retrieval mode**: `混合 Hybrid` (lexical + local multilingual embedding, txtai-style RRF/convex-combination fusion — best for natural language) or `詞彙 Lexical` (pure keyword/synonym/field-weighted).
 - Fully local, no LLM API. First hybrid run auto-downloads a multilingual model and builds `_embeddings.npy` (cached afterwards).
 
 > **Need tailored skill recommendations?** Some prompts ship with `Pair with skill` hints, but choosing the right skill for a specific use case requires tailored consulting — please submit a separate request. / 本庫 prompt 末尾所附「建議搭配技能」僅供參考，**若需要針對特定場景建議搭配技能，請另外提出客製化諮詢**。
@@ -218,3 +218,25 @@ streamlit run streamlit_app.py --server.port 8501 --server.headless true
   - **現象**: Lexical 模式搜「房地產」前 12 名 100% 是 Real Estate 類;但 Hybrid 模式會把 `Photorealistic Campaign Image / Outdoor Scene` 等圖像生成 prompt 排進來。那兩個檔案本體與索引都沒有 `real estate / property / listing` 字眼 (lexical 得分 = 0)。
   - **根因**: 舊 Hybrid 的 RRF 融合是對「整個 pool」做的,`dense`(embedding) 相似度把零詞彙命中的文件也加進 RRF;而 `Photorealistic` 含 `real` 子串、且「房產視覺/場景圖」與 `real estate` 在語意空間相近,導致誤關聯。此現象對 embedding 版本/快取狀態敏感 (本地快取 embedding 在同池 top30 未重現,雲端卻出現),故不能依賴 embedding 行為。
   - **修正**: `search()` 改為**候選集策略** — 當詞彙命中足夠 (≥ top_n) 時,`dense` 只在「有詞彙得分的候選」內做 RRF 重排,**不允許零詞彙命中的離題文件進入結果**;僅當詞彙命中過少 (純語意/轉述查詢) 才回退成舊的全量融合,保證仍有結果。驗證:「房地產」Hybrid top8 全為 Real Estate;零詞彙查詢「幫我寫一首詩」走回退路徑正確回傳詩/歌詞類且未崩潰。備份:程式碼 → `hybrid_search.py.bak2`。
+
+- 2026-08-18 檢索引擎改以 **txtai hybrid 方法** 重做 (移除自訂 heuristic):
+  - **問題**: 上版用自己定的「絕對 cosine 門檻 `DENSE_MIN_SIM=0.30` + 候選集約束」來擋離題文件,屬 ad-hoc heuristic —— 對模型版本/快取敏感,且對純語意查詢是「全有全無」的回退,不具原則性。
+  - **改法 (參考 [neuml/txtai](https://github.com/neuml/txtai) hybrid 引擎)**: 改採 txtai 的 **convex combination of normalized scores** —— sparse(詞彙) 與 dense(向量) 兩條流各自正規化到 [0,1] 後做凸組合 `final = bias·dense + (1−bias)·sparse`,候選取兩流**聯集 (union)**,**不再設任何絕對 cosine 門檻**。
+    - sparse 流: 欄位加權詞彙得分做 min-max 正規化; dense 流: 單位向量 cosine (≈[0,1]) 直接採用; 每流先各取 `limit*10` 候選再融合 (同 txtai)。
+    - `HYBRID_BIAS=0.1` 對應 txtai 的 hybrid 權重 `weights=[bias, 1−bias]`,預設偏重關鍵字 —— 零詞彙命中的離題文件最多只拿到 `bias·cosine` 的小分,自然排在強關鍵字命中之後,但不會被硬門檻粗暴剔除 (純語意/轉述查詢仍可回傳結果)。此為 txtai 的超參數,非自訂 heuristic。
+  - **驗證**:「房地產」Hybrid top8 全為 Real Estate,無 Art/Ad 圖像;「幫我寫一首詩」top8 全為 詩/歌詞/創意寫作 (Audio·Music、Writing·Creative Writing),舊版跑出 Art/Ad 圖像的問題消失;「廣告圖」top8 仍正確保留 Art/Ad Creatives 圖像類 (相關時不誤殺)。詞彙 Lexical 與「全部顯示」瀏覽模式不受影響。
+  - **附註**: fastembed 0.8.0 對該模型改採 mean pooling (舊版 CLS),啟動時會有 UserWarning,現行 `_embeddings.npy` 仍可正確檢索;若日後語意相關性異常,可刪 `prompts/_embeddings.npy` + `prompts/_embed_meta.json` 後以 `--build` 重建 (需可讀已修復的模型快取)。備份:程式碼 → `hybrid_search.py.bak4`。
+
+- 2026-08-18 依評論重做: 可切換融合 + 效能/快取修正 + prompt 正文入向量 + 基準
+  - **融合可切換 (參考 txtai, 評論第 1 點)**: 新增 `HYBRID_FUSION` (`rrf` 預設 | `convex`)。txtai 依 sparse 是否已正規化選融合法;本機 lexical 是未校準原始分數,故預設 **RRF** (只看排名、不受分數尺度影響,最穩健),換 BM25F 後可切 convex。兩流皆先截斷到 `limit*10` 再融合 (同 txtai)。CLI 加 `--fusion rrf|convex` 便於比較。
+  - **效能/快取修正 (評論第 3 點)**: (a) `TextEmbedding` 模型改模組級快取 (`_get_embed_model`),不再每次查詢重建; (b) 移除 `index.index(e)` 的 O(N²) 線性掃描,改在建池時一併記錄 `pool_rows`; (c) dense top-k 改 `numpy.argpartition` (O(N) 不排序全庫); (d) embedding 快取 metadata 加 `version` + 索引 `md5` 指紋,內容變動但筆數相同時不再誤用舊向量。
+  - **prompt 正文納入 dense 表示 (評論第 4 點)**: `doc_text()` 在 title/keywords/snippet 之外,額外納入 `## Prompt` 正文前 `EMB_DOC_BODY_CHARS=1000` 字元 (略過 "You are a..." Role 樣板首句),改善「描述輸出格式/約束但 title 沒寫到」的召回;已重建 `_embeddings.npy` (version 2)。
+  - **relevance 基準 (評論第 6 點)**: 新增 `benchmark.py` (18 題中英文種子集, category-level 相關性 proxy),量測 MRR@5 / nDCG@5 / 命中率@5。結果: lexical 77.8% → hybrid(RRF) 83.3% → **RRF(bias=0.3) 88.9% 最佳**。據此把 `HYBRID_BIAS` 由直覺值 0.1 調成基準量得的 **0.3** (對房地產/寫詩/廣告圖查詢經測試不引入離題)。
+  - **一致性修正**: `streamlit_app.py` (3 處) 與 `README` (模式說明 2 處) 的舊 "RRF" 描述統一改為 txtai 風格 RRF/凸組合說明;舊 Changelog 中描述過往 RRF 實作的句子保留為歷史紀錄。
+  - **未執行 (評論第 2/5 點, 擇期)**: BM25F sparse 層 (改動大,且 RRF 預設已不依賴分數校準,優先級降);reranker 第三階段 (需另下載 cross-encoder 模型,本機 HF 下載曾損毀,風險高,留待必要時)。備份:程式碼 → `hybrid_search.py.bak5`。
+
+- 2026-08-18 benchmark 擴充 + HYBRID_BIAS 實測定為 0.5 (依 skills.json 隨機生成 111 題中英文):
+  - **擴充基準 (評論第 6 點續)**: `benchmark.py` 原 18 題種子擴充為 **111 題中英文需求**;改為**依 `skills.json` 隨機抽取技能** (`C:\AI\Skills_Library\skills.json`, 462 技能 / 30 類),再連到 `_search-index.json` 的 `related_skills` 取得「該技能真正對應的 prompt 類別」作為相關性 proxy 標註 (rels)。每題都有可驗證的正確類別,且天然混合中英文、覆蓋 15+ 大類。備份: `benchmark.py` → `benchmark.py.bak`。
+  - **實測決定 HYBRID_BIAS**: 在 111 題上掃描 `rrf`/`convex` × `bias ∈ {0.1, 0.3, 0.5, 0.7}`。結果: lexical 87.4% → rrf(0.1) 89.2% → rrf(0.3) 95.5% → **rrf(0.5) 97.3% (MRR@5=0.947, nDCG@5=0.932) 全組最佳** → rrf(0.7) 97.3% (MRR 0.934 略低) → convex 各檔 89–92%。故將 `HYBRID_BIAS` 由 0.3 (18 題種子下的次佳) 調升為 **0.5** (bias 0.5 在 MRR@5 與 nDCG@5 上皆嚴格優於 0.7,命中率@5 持平)。
+  - **離題回歸驗證**: 對三個歷史敏感查詢 (房地產 / 寫詩 / 廣告圖) 在 bias=0.5 下逐項檢查,前 8 名類別仍 100% 落在正確類別,未重新引入 Art/Ad 圖像等離題 — 確認調升 bias 安全。備份:程式碼 → `hybrid_search.py.bak6`。
+  - **保持待辦 (評論第 2/5 點)**: BM25F sparse 層、reranker 第三階段仍擇期執行 (理由同前)。

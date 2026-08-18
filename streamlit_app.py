@@ -6,7 +6,7 @@
 #  - 中英雙語介面 (Bilingual UI)
 #  - 上層分類 → 下層分類 連動下拉 (cascading dropdown)
 #  - 選定類別 → 搜尋範圍限定該類別; 未選 → 全域搜尋
-#  - 檢索模式切換: 詞彙 Lexical (欄位加權 + 同義/中英擴展) | 混合 Hybrid (推薦, lexical + 本地 embedding + RRF)
+#  - 檢索模式切換: 詞彙 Lexical (欄位加權 + 同義/中英擴展) | 混合 Hybrid (推薦, lexical + 本地 embedding, txtai 風格 RRF/凸組合融合)
 #  - 純本地, 不呼叫任何 LLM API
 #  - 回傳 路徑 / 選取理由 / 分數 / 完整 prompt / 框架型態 / 相關技能
 
@@ -56,7 +56,7 @@ with st.expander("ℹ️ 使用說明 / How to use", expanded=True):
         4. Type your need in the box (Chinese is supported — it auto-expands to English keywords) and press **Search**.
         5. Expand any result to see the full prompt, its framework type and related skills.
 
-        ⚙️ 檢索技術 / Retrieval: 本地 **詞彙語意檢索 (lexical + 同義詞/中英擴展 + 欄位加權)**,可疊加 **本地多語言 embedding + RRF 混合檢索** — **不呼叫任何 LLM API / no LLM API calls**.
+        ⚙️ 檢索技術 / Retrieval: 本地 **詞彙語意檢索 (lexical + 同義詞/中英擴展 + 欄位加權)**,可疊加 **本地多語言 embedding + txtai 風格 RRF/凸組合混合檢索** — **不呼叫任何 LLM API / no LLM API calls**.
         """
     )
 
@@ -90,7 +90,7 @@ mode = st.radio(
     "③ 檢索模式 / Retrieval mode",
     ["混合 Hybrid (推薦)", "詞彙 Lexical", "全部顯示 Browse"],
     horizontal=True,
-    help="Hybrid = 詞彙 + 本地語意 embedding (RRF 融合, dense 只補充詞彙沒抓到的相關項); "
+    help="Hybrid = 詞彙 + 本地語意 embedding (txtai 風格 RRF/凸組合融合, dense 只補充詞彙沒抓到的相關項); "
          "Lexical = 純關鍵字/同義/欄位加權; 全部顯示 = 瀏覽所選類別下的全部 prompt (須先選 ①大類 + ②類別)",
 )
 mode_arg = "hybrid" if mode.startswith("混合") else ("all" if mode.startswith("全部") else "lexical")
