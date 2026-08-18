@@ -70,7 +70,7 @@ if (typeof document !== 'undefined') { document.getElementById('en').style.displ
 
 ## 用法 / Usage          # v7 新增: 精簡、對執行有用, 不堆裝飾分析
 - 必填變數 / Variables: {{topic-and-subject}} — 執行前填入對應內容
-- 建議搭配技能 / Pair with skill: Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
+- 建議搭配技能 / Pair with skill (細節請提出客製化需求): Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
 - 適用 / Use when: <一句適用場景>
 ```
 
@@ -164,7 +164,7 @@ repo/
 
 ## 用法 / Usage          # v7: concise, execution-useful, no decorative analysis
 - 必填變數 / Variables: {{topic-and-subject}} — fill before running
-- 建議搭配技能 / Pair with skill: Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
+- 建議搭配技能 / Pair with skill (details — submit a custom request): Meta_Prompt&System_Design · Brain_Dump_To_Prompt_Pipeline
 - 適用 / Use when: <one-line use case>
 ```
 
@@ -240,3 +240,5 @@ streamlit run streamlit_app.py --server.port 8501 --server.headless true
   - **實測決定 HYBRID_BIAS**: 在 111 題上掃描 `rrf`/`convex` × `bias ∈ {0.1, 0.3, 0.5, 0.7}`。結果: lexical 87.4% → rrf(0.1) 89.2% → rrf(0.3) 95.5% → **rrf(0.5) 97.3% (MRR@5=0.947, nDCG@5=0.932) 全組最佳** → rrf(0.7) 97.3% (MRR 0.934 略低) → convex 各檔 89–92%。故將 `HYBRID_BIAS` 由 0.3 (18 題種子下的次佳) 調升為 **0.5** (bias 0.5 在 MRR@5 與 nDCG@5 上皆嚴格優於 0.7,命中率@5 持平)。
   - **離題回歸驗證**: 對三個歷史敏感查詢 (房地產 / 寫詩 / 廣告圖) 在 bias=0.5 下逐項檢查,前 8 名類別仍 100% 落在正確類別,未重新引入 Art/Ad 圖像等離題 — 確認調升 bias 安全。備份:程式碼 → `hybrid_search.py.bak6`。
   - **保持待辦 (評論第 2/5 點)**: BM25F sparse 層、reranker 第三階段仍擇期執行 (理由同前)。
+
+- 2026-08-18 README 註記: 「建議搭配技能」標示進階版收費 — 在中文 (line 73) 與英文 (line 167) 的 `## 用法 / Usage` 結構範例中, 於 `建議搭配技能 / Pair with skill` 後加註 `(細節請提出客製化需求)` / `(details — submit a custom request)`, 說明隨 prompt 附的技能提示僅供參考, 進階 / 客製化搭配為收費諮詢 (與 line 106 / 195 的「客製化諮詢」說明一致)。
