@@ -24,20 +24,15 @@ PROMPTS_DIR = hs.PROMPTS_DIR
 def load_index():
     return hs.load_index()
 
-@st.cache_resource
+@st.cache_resource(show_spinner=False)
 def get_resources():
     # 載入索引 + (必要時) corpus embedding 快取; 首次會下載模型並建立, 之後只讀 .npy
+    # 注意: 必須在 Streamlit session 內 (脚本主體) 呼叫, 不可在 import 時期執行,
+    # 否則 @cache_resource 的 spinner 會因無 session 而 NoSessionContext,
+    # 且 fastembed 多進程會觸發 forkserver 重新 import 本檔造成遞迴崩潰。
     index = load_index()
     emb = hs.ensure_embeddings(index, verbose=False)
     return index, emb
-
-index, emb = get_resources()
-cats = sorted({e["category"] for e in index if e.get("category")})
-subs_map = {}
-for e in index:
-    if e.get("category") and e.get("subcategory"):
-        subs_map.setdefault(e["category"], set()).add(e["subcategory"])
-subs_map = {k: sorted(v) for k, v in subs_map.items()}
 
 # —— 頁面 ——
 st.set_page_config(page_title="Prompt 檢索 / Prompt Search", layout="wide")
@@ -64,6 +59,20 @@ with st.expander("ℹ️ 使用說明 / How to use", expanded=True):
         ⚙️ 檢索技術 / Retrieval: 本地 **詞彙語意檢索 (lexical + 同義詞/中英擴展 + 欄位加權)**,可疊加 **本地多語言 embedding + RRF 混合檢索** — **不呼叫任何 LLM API / no LLM API calls**.
         """
     )
+
+# —— 載入索引 + embedding 快取 (首次會下載模型並建立, 之後只讀 .npy) ——
+# 必須放在 session 內 (頁面主體), 不可在 import 時期執行, 否則會
+# NoSessionContext / fastembed 多進程遞迴崩潰。cache_resource 會讓重跑只讀快取。
+with st.spinner("首次載入會下載多語言模型並建立向量快取，請稍候… / "
+               "Loading multilingual model & building cache (first run only)…"):
+    index, emb = get_resources()
+
+cats = sorted({e["category"] for e in index if e.get("category")})
+subs_map = {}
+for e in index:
+    if e.get("category") and e.get("subcategory"):
+        subs_map.setdefault(e["category"], set()).add(e["subcategory"])
+subs_map = {k: sorted(v) for k, v in subs_map.items()}
 
 ALL = "(全部 / All)"
 cat_opts = [ALL] + cats

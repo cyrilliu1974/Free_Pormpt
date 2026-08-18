@@ -195,7 +195,10 @@ def ensure_embeddings(index, verbose=True):
     model = TextEmbedding(model_name=EMB_MODEL)
     texts = [doc_text(e) for e in index]
     try:
-        vecs = np.vstack([np.asarray(v, dtype=np.float32) for v in model.embed(texts, batch_size=64, parallel=0)])
+        # parallel=None -> fastembed 走主行程單執行緒 (不開多進程)。
+        # 注意: 不能用 parallel=0 —— fastembed 0.8.0 會把 0 解讀成 "用全部 CPU" 而 spawn 子進程,
+        # 在 Streamlit/scripts 環境下子進程會以 forkserver 重新 import 本模組, 造成遞迴 bootstrap 崩潰。
+        vecs = np.vstack([np.asarray(v, dtype=np.float32) for v in model.embed(texts, batch_size=64, parallel=None)])
     except (ConnectionResetError, OSError) as exc:
         # 部分容器環境 spawn 仍會失敗, 逐條 embed 避免多進程
         if verbose:
