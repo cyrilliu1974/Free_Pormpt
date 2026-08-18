@@ -1,0 +1,2228 @@
+================================================================================
+THIN CATEGORY: Academic_Insight&Forensics  (existing skills: 5)
+DESC: Academic Forensics and Deep Reading Layer: Stratified scanning, methodology reversal, and critical simulation for papers. Typically pairs with Academic_Research_Synthesis_Pipeline to cover structured output production and writing compliance enforcement when assembling complete system prompts.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Input_Guard_Protocol
+      Input verification and paper type classification.
+  * Stratified_Reading_Engine
+      Executes a three-pass stratified reading strategy over academic or technical documents, extracting surface structure, deep argument, and evidential grounding at increasing depth. Does not reverse-engineer or audit methodology parameters.
+  * Forensic_Methodology_Decoder
+      Reverse-engineers the research methodology embedded in an academic paper and audits key parameters (dataset, baseline, ablation, metric) for completeness and correctness. Does not perform stratified reading or surface-structure scanning.
+  * Critical_Inquiry_Simulator
+      Simulate peer review and educational translation.
+  * Source_Prompt_Segmentation_Engine
+      Scans an input document and builds a structured segment index with quoted boundary anchors for downstream traceability.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 1]
+  ## Real Estate (1)
+      - Seller Lead Segmentation Framework for Real Estate  (sc=20)
+
+================================================================================
+THIN CATEGORY: Domain_Specific_Expertise  (existing skills: 10)
+DESC: Domain Expert Layer: Integrates legal judgments, financial risk control, automation engineering, and business decision logic. Typically pairs with Skill_Orchestration&Assembly to cover intent routing and execution path selection when assembling complete system prompts.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Automation&Flow_Optimization
+      Workflow automation design and structured data optimization. Covers trigger-to-action flow construction, structured data transformation, and pipeline optimization for repeatable automations.
+  * Intellectual_Property_Intelligence
+      Domain-specific innovation intelligence. Covers structured analysis and search logic for technical disclosures, competitive landscape, and prior-art proximity.
+  * Professional_Relationship_Audit
+      Trust assessment and business communication analysis.
+  * Strategic_Growth_Analysis
+      Strategic growth frameworks, SWOT, and market size modeling.
+  * Supply_Chain_Optimization_Logic
+      Optimizes multi-tier supply chain networks by modeling costs, demand volatility, and lead times to recommend optimal inventory levels, logistics routes, and procurement strategies.
+  * IP_Concept_Readiness_Assessment
+      Scores invention concept maturity across three dimensions and routes to the appropriate next phase based on the aggregated result.
+  * Prior_Art_Iterative_Search_Engine
+      Executes a multi-round iterative prior art search, scoring each result by proximity and classifying retrieved patents into technical schools.
+  * Differentiated_Claim_Drafting_Engine
+      Constructs patent claim structures by analyzing failure layers of prior art, grading differentiation anchors, and enforcing non-compensatory claim boundaries.
+  * Legal_Forensics&RAG
+      Deconstruction, annotation, reranking, and SDSR-compatible metadata structuring of legal judgment documents.
+  * Financial_Risk&Deployment
+      Executes financial strategy deployment and triage for market entry decisions, including volatility-indexed allocation logic and time-locked holding discipline.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 306]
+  ## Finance (48)
+      - Net Present Value Calculator Prompt for AI  (sc=31)
+      - Cross-Border Tax Analysis Prompt for Multi-Jurisdiction  (sc=30)
+      - Wealth Maximization Plan Prompt for ChatGPT  (sc=29)
+      - Tax Savings Optimizer Prompt for Financial Planning  (sc=28)
+      - Estimate Working Capital Needs  (sc=27)
+      - Debt Repayment Cash Flow Forecast  (sc=27)
+      - Cash Flow Gap Analysis and Crisis Navigation Prompt  (sc=27)
+      - Grant Proposal Workflow and Collaboration Protocol  (sc=27)
+      - Grant Application Document Checklist Generator  (sc=27)
+      - Evaluate Retirement Readiness  (sc=27)
+      - AMT Risk Assessment & Mitigation Strategies  (sc=27)
+      - Dividend Stock Analyzer for Passive Income  (sc=26)
+      - Estate Planning Assessment and Protection Strategy  (sc=26)
+      - Holiday Savings Budget Planner Prompt  (sc=25)
+  ## Legal (41)
+      - Draft Patent Claim Examples  (sc=31)
+      - Patent Application Drafting Prompt for AI  (sc=30)
+      - Identify Patentable Features in Inventions  (sc=28)
+      - Employee Offboarding Security Risk Analysis Prompt  (sc=27)
+      - Contract Clause Library Builder for Legal Teams  (sc=27)
+      - Trademark Filing Description Generator  (sc=27)
+      - Legal Advisory Memorandum Generator  (sc=27)
+      - Privacy Policy Generator for Legal Compliance  (sc=26)
+      - Partnership Contract Renewal & Termination Evaluator  (sc=26)
+      - Compliance Report Generator for Regulatory Audits  (sc=25)
+      - Settlement Agreement Drafting Prompt for Disputes  (sc=25)
+      - Software License Agreement Drafting Prompt  (sc=25)
+      - Trademark Registration Document Generator  (sc=25)
+      - Trial Brief Outline Generator for Litigation  (sc=25)
+  ## Operations (27)
+      - Business Process Automation Recommendation Prompt  (sc=32)
+      - Automated Ticket Routing Rules Designer  (sc=31)
+      - Inventory Control Parameter Calculator  (sc=30)
+      - Operational Efficiency Metrics Report Generator  (sc=28)
+      - Risk Assessment Matrix Generator for Business Controls  (sc=28)
+      - Backup System Implementation Plan Builder  (sc=28)
+      - Business Process Automation Implementation Planner  (sc=28)
+      - Workflow Optimization Analysis Prompt  (sc=27)
+      - Data Entry Automation Guide Builder  (sc=26)
+      - Process Automation Implementation Guide Generator  (sc=26)
+      - Project Timeline Estimation Framework Generator  (sc=25)
+      - Team Progress Monitoring Report Generator  (sc=25)
+      - Inventory Management System Implementation Guide  (sc=25)
+      - Zapier Workflow Automation Guide Builder  (sc=25)
+  ## SEO (27)
+      - SEO Tool Research and Comparison Prompt  (sc=30)
+      - Disavow Toxic Backlinks Step-by-Step SEO Guide  (sc=28)
+      - Content Readability and SEO Optimization Report  (sc=27)
+      - Schema Markup for Voice Search SEO Implementation Guide  (sc=27)
+      - Keyword Clustering for SEO Content Strategy  (sc=26)
+      - SEO Strategy Builder for Solopreneur Websites  (sc=25)
+      - Multimedia Content Integration Plan for Blog Posts  (sc=25)
+      - Blog Content Calendar Planner Prompt  (sc=25)
+      - Keyword Analysis for SEO Optimization  (sc=25)
+      - Keyword Mapping to Pages Prompt for ChatGPT  (sc=25)
+      - Track SERP Features Competitors Rank For  (sc=25)
+      - URL Structure Best Practices Guide for SEO  (sc=25)
+      - SEO SWOT Analysis Prompt for Competitive Positioning  (sc=24)
+      - Keyword Research Prompt for SEO Content Planning  (sc=24)
+  ## Data Analysis (21)
+      - Merge Two Dataframes Using Relational Principles  (sc=32)
+      - Sales Data Analysis Prompt for Actionable Insights  (sc=31)
+      - Goal-Tracking Dashboard Design Prompt for Business  (sc=27)
+      - Ad Performance Analysis Prompt for Multi-Channel Campaigns  (sc=26)
+      - Product Improvement from Customer Feedback Analyzer  (sc=26)
+      - KPI Tracking System Design Prompt  (sc=26)
+      - Social Media Metrics Analysis Prompt  (sc=25)
+      - Educational Attrition Analysis Method Designer  (sc=25)
+      - Split-Apply-Combine Data Aggregation Prompt  (sc=25)
+      - Sales Dashboard Analysis Prompt for Data Insights  (sc=25)
+      - Sales Funnel Conversion Rate Analysis Prompt  (sc=24)
+      - Data Quality Improvement Plan Generator for Education  (sc=23)
+      - Marketing Automation Metrics Analysis Prompt  (sc=23)
+      - Prescriptive Analytics Framework for Business Decisions  (sc=23)
+  ## Education (20)
+      - Study Material Finder for Online Courses  (sc=31)
+      - Homeschool Learning Projects Generator  (sc=29)
+      - Course Impact Analysis Approaches Comparison Guide  (sc=28)
+      - SEO Training Framework Builder for Corporate Teams  (sc=27)
+      - Data Analysis Learning Path Generator  (sc=27)
+      - Predictive Modeling for Student Performance Analysis  (sc=27)
+      - Adaptive Learning Plan Creator for Students  (sc=27)
+      - Gap Analysis Framework for Curriculum Development  (sc=26)
+      - Class Attendance Trend Analysis Prompt  (sc=26)
+      - Cross-Disciplinary Learning Plans Generator  (sc=25)
+      - Learning Module Builder for Course Creation  (sc=24)
+      - Curriculum Development Scope Planning Prompt  (sc=24)
+      - Student Success Prediction Model Prompt  (sc=24)
+      - Homeschool Arts Curriculum Builder Prompt  (sc=24)
+  ## Productivity (19)
+      - Video Topic Ideas Generator for Content Creators  (sc=32)
+      - SMART Goal Setting Framework for Solopreneurs  (sc=31)
+      - High-Protein Recipe Generator for Custom Diets  (sc=29)
+      - Task Prioritization and Delegation Framework  (sc=29)
+      - Business Problem Solving Prompt for Strategic Ideas  (sc=28)
+      - Critical Thinking Framework Builder for Decision Making  (sc=28)
+      - Campaign Idea Generator for Marketing Teams  (sc=27)
+      - Stress Management Action Plan Generator  (sc=27)
+      - Task Delegation Strategy for Solopreneurs  (sc=27)
+      - Decision-Making Process Improvement Prompt  (sc=26)
+      - ABC Analysis Task Prioritization Prompt  (sc=26)
+      - Fear-Setting Exercise Prompt for Decision Making  (sc=25)
+      - Freelance Career Development Strategy Guide Generator  (sc=25)
+      - Spreadsheet Marketing Automation Assistant Prompt  (sc=25)
+  ## Human Resources (17)
+      - Essential HR Policies Identification Prompt  (sc=32)
+      - Candidate Rejection Feedback Template Generator  (sc=29)
+      - Business Stress Management Strategy Generator  (sc=28)
+      - Employee Feedback Methods for New Policies  (sc=26)
+      - Professional Growth System Design Prompt  (sc=26)
+      - HR Compliance Issues Analysis Prompt  (sc=25)
+      - Employment Law Compliance Identifier for HR Teams  (sc=25)
+      - Overtime Compensation Policy Generator  (sc=23)
+      - Training Effectiveness Analysis With Kirkpatrick Model  (sc=23)
+      - HR Policy Risk Analysis Prompt  (sc=22)
+      - Social Media Policy Generator for HR Teams  (sc=22)
+      - Performance Red Flags Analysis Prompt  (sc=22)
+      - Trust Building Exercises for Managers and Teams  (sc=22)
+      - Learning Needs Survey Design Prompt  (sc=22)
+  ## Art and Design (16)
+      - Miniature Clone Portrait Generator  (sc=26)
+      - E-Commerce Wishlist UI Design Prompt  (sc=25)
+      - Product Gallery Concept Generator for E-Commerce  (sc=24)
+      - Personal Logo Design Brief Generator  (sc=22)
+      - Technical Assembly Hologram Image Generator  (sc=21)
+      - Transparent Background Product Icon Generator  (sc=21)
+      - Cinematic Fashion Portrait Generator  (sc=20)
+      - Hyperrealistic Golden Hour Portrait Photography Prompt  (sc=19)
+      - Realistic Cinematic Shot Generator  (sc=17)
+      - Cinematic Monochrome Portrait Generator  (sc=17)
+      - Historical Portrait Evolution Grid Generator  (sc=17)
+      - Historical Portrait Face Transformation Prompt  (sc=17)
+      - Photorealistic Mural Concept Generator  (sc=15)
+      - Cinematic Landscape Image Generator  (sc=14)
+  ## Strategy (14)
+      - Business Risk and Insurance Strategy Analyzer  (sc=28)
+      - Business Model Canvas Generator  (sc=28)
+      - Business Partnership Strategy Development Prompt  (sc=28)
+      - Multichannel Outreach Strategy Planner  (sc=27)
+      - Brand Differentiation Strategy Prompt  (sc=26)
+      - CSR Strategy Plan Creator for Business  (sc=25)
+      - Referral-Based Sales Strategy Planner  (sc=25)
+      - E-Commerce Pricing Strategy Optimizer  (sc=25)
+      - Open-Source Software Cost Optimization Strategy  (sc=24)
+      - Risk Mitigation Strategy Framework Generator  (sc=23)
+      - Industry Thought Leadership Strategy Builder  (sc=22)
+      - Exit Strategy Builder for Business Planning  (sc=21)
+      - Brand Value Proposition Development Prompt  (sc=21)
+      - Business Innovation Gap Analysis Prompt  (sc=21)
+  ## Marketing (10)
+      - Content Repurposing Prompt for Multiple Platforms  (sc=29)
+      - Marketing Campaign Content Idea Generator  (sc=28)
+      - Landing Page Copy Generator for Conversion  (sc=28)
+      - Behavioral Email Automation Strategy Builder  (sc=27)
+      - Lead Magnet Brainstorming Prompt for Online Businesses  (sc=27)
+      - Trigger-Based Email Campaign Strategy Builder  (sc=27)
+      - Email Marketing Content Writer  (sc=26)
+      - Viral Social Media Content Generator  (sc=26)
+      - Abandoned Cart Email Sequence Generator  (sc=25)
+      - Landing Page Copy Generator  (sc=24)
+  ## Research (10)
+      - Investigative Report Writer Prompt for ChatGPT  (sc=28)
+      - Global Higher Education Program Analysis Prompt  (sc=27)
+      - Topic Research Insights Prompt  (sc=27)
+      - Target Market Segmentation Analyzer  (sc=27)
+      - Customer Survey Design and Analysis Prompt  (sc=24)
+      - Niche Networking Platform Research Generator  (sc=23)
+      - Trend Spotting Framework Comparison Generator  (sc=23)
+      - Consumer Pain Point Tracker for Product Research  (sc=22)
+      - Cloud Archive Comparison for Education Institutions  (sc=22)
+      - Target Audience Identification Prompt for Social Media  (sc=21)
+  ## Real Estate (9)
+      - Real Estate Leverage Risk Analysis Prompt  (sc=31)
+      - Challenge Property Appraisal Errors  (sc=29)
+      - Property Investment Analysis Report Generator  (sc=25)
+      - Buyer Lead Segmentation Framework for Real Estate  (sc=23)
+      - Draft Lease Agreement Clauses  (sc=23)
+      - Property Safety Inspection Checklist Generator  (sc=23)
+      - Real Estate BRRRR Capital Velocity Acceleration Plan  (sc=22)
+      - Rental Income Property Investment Plan Generator  (sc=21)
+      - Home Purchase Price Negotiation Strategy Builder  (sc=21)
+  ## Coding (8)
+      - Code Execution Flow Mapping Prompt  (sc=32)
+      - n8n Workflow JSON Generator With Error Handling  (sc=28)
+      - Microinteraction Design Strategy Prompt  (sc=28)
+      - Integration Test Case Generator for Software Systems  (sc=28)
+      - Profession-Specific Kanban App Builder  (sc=25)
+      - Multi-Step Checkout Flow UI Design Prompt  (sc=25)
+      - PageSpeed Insights Tutorial Prompt for Website Performance  (sc=24)
+      - Automation Use Case Builder for Business Workflows  (sc=23)
+  ## Sales (7)
+      - Competitive Analysis Data for Sales Proposals  (sc=29)
+      - Sales Page Evaluation and Conversion Analysis Prompt  (sc=27)
+      - Client Testimonial Integration for Proposals  (sc=26)
+      - Lead Scoring System Design Prompt for Sales Teams  (sc=25)
+      - Affiliate Commission Rate Negotiation Planner  (sc=24)
+      - Cross-Selling Opportunity Analysis Prompt  (sc=23)
+      - Negotiation Checklist Builder for Sales Meetings  (sc=22)
+  ## Customer Service (6)
+      - E-Commerce Chatbot Strategy Builder  (sc=26)
+      - Self-Service Feedback System Builder  (sc=26)
+      - Analyze Churn Patterns Prompt for Customer Success  (sc=25)
+      - Personalized Customer Communication System Design  (sc=24)
+      - Customer Support Script Generator for Digital Business  (sc=23)
+      - Customer Communication Preferences Analysis Prompt  (sc=21)
+  ## Writing (5)
+      - Spelling Accuracy Checker for Documents  (sc=30)
+      - Testimonial Integration for Content Copywriting  (sc=25)
+      - Script Sensitivity Review Prompt for ChatGPT  (sc=22)
+      - Copywriting Analysis and Editing Prompt  (sc=21)
+      - White Paper Generator Prompt for Thought Leadership  (sc=20)
+  ## Careers (1)
+      - Job Application Follow-Up Strategy Builder  (sc=25)
+
+================================================================================
+THIN CATEGORY: Persona&Narrative_Synthesis  (existing skills: 11)
+DESC: Expression and Narrative Layer: Control tone, style, empathy, and deep arc, balancing physical truth with sensory detail. Typically pairs with Skill_Orchestration&Assembly to cover intent analysis and execution routing when assembling complete system prompts.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Soul_Sculptor_Engine
+      Manages force-field dynamics between a character persona and the user, shaping relational tension and narrative attraction through directive prompts. Does not adjust output tone or response depth directly.
+  * Sensory_Weaver_D10
+      Sensory Weaver: Cinematic sensory scene weaving and randomness injection.
+  * Sensory_Canvas_Request
+      Visual Creativity Guidance: Masterpiece freeze-frames, script director OOC switching, and drawing collaboration.
+  * Dynamic_Persona_Modulator
+      Adjusts tone and response depth dynamically based on persona signals. Does not manage character–user relational force fields or narrative attraction.
+  * Deep_Narrative_Reconstruction
+      Life history attribution and eight-stage narrative.
+  * Empathetic_Bridge&Normalization
+      Psychological support and behavior normalization.
+  * Concept_Materializer
+      [Imported from v1] Convert abstract concepts into concrete physical or visual descriptions.
+  * Semantic_Amplifier
+      [Imported from v1] Reasonable expansion and detail filling based on seed concepts.
+  * Grounding_Gated_Incremental_Writing_Assembly
+      Assembles a fixed pile of raw material into a document one block at a time, gating each candidate block on whether its required concepts are already grounded.
+  * Unstructured_Fragment_Mining_Session
+      Captures heterogeneous raw fragments from a conversation into an unordered append-only file without imposing any structure, prioritizing the discovery of a leading word.
+  * Dependency_Ordered_Article_Restructuring
+      Reorders an existing article's sections to respect information-dependency order, then tightens each section under a fixed paragraph length cap.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 15]
+  ## Art and Design (8)
+      - Lifestyle Tech Advertisement Layout Generator  (sc=21)
+      - Gritty Boxing Portrait Prompt for Midjourney  (sc=21)
+      - Cinematic Sports Concept Art With Fire Creature  (sc=20)
+      - Overhead Selfie Portrait Generator  (sc=20)
+      - Cinematic Sci-Fi Concept Art Generator  (sc=19)
+      - Cinematic Sci-Fi Concept Art Generator  (sc=19)
+      - Abstract Light Sphere Design Prompt  (sc=18)
+      - Viral Celebrity Action Moment Image Generator  (sc=16)
+  ## Writing (5)
+      - Document Layout & Structure Editor Prompt  (sc=29)
+      - Storytelling Techniques Prompt for Narrative Writing  (sc=29)
+      - Tony Robbins Writing Style Prompt for ChatGPT  (sc=27)
+      - Natural SEO Content Writer Prompt  (sc=26)
+      - Character Dialogue Scene Generator  (sc=19)
+  ## Sales (1)
+      - Sales Coach Reply Advisor With Sentiment Analysis  (sc=32)
+  ## Customer Service (1)
+      - Feature Launch Knowledge Base Article Generator  (sc=27)
+
+================================================================================
+THIN CATEGORY: Data_Structuring&Engineering  (existing skills: 3)
+DESC: Data Engineering Layer: Use text conversion capabilities to standardize unstructured content. Typically pairs with Axiomatic_Logic&Audit_Systems to cover reasoning validation and audit traceability when assembling complete system prompts.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Data_ETL_Execution
+      Extract, Transform, Load. Grab information from text.
+  * Schema_Enforcer
+      Forces output to conform to a declared format schema, covering JSON state, section structure, table layout, and domain-specific deck requirements.
+  * Industry_Schema_Dynamic_Generator
+      Selects and instantiates a domain-appropriate JSON schema based on industry type, executes ETL cleaning on raw input, and enforces closed-world inference from the resulting knowledge base.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 24]
+  ## Legal (6)
+      - Compliance Checklist Generator for Regulations  (sc=30)
+      - Compliance Documentation Generator for Regulations  (sc=27)
+      - Compliance Controls Matrix Builder  (sc=26)
+      - Privacy Policy Generator for Legal Compliance  (sc=25)
+      - Regulatory Filing Process Guide Generator  (sc=24)
+      - Document Retention Policy Generator  (sc=22)
+  ## Sales (3)
+      - Build Cloud-Based Cold Calling Systems  (sc=27)
+      - Email Lead List Builder for Cold Outreach  (sc=25)
+      - Cold Email Copy Generator for Sales Outreach  (sc=23)
+  ## Operations (3)
+      - Website Maintenance Schedule Generator  (sc=25)
+      - Digital Rights Management Strategy Builder  (sc=25)
+      - Operational Risk Management Plan Builder  (sc=20)
+  ## Art and Design (3)
+      - Oversized Product Ad Visual Generator  (sc=23)
+      - Architectural Landmark Comparison Image Generator  (sc=23)
+      - Eerie Hospital Corridor Scene Generator  (sc=16)
+  ## Customer Service (2)
+      - FAQ to Knowledge Base Article Converter  (sc=27)
+      - Email Auto-Response Setup Plan for Support Tickets  (sc=23)
+  ## Data Analysis (2)
+      - Partnership Lead Tracker Spreadsheet Generator  (sc=27)
+      - Sentiment Analysis Prompt for Customer Feedback  (sc=22)
+  ## Marketing (1)
+      - Video Sales Letter Script Generator  (sc=30)
+  ## Coding (1)
+      - Build Booking Platforms With React and TypeScript  (sc=26)
+  ## Research (1)
+      - Book Research Package Generator for Authors  (sc=24)
+  ## SEO (1)
+      - Local Directory SEO Strategy Prompt for ChatGPT  (sc=22)
+  ## Education (1)
+      - Student Progress Report Generator for ChatGPT  (sc=20)
+
+================================================================================
+THIN CATEGORY: UI_UX&Frontend_Engineering  (existing skills: 5)
+DESC: Interface Design and Frontend Engineering Layer: Complete path from visual DNA extraction to code implementation. Typically pairs with Commercial_Growth&Acquisition to cover behavioral engagement triggers and motivation scaffolding when assembling complete system prompts.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Design_DNA_Extraction
+      Extract core design language from visual materials or requirements.
+  * Frontend_Code_Materialization
+      Translate abstract designs into concrete code.
+  * Axiomatic_Design_System_Enforcement
+      Abstract logic for ensuring brand DNA consistency and sensory delight across all visual outputs.
+  * Web_Performance_Optimization
+      Diagnose and optimize web performance metrics such as LCP, CLS, and TTFB.
+  * Visual_QA_Verification
+      Use screenshot comparison and visual inspection to verify UI correctness.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 0]
+
+================================================================================
+THIN CATEGORY: Visual_Architecture&Creative_Engineering  (existing skills: 12)
+DESC: Advanced image generation control layer responsible for visual DNA translation, spatial structural locking, and multi-variable prompt synthesis. Typically pairs with Persona&Narrative_Synthesis to cover expressive tone, stylistic coherence, and sensory narrative framing when assembling complete syst
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Vision_Spatial_Forensics
+      Analyzes uploaded visual data (floor plans or photos) to extract geometric ground truth, vanishing points, and fixed structural coordinates.
+  * Structural_Fidelity_Enforcement
+      Ensures the mandatory preservation of physical coordinates and spatial ratios during 2D-to-3D extrusion or style transfer processes.
+  * Visual_Style_DNA_Synthesis
+      Translates abstract artistic styles into structured visual parameters (Color HEX, line texture, character anatomy) to ensure high-fidelity style locking.
+  * Visual_DNA_Character_Injection
+      Translates generic subject descriptions into style-locked character specifications covering facial features, clothing patterns, and shadow rendering.
+  * Visual_Instruction_Compiler
+      Assembles structured image generation prompts by enforcing a mandatory seven-field schema (Subject, Style, Face/Body, Clothing, Colors, Lines, Texture). Outputs a copy-ready prompt with engine parameters appended.
+  * Diagram_File_Generator
+      Routes text input to the correct diagram type, generates spec-compliant JSON, and auto-saves to the target directory with a user confirmation message.
+  * Mermaid_Diagram_Synthesizer
+      Converts structured text into syntax-validated Mermaid diagrams with configurable layout, detail level, and style, enforcing five hard error-prevention rules before output.
+  * Canvas_Layout_Architect
+      Transforms structured text into a valid Obsidian Canvas JSON file using MindMap or freeform layout, with node sizing, color coding, and overlap-prevention enforced.
+  * Visual_Asset_Candidate_Bundle_Generator
+      Sources image candidates for named scene entities from open art libraries via adaptive multi-source search, then emits a structured review bundle for human selection.
+  * Static_End_State_Animation_Authoring
+      Builds the fully-visible static layout of a scene before writing any motion, then derives entrance and exit tweens as journeys toward that fixed state.
+  * Entrance_Only_Scene_Choreography_Gate
+      Forbids exit animations on every scene except the last, requiring the scene transition itself to carry the exit function.
+  * Cinematic_Audio_Weaver
+      Translates visual scene dynamics and material properties into layered acoustic specifications, with randomized injection logic to introduce unpredictable sensory surprise points.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 839]
+  ## Art and Design (823)
+      - Portrait Photography Prompt With Prismatic Light  (sc=32)
+      - Modern Still-Life Product Photography Prompt  (sc=32)
+      - Christmas Monster Portrait Mashup Generator  (sc=31)
+      - Axonometric Interior Diagram Generator  (sc=30)
+      - Premium Product Grid Advertisement Prompt  (sc=29)
+      - Christmas Monster Portrait Mashup Generator  (sc=29)
+      - Iridescent Fluid Macro Photography Prompt  (sc=28)
+      - Blue Matte 3D Icon Generator  (sc=28)
+      - Pinky Fluffy Fur Icon Generator  (sc=28)
+      - Editorial Concept Illustration Generator  (sc=28)
+      - 3D Architectural Render Prompt for Beach Scenes  (sc=28)
+      - Hyperrealistic Portrait Variation Generator  (sc=28)
+      - Blue Matte 3D Icon Generator  (sc=27)
+      - Cinematic Portrait Photography Prompt  (sc=27)
+  ## Productivity (5)
+      - Mind Map Generator Prompt for Project Brainstorming  (sc=30)
+      - Mind Map Generator for Complex Topics  (sc=30)
+      - Mind Mapping Prompt for Brainstorming and Idea Structure  (sc=27)
+      - Mind Map Generator Prompt for ChatGPT  (sc=26)
+      - Mind Mapping Structure Generator for Brainstorming  (sc=25)
+  ## SEO (3)
+      - Website Image Optimization Tutorial Generator  (sc=31)
+      - SEO Image Optimization Checklist Generator  (sc=27)
+      - SEO Image Caption Generator for Alt Text & Metadata  (sc=23)
+  ## Marketing (3)
+      - Visual Identity Style Guide Generator for Solopreneurs  (sc=25)
+      - Personal Brand Reputation Monitoring With Google Alerts  (sc=21)
+      - Media Pitch Generator for Solopreneurs  (sc=20)
+  ## Coding (1)
+      - Plan Page Navigation Order  (sc=26)
+  ## Strategy (1)
+      - Guerrilla Marketing Strategy Generator  (sc=23)
+  ## Human Resources (1)
+      - Return of Assets Policy Generator for Employee Offboarding  (sc=22)
+  ## Writing (1)
+      - Content Vulnerability Coach Prompt for Creators  (sc=21)
+  ## Video (1)
+      - Cinematic Action Shot Prompt for Image Generation  (sc=17)
+
+================================================================================
+THIN CATEGORY: Self_Evolution&Refinement  (existing skills: 9)
+DESC: Self-Evolution and Refinement Layer: Governs the recursive optimization of internal logic and skill variants. It is responsible for analyzing execution failures, extracting learning patterns, and autonomously refining prompts to ensure continuous intelligence adaptation and systemic accuracy. Typica
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Methodological_Framework_Synthesis
+      Framework Construction: Dynamically derives new operational methodologies when existing skill sets do not match the task domain.
+  * Skill_Genesis_Protocol
+      Gates new skill creation behind a necessity check and enforces deterministic, executability, and compatibility constraints on all generated skills.
+  * Recursive_Self_Refinement
+      Locates the specific failed logic step after output-requirement mismatch and surgically repairs only that step while preserving all passing components.
+  * Multi_Phase_Iterative_Audit
+      Runs three sequential full-draft review rounds (logic, structure, alignment) before final output, producing a traceable improvement log of every change made.
+  * Autoresearch_Skill_Optimization_Loop
+      Iteratively optimizes a target prompt through design-intent-protected evaluation cycles with binary evals, single-variable experiments, and convergence-gated delivery.
+  * Attempt_Capped_Self_Evolution_Loop
+      Runs a retry loop with an explicit attempt cap, requiring concrete failure-signal reflection before each re-attempt and reporting incomplete rather than forcing a passing verdict.
+  * Score_Trajectory_Convergence_Controller
+      Tracks per-dimension score changes across revision rounds, suggests early stopping when improvement delta falls below threshold with no high-priority issues, and enforces a hard iteration cap.
+  * Output_Rubric_Scorer
+      Evaluates a generated output against a multi-dimensional rubric, produces a quantified score per dimension, and routes to revision only when the composite score falls below a defined threshold.
+  * Skill_Structure_And_Refinement_Discipline
+      Structures, splits, prunes, and diagnoses an existing skill's content to keep it deterministic and free of bloat.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 687]
+  ## SEO (140)
+      - Content Readability and SEO Optimization Report  (sc=31)
+      - SEO Conversion Rate Optimization Audit Prompt  (sc=29)
+      - SEO Conversion Rate Optimization Audit Prompt  (sc=29)
+      - SEO Content Rewriter and Keyword Optimizer  (sc=29)
+      - Website SEO Keyword Density Analysis Prompt  (sc=29)
+      - Link Building Strategy Audit and Refinement Prompt  (sc=28)
+      - Programmatic Internal Linking Strategy for SEO  (sc=28)
+      - Local Citation Building Strategy for SEO  (sc=28)
+      - Google My Business Listing Ideas Generator  (sc=28)
+      - Meta Description Variations Generator  (sc=28)
+      - SEO Content Analysis and Optimization Prompt  (sc=28)
+      - Website UX Audit Prompt for SEO Performance  (sc=28)
+      - Mobile SEO Schema Markup Implementation Guide  (sc=28)
+      - XML Sitemap Audit and Error Fix Prompt  (sc=28)
+  ## Coding (58)
+      - Fix Loop Bounds Errors Prompt for ChatGPT  (sc=31)
+      - Loop Behavior Analysis Prompt  (sc=30)
+      - Implement Specific Code Changes Prompt  (sc=30)
+      - Implement Specific Code Changes Prompt  (sc=30)
+      - Documentation Structure Architect  (sc=29)
+      - Mobile-First Layout Transformation Plan Prompt  (sc=29)
+      - Bug Report Writer Prompt for Developers  (sc=28)
+      - Detect Race Condition in Concurrent Code Prompt  (sc=28)
+      - Neural Network Debugging Prompt  (sc=28)
+      - Exception Handling Refactoring Prompt  (sc=28)
+      - Annotation Guide Builder for Data Labeling Projects  (sc=28)
+      - Unit Test Scenario Generator for TDD  (sc=28)
+      - Habit Tracking App Builder for React and TypeScript  (sc=27)
+      - Hydration Tracker App Development Prompt  (sc=27)
+  ## Marketing (53)
+      - Automated Email Sequence Generator for Lifecycle Marketing  (sc=31)
+      - Automated Email Sequence Generator for Lifecycle Marketing  (sc=31)
+      - Ecommerce Marketing Prompt Generator for ChatGPT  (sc=30)
+      - Video Marketing Strategy Builder for Solopreneurs  (sc=30)
+      - Sales Funnel Generator Prompt for ChatGPT  (sc=29)
+      - Email Subject Line Generator for High Open Rates  (sc=29)
+      - SEO Article Headline Generator  (sc=29)
+      - Medium-Form Sales Copy Generator  (sc=28)
+      - Twitter Ads Targeting Ideas Generator  (sc=28)
+      - Abandoned Cart Recovery Email Sequence Generator  (sc=27)
+      - Shipping Page Copy Generator for E-Commerce Sites  (sc=27)
+      - Content Pillar Strategy Builder for Personal Brands  (sc=27)
+      - Short Bio Variations for Influencers and Creators  (sc=27)
+      - Hashtag Campaign Generator for Social Media  (sc=27)
+  ## Finance (52)
+      - Break-Even Analysis Calculator Prompt  (sc=31)
+      - Estimate Working Capital Needs  (sc=30)
+      - Research Funding Opportunity Finder  (sc=30)
+      - Cash Flow Optimization Action Plan Prompt  (sc=29)
+      - Cash Flow Optimization Action Plan Prompt  (sc=29)
+      - Identify Missed Tax Deductions  (sc=28)
+      - Monthly Bill Checklist Generator for Budget Tracking  (sc=27)
+      - Optimize Personal Spending  (sc=27)
+      - Recommend Budgeting Methods Prompt for ChatGPT  (sc=27)
+      - Liquidity Strategy Recommendation Prompt  (sc=27)
+      - Subscription Spending Audit Prompt for ChatGPT  (sc=26)
+      - Utility Cost Optimization Prompt for Budget Savings  (sc=26)
+      - Cryptocurrency Performance Analysis Prompt  (sc=26)
+      - Funding Request Email Prompt for Startups  (sc=26)
+  ## Education (47)
+      - Knowledge Test Creator for Any Subject  (sc=30)
+      - Self-Publishing Guide Prompt for Authors  (sc=29)
+      - Custom Note-Taking System Builder for Students  (sc=29)
+      - Personalized Learning Recommendation System Designer  (sc=28)
+      - Student Engagement Pattern Analysis Prompt  (sc=28)
+      - Science Experiment Generator for Homeschool Lessons  (sc=28)
+      - Personalized SMART Learning Goals Generator  (sc=28)
+      - Learning Reflection Protocol Generator for ChatGPT  (sc=28)
+      - Student FAQ Anticipation Prompt for Course Creators  (sc=27)
+      - Puzzle-Based Learning Tasks Generator  (sc=27)
+      - E-Learning Platform UX Redesign Prompt  (sc=27)
+      - Course Pain Point Diagnostic and Resolution Prompt  (sc=27)
+      - Exit Ticket Question Generator for Teachers  (sc=27)
+      - Adaptive Learning Pathways Prompt for Education  (sc=27)
+  ## Operations (44)
+      - Solve Workflow Bottlenecks With Theory of Constraints  (sc=32)
+      - Quality Assurance Review Prompt for ChatGPT  (sc=30)
+      - Product Upload Process Designer for E-Commerce  (sc=29)
+      - Standard Operating Procedure Generator  (sc=29)
+      - ML Training Checklist Generator for Production Readiness  (sc=28)
+      - Inventory Management and SEO Strategy for E-Commerce  (sc=28)
+      - Project Management System Design Prompt  (sc=28)
+      - Process Improvement Brainstorming Prompt  (sc=28)
+      - Meeting Notes Action Plan Generator  (sc=27)
+      - Quality Management System Implementation Prompt  (sc=27)
+      - Customer Feedback Calendar Prompt for VoC Programs  (sc=27)
+      - Identify Workflow Automation Opportunities  (sc=27)
+      - Business Systems Integration Plan Generator  (sc=27)
+      - Live Chat QA Rubric Builder for Support Teams  (sc=26)
+  ## Data Analysis (40)
+      - Remove Duplicate Rows – Python Pandas Data Cleaning  (sc=30)
+      - At-Risk Student Prediction Prompt for Education AI  (sc=30)
+      - Data Validation Framework Generator  (sc=29)
+      - Student Engagement Funnel Analysis Prompt  (sc=28)
+      - Missing Data Analysis and Handling Prompt  (sc=27)
+      - Report Comparison Insights Prompt for Data Analysis  (sc=27)
+      - Sort Data Columns With Pandas Python Generator  (sc=27)
+      - Monthly Business Report Generator for ChatGPT  (sc=27)
+      - Identify Statistical Outliers Using Tukey&#x27;s Fences  (sc=26)
+      - Performance Metrics Analysis Prompt for Marketing  (sc=26)
+      - Digital Experience Friction Analysis Prompt  (sc=26)
+      - Affiliate Performance Analysis and Ranking Prompt  (sc=26)
+      - Sales Data Analysis Prompt for Decision-Making  (sc=26)
+      - Performance Metrics Analysis Report Generator  (sc=26)
+  ## Human Resources (40)
+      - Employee Disengagement Diagnostic Framework Prompt  (sc=30)
+      - Resume Screening Qualities Analysis Prompt  (sc=28)
+      - Training Performance Analysis Prompt  (sc=28)
+      - Workplace Learning Barriers Analysis Prompt  (sc=28)
+      - Training Evaluation Questionnaire Builder  (sc=28)
+      - Continuous Onboarding Feedback Loop System Designer  (sc=27)
+      - Performance Calibration Analysis Prompt  (sc=27)
+      - Kirkpatrick Model Training Evaluation Template Generator  (sc=27)
+      - Training Evaluation Questionnaire Builder  (sc=27)
+      - Employee Suggestion System Framework Builder  (sc=26)
+      - Onboarding Mistakes Analysis Prompt for HR Teams  (sc=26)
+      - Analyze Onboarding Barriers With Root Cause Mapping  (sc=26)
+      - Performance Review Bias Analysis Prompt  (sc=26)
+      - Customer Feedback to Support Training Prompt  (sc=26)
+  ## Real Estate (38)
+      - Real Estate Leverage Risk Analysis Prompt  (sc=30)
+      - Identify Non-Fixable Property Defects  (sc=28)
+      - Home Requirements Checklist Prompt for Buyers  (sc=27)
+      - Residential Property Valuation Analysis Prompt  (sc=27)
+      - Buyer Seller Financing Deal Structuring Prompt  (sc=27)
+      - Development Cash Flow Analysis Prompt for Real Estate  (sc=26)
+      - Lease Option Deal Structure Analyzer  (sc=26)
+      - Neighborhood Safety Analysis Prompt for ChatGPT  (sc=26)
+      - Neighborhood Quality Assessment for Home Buyers  (sc=26)
+      - Property Investment Analysis Report Generator  (sc=25)
+      - Airbnb Property Description Writer  (sc=25)
+      - Airbnb Guest Experience Enhancement Prompt  (sc=25)
+      - Diagnose Deal Failure Risks  (sc=24)
+      - Local Real Estate Market Update Report Generator  (sc=24)
+  ## Writing (28)
+      - How-to Guide Generator  (sc=31)
+      - Text Proofreading Coach  (sc=31)
+      - Article Rewriting Prompt Using Dependency Grammar  (sc=29)
+      - Amazon Kindle Book Idea Generator for Authors  (sc=29)
+      - Children&#x27;s Book Title Generator Prompt  (sc=29)
+      - Grammar and Proofreading Correction Prompt  (sc=29)
+      - Text Simplifier for Any Audience  (sc=29)
+      - Video Tutorial Script Generator for Products  (sc=29)
+      - Script Logline Generator for Producers and Clients  (sc=29)
+      - Incorporate Feedback Into Drafts Prompt  (sc=28)
+      - Proofread Your Content With Expert Copywriting Review  (sc=28)
+      - John Oliver-Style Exposé Writer  (sc=27)
+      - Passive to Active Voice Converter  (sc=27)
+      - Proofreading Checklist Generator for Any Document Type  (sc=27)
+  ## Productivity (26)
+      - Prompt Creator for Iterative Refinement  (sc=33)
+      - Platform Comparison Decision Matrix Prompt  (sc=31)
+      - File Sorting System Builder With GTD Methodology  (sc=29)
+      - Marketing Task Prioritizer by Impact and Revenue Value  (sc=28)
+      - Professional Email Rewriter and Clarity Optimizer  (sc=28)
+      - Weekly Performance Reflection and Goal Setting Prompt  (sc=27)
+      - Audience Feedback Survey Builder for Speeches  (sc=26)
+      - Psychological Profile Assessment Prompt for ChatGPT  (sc=26)
+      - Workflow Bottleneck Analysis and Elimination Prompt  (sc=26)
+      - Morning Routine Night-Before Checklist Generator  (sc=26)
+      - Content Ideas Generator With Scoring and Platform Fit  (sc=25)
+      - Content Idea Generator for Business Goals  (sc=25)
+      - OODA Loop Decision Framework Generator  (sc=25)
+      - Personal Development Goals Planner With SMART Framework  (sc=25)
+  ## Research (24)
+      - Customer Persona Role-Play Interview Prompt  (sc=30)
+      - Target Market Segmentation Analyzer  (sc=29)
+      - Research Hypothesis Development Prompt  (sc=27)
+      - Customer Needs and Preferences Assessment Prompt  (sc=27)
+      - Market Trend Analysis Prompt for ChatGPT  (sc=27)
+      - Hidden Market Trends Research Prompt  (sc=26)
+      - User Survey Builder for Product Feedback  (sc=25)
+      - Recruitment Sourcing Mistakes Analysis Prompt  (sc=25)
+      - Competitor Lead Capture Research Prompt  (sc=24)
+      - Consumer Market Trends Analysis Prompt  (sc=24)
+      - Market Segmentation Analysis Prompt for ChatGPT  (sc=24)
+      - Target Customer Persona Generator for Marketing  (sc=24)
+      - Content Strategy Advisor Prompt for ChatGPT  (sc=24)
+      - Interdisciplinary Research Analysis Prompt  (sc=23)
+  ## Art and Design (21)
+      - Editorial Concept Illustration Generator  (sc=27)
+      - Video Thumbnail Design Guide Prompt for ChatGPT  (sc=27)
+      - Vintage Corporate Editorial Illustration Generator  (sc=25)
+      - 3D Caricature Expression Collage Generator  (sc=24)
+      - Parametric Bridge-Park Architectural Visualization  (sc=23)
+      - Hyperrealistic Dramatic Portrait Generator  (sc=22)
+      - Architectural Photography Concept Generator  (sc=21)
+      - Search Bar Interface Design Prompt  (sc=20)
+      - Architectural Photography Prompt for Midjourney  (sc=20)
+      - Cinematic Chiaroscuro Portrait Generator  (sc=20)
+      - Editorial Product Photoshoot With Model Prompt  (sc=20)
+      - Parametric Urban Canopy Structure Generator  (sc=19)
+      - Candid Nightlife Photography Prompt  (sc=19)
+      - Cottagecore Fashion Collage Generator  (sc=19)
+  ## Strategy (19)
+      - Audience Segment Expansion Prompt for ChatGPT  (sc=31)
+      - Organizational Goal Alignment System Designer  (sc=28)
+      - Sales Strategy Generator for Product Launch & Growth  (sc=27)
+      - Sales Funnel Analysis Prompt for Conversion Optimization  (sc=27)
+      - Catastrophic Scenario Analysis Prompt for Risk Planning  (sc=27)
+      - Goal Achievement Post-Mortem Analysis Prompt  (sc=26)
+      - Innovation Project Evaluation Framework Generator  (sc=26)
+      - Growth Hacking Strategy Generator for Businesses  (sc=25)
+      - Social Media Monetization Strategy Prompt  (sc=25)
+      - Brand Identity Generator for ChatGPT and Claude  (sc=25)
+      - Summarize Product Benefits  (sc=25)
+      - Strategic Subtraction Analysis for Business Growth  (sc=25)
+      - CRM Strategy Generator for Customer Retention  (sc=23)
+      - Zero-Waste Inventory Plan for Retail Apparel  (sc=23)
+  ## Careers (17)
+      - In-Demand Professional Skills Research Prompt  (sc=32)
+      - Career Growth Roadmap Prompt for ChatGPT  (sc=27)
+      - LinkedIn Profile Coach With Career Action Plan  (sc=27)
+      - Career Learning Strategy Report Builder  (sc=26)
+      - Find Ghostwriting Gigs Action Plan Generator  (sc=26)
+      - Career Learning Strategy Report Builder  (sc=25)
+      - Career Skill Stack Optimizer Prompt  (sc=25)
+      - Employer Insights Career Development Prompt  (sc=25)
+      - Professional Resume Builder Prompt for ChatGPT  (sc=25)
+      - Limiting Beliefs Coaching Prompt for Career Growth  (sc=24)
+      - Career Gap and Transition Explanation Prompt  (sc=24)
+      - LinkedIn Job-Targeted CV Writer  (sc=24)
+      - LinkedIn Profile SEO Optimization Prompt  (sc=24)
+      - Failure Resume Template Builder for Career Growth  (sc=23)
+  ## Customer Service (16)
+      - Support Escalation Decision Tree Builder  (sc=31)
+      - Store FAQ Generator From Support Tickets  (sc=31)
+      - Product FAQ Generator for Customer Support Teams  (sc=30)
+      - Customer Feedback System Design Prompt  (sc=28)
+      - Identify Recurring Customer Complaint Patterns  (sc=27)
+      - Identify Recurring Customer Complaint Patterns  (sc=27)
+      - IVR Phone Menu Script Generator  (sc=26)
+      - Design Support Quality Scorecards  (sc=26)
+      - SEO FAQ Generator for Featured Snippets  (sc=26)
+      - Customer Satisfaction Survey Analysis Prompt  (sc=25)
+      - Customer Feedback Loop System Design Prompt  (sc=25)
+      - Customer Feedback Executive Summary Prompt  (sc=25)
+      - Knowledge Base Article Writer for Customer Onboarding  (sc=24)
+      - Clarify Shipping Policies Prompt for E-Commerce  (sc=23)
+  ## Legal (13)
+      - Legal Entity Formation Documents Generator  (sc=27)
+      - IP License Term Sheet Generator  (sc=27)
+      - Compliance Risk Warning Sign Analysis Prompt  (sc=26)
+      - Vendor Compliance Risk Analysis Prompt  (sc=25)
+      - Trademark Registration Document Generator  (sc=25)
+      - ISO Compliance Violation Analysis Prompt  (sc=23)
+      - Compliance Audit Report Generator for Businesses  (sc=23)
+      - Regulatory Monitoring System Architect Prompt  (sc=23)
+      - Service Agreement Contract Drafting Prompt  (sc=23)
+      - Localize Legal Contracts for New Jurisdictions  (sc=23)
+      - Corporate Policy Drafting Mistakes Analysis Prompt  (sc=22)
+      - Fair Housing Compliance Guidelines Prompt  (sc=20)
+      - IP Ownership Clause Generator for Contracts  (sc=19)
+  ## Sales (10)
+      - Lead Qualification Criteria Framework Builder  (sc=30)
+      - Customer Journey Map for Sales Optimization  (sc=26)
+      - Affiliate Commission Negotiation Letter Generator  (sc=26)
+      - Sales Email Writer Prompt for ChatGPT  (sc=24)
+      - Lead Scoring Criteria Builder for Sales Teams  (sc=24)
+      - Sales Compensation Plan Adjustment Prompt  (sc=24)
+      - Lead Qualification Framework Builder for Sales Teams  (sc=23)
+      - Supplier Discount Negotiation Strategy Builder  (sc=23)
+      - Lead Qualification Framework Builder for Sales Teams  (sc=22)
+      - Real Estate Elevator Pitch Generator  (sc=22)
+  ## Audio (1)
+      - Music Royalty Earnings Guide Generator  (sc=23)
+
+================================================================================
+THIN CATEGORY: Operational_Governance&Reporting  (existing skills: 4)
+DESC: Governance layer responsible for sustained operations, stakeholder alignment, and synthesizing complex data into actionable executive summaries. Typically pairs with Strategic_Decision&Adversarial_Thinking to cover long-term systemic evaluation and second-order effect simulation when assembling comp
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Operational_Intelligence&Reporting
+      Logic for translating raw operational data into strategic executive summaries using the SCQA framework.
+  * Incident_Lifecycle_Orchestration
+      State-machine logic for managing production incidents from first alert through post-mortem, enforcing severity-gated escalation, structured war-room handoffs, and mandatory root-cause documentation. Complements static reporting logic with dynamic real-time response branching.
+  * Automation_Governance&Compliance_Audit
+      Governance-first audit layer for business automations. Evaluates value, risk, and maintainability BEFORE implementation is approved. Prevents premature build through policy-gated review.
+  * Session_Status_Bootloader
+      Auto-generates a structured KPI snapshot at session start, classifying account health and setting the weekly action focus before any other task executes.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 0]
+
+================================================================================
+THIN CATEGORY: Distributed_Cognition&Context_Orchestration  (existing skills: 14)
+DESC: Multi-agent state integrity layer: governs HANDOFFS between agents and context persistence ACROSS sessions. Not for single-agent routing or skill selection.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Entropy_Resistant_Context_Handoff
+      Logic for encapsulating state, dependencies, and acceptance criteria to prevent cognitive decay during agent transitions.
+  * Agentic_Identity&Trust_Verification
+      Cryptographic and policy-based identity verification logic for multi-agent environments. Enforces agent authentication, capability scoping, and immutable audit trail generation before any cross-agent instruction is executed. Operates orthogonally to context handoff logic — where 
+  * File_Backed_State_Module
+      Externalizes durable cross-step state into explicitly declared named state blocks in each response, preventing state loss under context compression or delegation.
+  * Persistent_Memory_Extraction&Injection_Engine
+      Extracts structured facts and context summaries from conversations via LLM, deduplicates and confidence-scores them, then injects top entries into subsequent system prompts.
+  * Context_Window_Summarization_Gate
+      Triggers automatic summarization of older conversation history when context approaches a configurable limit, preserving recent messages while compressing earlier content.
+  * Multi_Source_Context_Pack_Assembler
+      Aggregates heterogeneous knowledge sources into a single dense context file for downstream task personalization.
+  * Dual_Source_Write_Integrity
+      Enforces that every world-relevant publish operation writes to both a content record and a coordination layer, with explicit field control when the two targets have divergent schemas.
+  * Cross_Session_State_Resume_Protocol
+      Records context-reset boundary snapshots in a state passport and restores pipeline state in a fresh session from a verified boundary hash.
+  * Primary_Source_Background_Research_Delegator
+      Delegates investigative research to a background agent that traces every claim to its owning primary source and files findings by existing convention.
+  * Handoff_Summary_Delivery_Protocol
+      Constructs a redacted, reference-only handoff summary and delivers it either as a launched live background agent or a static temp-directory document.
+  * External_State_Recovery_Handoff_Spec
+      Defines the handoff contract between a trajectory generator and an external pipeline that verifies state recovery after context truncation.
+  * External_Causal_Ablation_Handoff_Spec
+      Defines the handoff contract for causal ablation: generator labels critical paths, external verifier runs three inference conditions and fills conclusion fields.
+  * Scoped_Layer_Shadowing_Chain
+      Resolves named entries from a hierarchical scope chain, giving nearest-layer priority over rank.
+  * Preset_Standing_Composition_Mount
+      Mounts an agent preset as a standing composition into a scope so multiple sessions share one preset instance without colliding.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 5]
+  ## Writing (1)
+      - Amelia Earhart Journal Entry Generator for ChatGPT  (sc=25)
+  ## Finance (1)
+      - Balance Sheet Generator for Small Business  (sc=23)
+  ## Real Estate (1)
+      - Property Listing Description Writer  (sc=22)
+  ## Careers (1)
+      - Portfolio Enhancement Methods Guide for Students  (sc=21)
+  ## Marketing (1)
+      - Copy Testing Framework for Direct Response Ads  (sc=21)
+
+================================================================================
+THIN CATEGORY: Domain_Specific_Reasoning  (existing skills: 7)
+DESC: Encapsulates domain-bound analytical frameworks that enforce specialized reasoning structures, such as legal, financial, or medical analysis. These skills ensure that reasoning follows established professional methodologies rather than generic logic. Typically pairs with Axiomatic_Logic&Audit_System
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Reasoning_Type_Labeling
+      Distinguishes different types of reasoning outputs, such as factual observation, logical inference, and domain-specific evaluation.
+  * Framework_Constrained_Reasoning
+      Enforces the use of established analytical frameworks intrinsic to a given domain or problem structure, ensuring reasoning follows structured, discipline-aligned methodologies.
+  * Structural_Mapping_Analysis
+      Maps structured elements from one system onto another to evaluate correspondence, alignment, or mismatch.
+  * Adversarial_Argument_Construction
+      Constructs opposing arguments, counterarguments, and points of dispute to stress-test the primary analysis.
+  * Risk_Weighted_Strategic_Output
+      Transforms analytical conclusions into actionable recommendations with explicit risk categorization.
+  * Heterogeneous_Agent_Team_Composition
+      Assigns distinct creation and review roles to different AI tools based on their natural analytical strengths, ensuring non-overlapping coverage dimensions.
+  * Multi_Perspective_Simulation
+      Simulates structured multi-role or multi-expert deliberation, from lightweight parallel analysis to full three-phase cross-examination with a consensus decision matrix.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 342]
+  ## Research (73)
+      - Policy Analysis Synthesis Report Generator  (sc=37)
+      - Academic Literature Review Generator  (sc=33)
+      - Industry Trends Research Report Generator  (sc=33)
+      - Knowledge Management Analysis by Profession Prompt  (sc=31)
+      - Research Mentorship Career Impact Analysis Prompt  (sc=31)
+      - Academic Literature Analysis Prompt for Research Topics  (sc=31)
+      - Academic Paper Analysis Prompt for Literature Review  (sc=31)
+      - Topic Research Insights Prompt  (sc=30)
+      - Research Paper Summary and Synthesis Prompt  (sc=30)
+      - Reddit Market Research Report Generator  (sc=30)
+      - Industry Gap Analysis Generator for Market Research  (sc=30)
+      - Competitive Landscape Analysis Report Prompt  (sc=29)
+      - Competitor Product Feature Analysis Prompt  (sc=29)
+      - Competitor Analysis Report Generator for Any Industry  (sc=29)
+  ## Legal (43)
+      - IP Contract Risk Assessment Prompt  (sc=30)
+      - MOU Template Generator for Business Collaborations  (sc=30)
+      - Regulatory Impact Assessment Report Generator  (sc=28)
+      - Contract Liability Risk Review Prompt  (sc=28)
+      - Annual Partnership Agreement Review Prompt  (sc=28)
+      - Identify Critical Compliance Gaps  (sc=27)
+      - Partnership Contract Renewal & Termination Evaluator  (sc=27)
+      - Legal Case Facts Compiler  (sc=27)
+      - Legal Advisory Memorandum Generator  (sc=27)
+      - Legal Opinion Generator for Case Analysis  (sc=27)
+      - Legal Case Summary Writer for Lawyers and Paralegals  (sc=27)
+      - Compliance Risk Warning Sign Analysis Prompt  (sc=26)
+      - Fraud Detection Framework Development Prompt  (sc=26)
+      - IP License Agreement Analysis Prompt  (sc=26)
+  ## Finance (40)
+      - Financial Risk Analysis Report Generator  (sc=30)
+      - AMT Risk Assessment & Mitigation Strategies  (sc=29)
+      - Loan Repayment Cash Flow Gap Analysis Prompt  (sc=28)
+      - Grant Proposal Review Criteria Prompt  (sc=28)
+      - Investment Risk Analysis Prompt for Industries  (sc=28)
+      - Investor Report Builder Prompt for Financial Data  (sc=27)
+      - Financial Risk Assessment and Mitigation Prompt  (sc=26)
+      - Financial Risk Analysis Prompt for ChatGPT  (sc=26)
+      - Market Investment Trend Analysis Report Generator  (sc=26)
+      - Financial Projections Builder for Business Planning  (sc=25)
+      - Compare Business Loan Offers  (sc=25)
+      - Research Grant Opportunity Finder Prompt  (sc=25)
+      - Term Sheet Analyzer for Startups and Founders  (sc=25)
+      - Investment Opportunity Analysis Report Generator  (sc=25)
+  ## Human Resources (28)
+      - Leadership Program Analysis and Comparison Prompt  (sc=33)
+      - Team Skills Assessment Matrix Generator  (sc=30)
+      - Employee Offboarding Checklist Generator  (sc=29)
+      - Critical HR Policies for Small Business Compliance  (sc=27)
+      - Year-End Performance Review Self-Evaluation Generator  (sc=27)
+      - Resume Red Flag Analysis Prompt for Recruitment  (sc=27)
+      - Employment Law Compliance Identifier for HR Teams  (sc=26)
+      - Behavioral Interview Questions Generator for Problem-Solving  (sc=26)
+      - Customer Feedback to Support Training Prompt  (sc=26)
+      - Employee Engagement System Design Prompt  (sc=25)
+      - Equal Opportunity Policy Template for HR Teams  (sc=25)
+      - Strategic Interview Questions for Entry-Level Roles  (sc=25)
+      - Performance Review Bias Analysis Prompt  (sc=25)
+      - Mentorship Program Guide Builder for Career Development  (sc=25)
+  ## Data Analysis (25)
+      - Data Analysis Report Generator Prompt  (sc=32)
+      - Ad Performance Analysis Prompt for Multi-Channel Campaigns  (sc=29)
+      - Data Findings Summary Prompt for ChatGPT  (sc=29)
+      - Sales Report Generator for Revenue and Profit Analysis  (sc=29)
+      - Outcome Tracking Report Generator for Education Programs  (sc=28)
+      - Student Engagement Funnel Analysis Prompt  (sc=27)
+      - Partnership Performance Metrics Analysis Prompt  (sc=27)
+      - Affiliate Performance Analysis and Ranking Prompt  (sc=26)
+      - Product Improvement from Customer Feedback Analyzer  (sc=26)
+      - Sales Data Analysis Prompt for Decision-Making  (sc=26)
+      - Monthly Business Report Generator for ChatGPT  (sc=26)
+      - Marketing Channel Performance Report Generator  (sc=26)
+      - Regression Analysis Prompt for Business Data  (sc=25)
+      - Digital Experience Friction Analysis Prompt  (sc=25)
+  ## Education (21)
+      - Class Performance Comparison Prompt for ChatGPT  (sc=32)
+      - Literary Narrative Analysis Essay Outline Generator  (sc=30)
+      - Educational Writing Prompt Generator for Lesson Plans  (sc=30)
+      - Academic Editorial Writing Prompt for Multiple Perspectives  (sc=29)
+      - Chomsky-Style Research Paper Generator  (sc=29)
+      - Course Curriculum Builder Prompt for Educators  (sc=29)
+      - Test Results Analysis and Intervention Planning Prompt  (sc=29)
+      - Student Engagement Pattern Analysis Prompt  (sc=28)
+      - Online Course Outline Builder for Solopreneurs  (sc=28)
+      - Character Comparison Analysis for Literary Study  (sc=27)
+      - Literary Analysis Prompt for Academic Critique  (sc=27)
+      - Peer Review System Design Prompt for Education  (sc=27)
+      - Research Paper Outline Generator  (sc=25)
+      - Online Course Outline Creator for Learning Platforms  (sc=25)
+  ## Strategy (19)
+      - Integrate Competing Business Frameworks Into One Plan  (sc=34)
+      - Industry-Specific KPI Development Prompt  (sc=33)
+      - Problem-Solving Framework Generator  (sc=31)
+      - Industry-Specific Career Strategy Builder  (sc=29)
+      - Market Opportunity Research Prompt for Venture Capital  (sc=28)
+      - Strategic Networking Plan for Industry Influencers  (sc=27)
+      - SWOT Analysis Prompt for Strategic Planning  (sc=27)
+      - SWOT Analysis Generator for Business Strategy  (sc=26)
+      - Market Risk Assessment Prompt for Business Planning  (sc=25)
+      - SWOT Analysis Prompt for Business Strategy  (sc=25)
+      - House Cleaning Service Business Plan Prompt  (sc=24)
+      - Market Positioning Strategy Analysis Prompt  (sc=24)
+      - Geopolitical Risk Analysis Prompt for Business Strategy  (sc=24)
+      - Business Risk Assessment Framework Generator  (sc=23)
+  ## SEO (19)
+      - SEO Crawl Error Fix and Technical Audit Action Plan  (sc=30)
+      - Competitive SEO Analysis Report Generator  (sc=28)
+      - SEO Content Audit Prompt for Website Optimization  (sc=27)
+      - Duplicate Content SEO Audit Report Generator  (sc=26)
+      - Website Performance Audit Prompt for ChatGPT  (sc=26)
+      - Competitive SEO Analysis Prompt for Any Industry  (sc=25)
+      - Keyword Research for Lead Generation Prompt  (sc=25)
+      - High-Volume Keyword Research Prompt for SEO  (sc=25)
+      - Competitor Traffic Analysis Review Prompt  (sc=24)
+      - Customer Review Response Generator for Local SEO  (sc=24)
+      - Market Trend SEO Opportunity Analysis Prompt  (sc=23)
+      - Google Ads Keyword Research Generator  (sc=23)
+      - Competitor Backlink Profile Analysis Prompt  (sc=23)
+      - SEO Competitor Analysis Prompt for ChatGPT  (sc=23)
+  ## Operations (16)
+      - Risk Assessment Template Generator  (sc=30)
+      - Security Assessment Report Prompt for ChatGPT  (sc=29)
+      - Remote Work Challenge Solutions Prompt  (sc=29)
+      - Operational KPI Monitor and Analysis Report  (sc=28)
+      - Progress Report Generator for Projects and Teams  (sc=25)
+      - Risk Register Update Prompt for ChatGPT and Claude  (sc=25)
+      - Project Risk Assessment Prompt for ChatGPT  (sc=24)
+      - Scrum Meeting Facilitation Guide Generator  (sc=24)
+      - Risk Management Plan Generator for Projects  (sc=24)
+      - Quality Control Plan Generator for Business Operations  (sc=24)
+      - Risk Mitigation Plan Generator for Business  (sc=24)
+      - Identify Project Stakeholders  (sc=23)
+      - Operational Audit Prompt for Business Efficiency Review  (sc=22)
+      - Daily Operations Management Plan Prompt  (sc=22)
+  ## Real Estate (12)
+      - Property Staging Strategy With Memory Anchor Prompts  (sc=28)
+      - Housing Market Analysis Prompt  (sc=27)
+      - Home Offer Letter Writer for Buyers  (sc=25)
+      - Analyze Property Site Selections  (sc=24)
+      - Analyze Investment Profitability Ratios  (sc=23)
+      - Neighborhood Market Report Generator for Real Estate  (sc=23)
+      - Analyze Mortgage Offer Tradeoffs  (sc=23)
+      - Analyze Real Estate Refinance Decisions  (sc=23)
+      - Property Safety Inspection Checklist Generator  (sc=23)
+      - Evaluate Borrower Creditworthiness Prompt  (sc=21)
+      - Tenant Screening Questions Generator  (sc=21)
+      - Home Inspection Issue Analyzer for Real Estate  (sc=20)
+  ## Productivity (9)
+      - Personal Growth Book Insights Extractor  (sc=30)
+      - Self-Improvement Book Synthesis Prompt  (sc=30)
+      - Self-Improvement Book Summary and Action Plan Prompt  (sc=28)
+      - Business Idea Generator for Market Opportunities  (sc=27)
+      - Personal Growth Seminar Action Plan Generator  (sc=27)
+      - Time Management Tips Generator for Any Audience  (sc=26)
+      - Creative Brainstorming Techniques Prompt  (sc=25)
+      - 21-Day Creative Thinking Challenge Builder  (sc=25)
+      - GTD Implementation Guide for Solopreneurs  (sc=22)
+  ## Marketing (8)
+      - B2B Whitepaper Outline Generator for Lead Generation  (sc=28)
+      - LinkedIn Ad Copy Generator for B2B Campaigns  (sc=27)
+      - Ad Copy Generator for A/B Testing and Conversion  (sc=24)
+      - Sales Funnel Optimization Consultant Prompt  (sc=23)
+      - Social Media Strategy Generator for Multiple Platforms  (sc=23)
+      - Holiday Message Creator for Brand Communications  (sc=22)
+      - Sales-Driving Promotional Email Generator  (sc=22)
+      - Audience Segmentation for Marketing Automation  (sc=22)
+  ## Careers (6)
+      - Career Learning Plan Builder  (sc=31)
+      - LinkedIn Profile Coach With Career Action Plan  (sc=28)
+      - LinkedIn Job Search Strategy Generator  (sc=27)
+      - Networking Strategies by Career Field and Stage  (sc=26)
+      - Cover Letter Writer for Grant Writing Positions  (sc=26)
+      - Resume & Cover Letter Tailoring Guide Generator  (sc=25)
+  ## Writing (6)
+      - News Report Generator for Any Outlet Style  (sc=28)
+      - Investigative Report Outline Generator  (sc=28)
+      - Blog Article Generator for Prospect Conversion  (sc=26)
+      - Copywriting Review Checklist Prompt for ChatGPT  (sc=24)
+      - Persuasive Speech with Rhetorical Devices Generator  (sc=24)
+      - Persuasive Speech Writer With Rhetorical Devices  (sc=20)
+  ## Sales (6)
+      - Personalized B2B Email Outreach Template Generator  (sc=26)
+      - Customer Journey Map for Sales Optimization  (sc=26)
+      - Customer Intake Questionnaire Builder for SaaS  (sc=25)
+      - Proposal Content Review for Clarity and Persuasiveness  (sc=25)
+      - Customized Sales Proposal Writer for B2B Clients  (sc=24)
+      - Cold Outreach Strategy Optimizer for Sales Teams  (sc=23)
+  ## Customer Service (5)
+      - Customer Churn Warning Signal Detection Prompt  (sc=28)
+      - Merge Duplicate Knowledge Base Articles Prompt  (sc=26)
+      - Customer Sentiment Detection Framework Builder  (sc=25)
+      - Technical Support Troubleshooting Guide Generator  (sc=23)
+      - Customer Feedback Session Guide for Product Teams  (sc=21)
+  ## Coding (4)
+      - Code Style Report Generator for Teams  (sc=30)
+      - Journaling App Builder Prompt for React Development  (sc=24)
+      - Minimalist Company Website Builder Prompt  (sc=24)
+      - Intellectual Conversation With Helena Chatbot Persona  (sc=23)
+  ## Audio (1)
+      - Podcast Series Generator With Episode Scripts  (sc=25)
+  ## Art and Design (1)
+      - Isometric Fantasy Village Image Prompt  (sc=12)
+
+================================================================================
+THIN CATEGORY: Human_In_Loop_Workflow_Engineering  (existing skills: 18)
+DESC: Pipeline design layer responsible for structuring multi-phase human-AI collaborative workflows. Governs phase sequencing, confirmation gate enforcement, and user-triggered progression to ensure human oversight at critical decision boundaries. Typically pairs with Distributed_Cognition&Context_Orches
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Design_Spec_Collaborative_Pipeline
+      Guides idea-to-approved-design through sequenced context exploration, single-question elicitation, multi-approach comparison, and section-gated approval before handoff.
+  * Design_Medium_Selector
+      Routes each design question to visual or text delivery channel based on whether the content is inherently spatial or textual.
+  * Staged_Workflow_Orchestrator
+      Enforces a sequential multi-phase human-AI pipeline where each phase gates execution behind explicit user confirmation before proceeding.
+  * Adaptive_Checkpoint_System
+      Dynamically downgrades checkpoint verbosity from FULL to SLIM based on user engagement patterns while enforcing mandatory checkpoints at integrity-critical stages.
+  * Stage_Transition_Reinforcement_Injection
+      Injects a brief core-principles reminder at every stage transition to prevent context rot in long multi-stage pipelines.
+  * Autonomy_Signal_Mode_Lock
+      Detects an upfront autonomy signal in the initial request and locks the entire run into that mode, suppressing all later confirmation prompts.
+  * Context_Synthesis_Spec_Generator
+      Synthesizes a spec directly from existing conversation and codebase context without interviewing the user, minimizing test seam count.
+  * Exploration_First_Skip_Conditional_Onboarding
+      Interviews a project for missing configuration through fixed, individually skippable sections with recommended-default framing before writing files.
+  * Conversational_QA_To_Durable_Issue_Filer
+      Converts conversationally reported bugs into durable, domain-language GitHub issues gated by a bounded clarification limit and a split-or-single decision.
+  * Tiny_Commit_Refactor_RFC_Builder
+      Interviews a refactor request into a working-state-preserving tiny-commit plan and files it as a fixed-template, implementation-detail-free RFC.
+  * Checkpoint_Deferral_Workflow_Spec_Discipline
+      Grills workflow specifications while deferring every human checkpoint as late as possible and presenting only decision-ready briefs, never raw drafts.
+  * Recipient_Gap_Questionnaire_Generator
+      Interviews the sender only about who receives the questionnaire and what is needed back, then drafts questions targeting the recipient's unique knowledge gap.
+  * Prompt_Assembly_Integrity_Protocol
+      Governs structural basis scanning, checklist enumeration, dimension coverage confirmation, reproduction fidelity with continuation handling, and data flow verification for assembled prompt output.
+  * Non_Copyable_Direction_Card_Generator
+      Generates correction-direction cards pointing to rule families without providing copyable replacement text, for structural pathology classes not addressable by insertion artifacts.
+  * Risk_Code_Insertion_Plan_Compiler
+      Compiles a structured insertion plan mapping every risk code to a decision row with status, location, artifact name, role, type, and determination basis.
+  * Per_Risk_Insertion_Card_Generator
+      Generates per-risk insertion cards with mandatory fields, document-position ordering, multi-tier location resolution, and isolated Copy Blocks.
+  * Insertion_Audit_Report_Assembler
+      Assembles insertion cards and direction cards into a structured audit report without reproducing the source artifact, validated by a mandatory multi-criteria gate.
+  * Tool_Presentation_Mode_Declaration_Gate
+      Declares tool presentation mode (e.g., native vs. Code Mode) at preset mount time and fails early if required runtime dependencies are absent.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 1337]
+  ## Art and Design (299)
+      - Product Photography Workflow Guide Generator  (sc=28)
+      - Wireframe Design Plan Generator for User Flows  (sc=28)
+      - Photo Restoration and Upscaling Workflow Guide  (sc=28)
+      - Christmas Monster Portrait Mashup Generator  (sc=28)
+      - Miniature Clone Portrait Generator  (sc=28)
+      - User Persona Document Generator for UI/UX Design  (sc=27)
+      - Banner Layout Design Prompt Using F-Pattern Research  (sc=26)
+      - Aging Progression Portrait Grid Generator  (sc=26)
+      - Natural Portrait Photography With Facial Preservation  (sc=26)
+      - Graphic Design Strategy for Digital Products  (sc=26)
+      - Macro Photography Miniature Workers Concept Prompt  (sc=25)
+      - Minimal Felt-Tip Pen Sketch Generator for Midjourney  (sc=25)
+      - Vintage Corporate Editorial Illustration Generator  (sc=25)
+      - Cinematic Tablet Mockup Generator  (sc=25)
+  ## Marketing (153)
+      - Newsletter Template Builder for Multiple Issues  (sc=33)
+      - Product Description Writer for E-Commerce  (sc=33)
+      - Abandoned Cart Recovery Email Sequence Generator  (sc=31)
+      - Lead Nurturing Email Sequence Generator  (sc=31)
+      - Product Page Conversion Optimization Consultant  (sc=31)
+      - Content Analysis Strategy Generator  (sc=30)
+      - Press Release Generator for Product Launches  (sc=30)
+      - Behavioral Email Automation Strategy Builder  (sc=30)
+      - Webinar Outline Generator for Lead Generation  (sc=30)
+      - Welcome Email Series Builder for New Subscribers  (sc=30)
+      - Email Automation Workflow Blueprint Generator  (sc=30)
+      - B2B Whitepaper Outline Generator for Lead Generation  (sc=30)
+      - Twitter Thread Hook Generator  (sc=30)
+      - Newsletter Story Introduction Writer  (sc=29)
+  ## SEO (118)
+      - 301 Redirect Mapping Generator for Website Migrations  (sc=33)
+      - SEO Blog Article Writer With Keyword Optimization  (sc=32)
+      - SEO Blog Post Writer With Keyword Integration  (sc=31)
+      - Meta Description Generator for SEO  (sc=31)
+      - Video Schema Markup Implementation Guide for SEO  (sc=31)
+      - SEO 404 Error Monitoring and Redirect Workflow  (sc=31)
+      - Google Keyword Planner Research Guide Generator  (sc=30)
+      - Link Building Strategy Guide Generator for SEO  (sc=30)
+      - Link Building Strategy Prompt for SEO  (sc=30)
+      - Local Citation Building Strategy for SEO  (sc=30)
+      - Blog Post SEO Checklist Generator  (sc=30)
+      - SEO Article Writer Prompt for ChatGPT and Claude  (sc=29)
+      - Infographic Content Plan for Link Building  (sc=29)
+      - Internal and External Link Strategy Builder  (sc=29)
+  ## Operations (111)
+      - User Journey Map Generator for UX Design  (sc=34)
+      - E-Commerce Checkout Flow Design Prompt  (sc=33)
+      - Troubleshooting Workflow Generator for Support Teams  (sc=32)
+      - CRM Data Update Process Template  (sc=32)
+      - Time Tracking Software Implementation Plan Prompt  (sc=32)
+      - Solve Workflow Bottlenecks With Theory of Constraints  (sc=32)
+      - Asana Project Management Strategy Builder  (sc=31)
+      - Kanban Board Setup Guide for Task Management  (sc=31)
+      - Content Upload Checklist Generator for Quality Control  (sc=30)
+      - Knowledge Base Content Calendar Builder  (sc=30)
+      - Project Workflow Optimization Guide Generator  (sc=30)
+      - Project Task Breakdown and Prioritization Table  (sc=29)
+      - Product Development Timeline Planner Prompt  (sc=29)
+      - Design Team Performance Metrics  (sc=29)
+  ## Coding (102)
+      - Data Flow Tracing Prompt for Code Analysis  (sc=37)
+      - Full-Stack Software Architecture Code Generator  (sc=34)
+      - JSON Structure Conversion Prompt  (sc=34)
+      - User Registration Flow Design Prompt  (sc=32)
+      - Full-Stack Software Architecture Code Generator  (sc=31)
+      - Bug Fix Workflow Design Prompt for Development Teams  (sc=31)
+      - Image Optimization Roadmap for Web Performance  (sc=31)
+      - Code Breakdown Explainer Prompt for ChatGPT  (sc=31)
+      - Build Checkout Pages with React and Stripe  (sc=31)
+      - Build Product Prototypes With React and TypeScript  (sc=30)
+      - Mobile App Development Guide for Solopreneurs  (sc=30)
+      - Annotation Guide Builder for Data Labeling Projects  (sc=30)
+      - Build API Polling System  (sc=29)
+      - Job Application Tracker Dashboard Builder  (sc=29)
+  ## Human Resources (102)
+      - Software Training Manual Generator Prompt  (sc=32)
+      - Employee Disengagement Diagnostic Framework Prompt  (sc=31)
+      - Onboarding Learning Path Builder for New Hires  (sc=31)
+      - Employee Exit Survey Builder  (sc=30)
+      - Time Management Training Program Builder  (sc=30)
+      - Employee Background Verification Template Builder  (sc=29)
+      - Buddy System Framework for Employee Onboarding  (sc=29)
+      - Identify Onboarding Gaps  (sc=29)
+      - Employee Learning Path Design Prompt  (sc=29)
+      - Employee Empowerment Plan With Situational Leadership  (sc=29)
+      - Work-Life Balance Strategy Builder for HR Teams  (sc=28)
+      - Welcome Video Script Generator for New Hire Onboarding  (sc=28)
+      - Employee Performance Review System Generator  (sc=28)
+      - Recruitment Automation Workflow Builder for Marketing  (sc=28)
+  ## Writing (81)
+      - Editorial Writing Prompt With Dependency Grammar  (sc=33)
+      - Document Layout & Structure Editor Prompt  (sc=33)
+      - Story Subplot Integration Builder  (sc=33)
+      - Text Proofreading Coach  (sc=32)
+      - Content Structure Analysis Prompt  (sc=31)
+      - Avoid Duplicate Content in Rewrites  (sc=31)
+      - Technical Article Series Generator With Dependency Grammar  (sc=31)
+      - Alternative Storyline Generator for Fiction Analysis  (sc=31)
+      - Storytelling Techniques Prompt for Narrative Writing  (sc=31)
+      - UI Text and Microcopy Generator  (sc=30)
+      - Genre-Blending Story Ideas Generator  (sc=30)
+      - TED-Style Speech Structure Generator  (sc=30)
+      - Video Script Outline Generator for Engaging Content  (sc=30)
+      - E-Book Writing Prompt for Multi-Level Audiences  (sc=29)
+  ## Education (68)
+      - Educational Microlearning Module Builder  (sc=34)
+      - Essay Outline Generator for Academic Writing  (sc=32)
+      - Gamified Data Analysis Course Builder Prompt  (sc=32)
+      - Personalized Language Learning Path Generator  (sc=30)
+      - Research Paper Outline Generator  (sc=29)
+      - Custom Learning Path Generator for Any Topic  (sc=29)
+      - Self-Publishing Guide Prompt for Authors  (sc=29)
+      - Plagiarism Detection and Source Attribution Checker  (sc=28)
+      - Course Structure Builder With Completion Tracking  (sc=28)
+      - Blog Launch Strategy Planner for Side Hustles  (sc=28)
+      - Music Lesson Plan and Marketing Strategy Builder  (sc=28)
+      - Interactive Lesson Plan Generator With 15 Activities  (sc=28)
+      - Adaptive Learning Pathways Prompt for Education  (sc=28)
+      - Note-Taking Guide Generator for Students  (sc=28)
+  ## Productivity (54)
+      - Time Multiplier Challenge Builder for Productivity  (sc=33)
+      - Digital Planner Design Guide for Solopreneurs  (sc=32)
+      - Precise Cooking Recipe Generator for ChatGPT  (sc=31)
+      - Low-Calorie Meal Recipe Generator for Any Ingredients  (sc=29)
+      - Daily Gratitude Journal Entry Prompt for ChatGPT  (sc=29)
+      - Bullet Journaling Productivity System Guide  (sc=29)
+      - Gratitude Journaling Habit Builder for ChatGPT  (sc=29)
+      - Daily To-Do List Generator for Solopreneurs  (sc=29)
+      - Note-Taking System Design Prompt for Digital Apps  (sc=29)
+      - Group Brainstorming Session Facilitator Prompt  (sc=28)
+      - Personal Mission Statement Template Builder  (sc=28)
+      - AI Integration Plan Generator for Professionals  (sc=28)
+      - Deep Work Implementation Plan Generator  (sc=28)
+      - PowerPoint Presentation VBA Generator for ChatGPT  (sc=27)
+  ## Strategy (39)
+      - Analyze Sourcing Network Opportunities  (sc=30)
+      - Gig Economy Service Launch Strategy Builder  (sc=30)
+      - Business Name Generator Prompt for ChatGPT  (sc=30)
+      - Product Feature Generator Prompt for Innovation  (sc=30)
+      - Online Store Launch Plan Generator  (sc=29)
+      - Subscription Service Launch Plan Builder  (sc=28)
+      - Joint Venture Management Plan Generator  (sc=28)
+      - Market Segment Value Proposition Generator  (sc=28)
+      - 12-Week Business Roadmap Generator  (sc=28)
+      - Investor Pitch Deck Creator Prompt for ChatGPT  (sc=27)
+      - Plugin and Extension Development Guide for Solopreneurs  (sc=27)
+      - Online Side Hustle Strategy Builder  (sc=27)
+      - Buyer Persona Builder Prompt for ChatGPT  (sc=27)
+      - Brand Positioning Statement Generator  (sc=27)
+  ## Sales (37)
+      - Cold Email Template Generator for B2B Outreach  (sc=32)
+      - Sales Pitch Writer for Product and Service Offerings  (sc=30)
+      - Lead Nurturing Workflow Builder for Marketing Teams  (sc=29)
+      - Automated Follow-Up System for Inactive Leads  (sc=29)
+      - Deal Negotiation Tactics Prompt for Any Industry  (sc=29)
+      - Client-Tailored Sales Proposal Generator  (sc=29)
+      - Identify Strategic Upsell Opportunities  (sc=29)
+      - Sales Pitch Generator for Products and Services  (sc=29)
+      - Cold Email Template Coach  (sc=28)
+      - Price Negotiation Strategy Framework Builder  (sc=28)
+      - Proposal Optimization Coach  (sc=28)
+      - Educational Program Follow-Up Email Sequence Builder  (sc=27)
+      - Sales Follow-Up Sequence Generator With SPIN Selling  (sc=27)
+      - Conflict Resolution Sales Training Prompt  (sc=27)
+  ## Customer Service (35)
+      - FAQ Article Generator Using Dependency Grammar  (sc=33)
+      - Automated Onboarding Support Flow Builder  (sc=33)
+      - Automated Refund Processing Script Generator  (sc=31)
+      - In-App Onboarding Tooltip Writer for SaaS Products  (sc=31)
+      - Onboarding Chatbot Conversation Flow Designer  (sc=30)
+      - Customer Feedback Response Template Builder  (sc=30)
+      - Follow-Up Email After Support Resolution  (sc=30)
+      - Design Review System for Platform Trust and Feedback  (sc=29)
+      - User Onboarding Flow Designer Prompt  (sc=29)
+      - Chatbot-to-Human Handoff Script Generator  (sc=28)
+      - Social Media Customer Service Protocol Builder  (sc=27)
+      - Product Review Request Strategy Generator  (sc=27)
+      - Audit Knowledge Base Article Accuracy  (sc=27)
+      - Chatbot Security and Data Privacy Guide Generator  (sc=26)
+  ## Finance (29)
+      - Crisis Cash Flow Survival Protocol Generator  (sc=29)
+      - Liquidity Strategy Recommendation Prompt  (sc=28)
+      - Grant Proposal Workflow and Collaboration Protocol  (sc=28)
+      - Backtesting Strategy Development Prompt for Trading  (sc=28)
+      - Subscription Spending Audit Prompt for ChatGPT  (sc=27)
+      - Loan Repayment Cash Flow Gap Analysis Prompt  (sc=27)
+      - Financial Forecasting Tool Selection Prompt  (sc=27)
+      - Grant Proposal Writing Prompt for Funding Applications  (sc=27)
+      - Tax Summary Report Generator Prompt for ChatGPT  (sc=27)
+      - No-Spend Challenge Builder Prompt for ChatGPT  (sc=26)
+      - Inheritance Tax Impact Assessment and Planning  (sc=26)
+      - Sinking Fund Strategy Builder  (sc=25)
+      - Personal Financial Goal Setting and Budget Planner  (sc=25)
+      - Contract Payment Cash Flow Projection Builder  (sc=25)
+  ## Legal (29)
+      - Business Registration Legal Checklist Prompt  (sc=29)
+      - Contract Redline Analysis Prompt  (sc=27)
+      - Return Policy Generator for E-Commerce Compliance  (sc=26)
+      - Conflict of Interest Policy Builder  (sc=26)
+      - Open-Source Software Compliance Policy Generator  (sc=26)
+      - Final Settlement Checklist Generator for HR Compliance  (sc=26)
+      - Contract Amendment Drafting Prompt for Attorneys  (sc=26)
+      - Virtual Assistant Contract Template Generator  (sc=26)
+      - GDPR Compliance Checklist Generator for Organizations  (sc=25)
+      - Client Agreement Drafting for Ghostwriting Projects  (sc=25)
+      - Statement of Work Generator for Contract Drafting  (sc=25)
+      - Legal Affidavit Draft Generator for ChatGPT  (sc=25)
+      - E-Commerce Return Policy Generator  (sc=24)
+      - Affiliate Disclosure Statement Generator  (sc=24)
+  ## Real Estate (28)
+      - Real Estate Lead-Generating Website Design Prompt  (sc=31)
+      - Property Staging Strategy With Memory Anchor Prompts  (sc=30)
+      - Buyer Conversion Script Generator for Real Estate Agents  (sc=28)
+      - Spare Room Rental Guide Builder for Solopreneurs  (sc=28)
+      - Zero Down Real Estate Deal Structuring Prompt  (sc=26)
+      - Welcome Book Outline Generator for Vacation Rentals  (sc=26)
+      - Tenant Acceptance Letter Generator  (sc=26)
+      - Late Rent Policy Generator for Landlords  (sc=26)
+      - Lease Renewal Letter Generator for Property Managers  (sc=26)
+      - Direct Mail Campaign Planner for Real Estate Agents  (sc=25)
+      - Real Estate Video Content Strategy Prompt  (sc=25)
+      - Inherited Tenant Introduction Letter Generator  (sc=25)
+      - Normal Wear Guidelines for Rental Properties  (sc=25)
+      - Property Preparation Checklist Generator for Rentals  (sc=25)
+  ## Data Analysis (21)
+      - CSV Deduplication Workflow Prompt for ChatGPT  (sc=34)
+      - Load Dataset With Pandas Prompt for ChatGPT  (sc=31)
+      - Remove Duplicate Rows – Python Pandas Data Cleaning  (sc=30)
+      - Reshape Wide-Format Data to Long-Format Prompt  (sc=30)
+      - Customer Segmentation by Purchase Behavior Prompt  (sc=30)
+      - Sentiment Analysis Model Builder for NLP Projects  (sc=29)
+      - Bar Chart Code Generator for Data Visualization  (sc=28)
+      - Identify Statistical Outliers Using Tukey&#x27;s Fences  (sc=27)
+      - Line Chart Generator Prompt for Data Visualization  (sc=27)
+      - SQL Query Optimization Prompt for Database Performance  (sc=27)
+      - Inventory Report Generator for Stock Analysis  (sc=26)
+      - Survey Feedback Standardization Script Builder  (sc=25)
+      - Churn Analysis and Retention Strategy Prompt  (sc=25)
+      - Educational Data Dashboard Builder Prompt  (sc=25)
+  ## Research (11)
+      - Comparative Analysis Prompt for ChatGPT and Claude  (sc=32)
+      - Text Summarization Prompt With Structured Output  (sc=30)
+      - Book Analysis Summary Generator  (sc=29)
+      - Newsletter Summarization Prompt for ChatGPT  (sc=28)
+      - Customer Persona Builder for Market Segmentation  (sc=27)
+      - Big Data Market Research Guide Generator  (sc=27)
+      - User Journey Map Creator for UX Research  (sc=25)
+      - Affiliate Partner Research and Evaluation Prompt  (sc=25)
+      - Analyze Competitor Hiring Tactics  (sc=24)
+      - Customer Segmentation Model Builder Prompt  (sc=24)
+      - Academic Literature Search and Summary Prompt  (sc=23)
+  ## Audio (11)
+      - Song Melody Composer Prompt for ChatGPT  (sc=30)
+      - Song Chord Progression Generator for Any Verse Type  (sc=29)
+      - Audio Production Step-by-Step Guide Generator  (sc=29)
+      - Podcast Episode Outline Generator  (sc=29)
+      - Joe Rogan-Style Podcast Script Generator  (sc=28)
+      - Song Structure Builder for Musicians and Composers  (sc=27)
+      - Podcast Series Generator With Episode Scripts  (sc=26)
+      - Podcast Production Plan Generator for ChatGPT  (sc=25)
+      - Podcast Plan Generator  (sc=25)
+      - Music Royalty Earnings Guide Generator  (sc=23)
+      - Thought Leadership Podcast Launch Plan Generator  (sc=23)
+  ## Careers (8)
+      - Virtual Assistant Career Launch Guide Generator  (sc=31)
+      - Career Progression Path Mapper for Any Role or Industry  (sc=29)
+      - LinkedIn Profile Summary Writer  (sc=29)
+      - Career Transition Roadmap Generator for New Roles  (sc=26)
+      - Active Listening Networking Strategy Prompt  (sc=25)
+      - LinkedIn Profile and Company Page Optimization Prompt  (sc=25)
+      - Personal Branding Strategy Guide for Job Seekers  (sc=24)
+      - Industry Association Membership Strategy Prompt  (sc=23)
+  ## Video (1)
+      - Closed Caption Creation Guide for Video Accessibility  (sc=26)
+
+================================================================================
+THIN CATEGORY: Interactive_Narrative&Creative_Fiction_Engine  (existing skills: 10)
+DESC: Execution layer for structured interactive storytelling systems. Governs world-rule enforcement, arc planning, round-based narrative generation, embodied writing constraints, and character state tracking across multi-session collaborative fiction workflows. Typically pairs with Persona&Narrative_Syn
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Visceral_Writing_Engine
+      Enforces embodied sensory writing by replacing abstract emotion descriptors with somatic anchors and environment-based signals, with genre-conditional tolerance rules.
+  * Cliche_Blacklist_Filter
+      Scans narrative output for blacklisted clichéd phrases and blocks their use before any text is emitted.
+  * Matrix_Setting_Generator
+      Generates 3 differentiated world-setting options using a rule-type × ending-goal matrix, each with defined rules, foreshadowed ending, and cost.
+  * Trope_Fusion_Researcher
+      Searches genre-specific tropes, injects a core theme, defines a protagonist advantage, and fuses conflicting elements into innovative premise options.
+  * Arc_Architect
+      Plans story arc structure by allocating chapters to narrative stages and reserving a ratio of adaptive nodes triggered by story-state conditions.
+  * Logic_Lock_Gate
+      Scans user input to extract and lock story parameters from a checklist, and implicitly embeds any missing parameters in subsequent plot options rather than halting to ask.
+  * Chapter_Narrative_Engine
+      Executes chapter-level story progression using a fixed round rhythm formula with mandatory state-tracking settlement at each chapter close.
+  * Fractal_Narrative_Engine
+      Executes per-round immersive scene rendering with entropy-gated narrative collapse, 70/30 conflict structure, information gap planting, and time-rule-branched option generation.
+  * Character_Status_Tracker
+      Maintains a per-character status ledger with threshold-gated narrative effects triggered by entropy and resonance metric values.
+  * World_Scene_Config_Generator
+      Generates a complete agent world scene specification from a natural language premise by loading schema references and applying design pattern constraints.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 58]
+  ## Writing (41)
+      - Novel Continuation Prompt for ChatGPT and Claude  (sc=31)
+      - Fiction Scene Generator Prompt for ChatGPT  (sc=30)
+      - Script Character Development Prompt for ChatGPT  (sc=30)
+      - Book Chapter Breakdown Generator  (sc=30)
+      - Short Story Generator With Unlikely Heroes  (sc=29)
+      - Immersive Setting Description Generator  (sc=29)
+      - Descriptive Writing Enhancement Prompt  (sc=29)
+      - Visionary Manifesto Generator in Orwell&#x27;s Style  (sc=28)
+      - Character-Driven Story Concept Generator  (sc=28)
+      - Character-Driven Dialogue Generator for Fiction Writing  (sc=27)
+      - Short Story Generator With Unlikely Heroes  (sc=27)
+      - Novel Storyline Framework Generator for Fiction Writers  (sc=27)
+      - Story Genre Transformation Prompt  (sc=27)
+      - Character Monologue Generator for Fiction Writers  (sc=27)
+  ## Art and Design (8)
+      - Luxury Automotive Campaign Image Prompt  (sc=21)
+      - Cinematic Light Portrait Generator  (sc=19)
+      - Minimalist Landscape Painting Generator  (sc=17)
+      - Product Photography Prompt With Natural Lighting  (sc=17)
+      - Macro Flower Center Illustration Prompt  (sc=16)
+      - Character Avatar Generator with Custom Styles  (sc=16)
+      - Luxury Perfume Bottle Photography Prompt  (sc=16)
+      - Street Art Stencil Mural Generator  (sc=14)
+  ## Marketing (3)
+      - Scarcity-Driven Marketing Copy Generator  (sc=28)
+      - Affiliate Marketing Hooks Generator  (sc=23)
+      - Social Media Content Calendar Planner Prompt  (sc=23)
+  ## Education (3)
+      - Language Learning Plan Generator  (sc=26)
+      - Character Education Plan Builder for Homeschooling  (sc=24)
+      - Memory Enhancement Program Builder Prompt  (sc=23)
+  ## Finance (1)
+      - Trading Playbook Creator for Systematic Trading Rules  (sc=32)
+  ## Coding (1)
+      - React Branding App Builder Prompt  (sc=26)
+  ## Productivity (1)
+      - Automate Repetitive Tasks Prompt for Solopreneurs  (sc=23)
+
+================================================================================
+THIN CATEGORY: Minimalist_Entrepreneurship_Execution  (existing skills: 11)
+DESC: Execution layer for the minimalist entrepreneur journey: covers idea validation before building, minimum viable product construction through manual-first stages, first customer acquisition via concentric outreach circles, and initial pricing determination. Assumes a validated community starting poin
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Idea_Validation_Engine
+      Evaluates whether a business idea is worth pursuing by sequencing problem definition, manual proof-of-concept, payment commitment thresholds, and signal-based verdict routing.
+  * MVP_Build_Protocol
+      Guides building a minimum viable product through three sequential stages — manual, processized, productized — with scope-reduction gates at each transition.
+  * First_Customer_Acquisition_Engine
+      Structures early customer outreach across three concentric circles — personal network, community, cold strangers — with gated progression and a deferred launch condition.
+  * Minimalist_Pricing_Engine
+      Determines initial price point by routing between cost-based and value-based models, applying a mandatory non-zero pricing rule, and computing the customer count needed for financial independence.
+  * Content_Led_Marketing_Engine
+      Builds a content marketing plan sequenced through a five-stage customer funnel and three content levels, with a deferred paid advertising gate.
+  * Sustainable_Growth_Governance
+      Evaluates spending, hiring, and fundraising decisions through profitability-first rules, a sequenced cost-cutting protocol, and a default-alive runway test.
+  * Company_Values_Architect
+      Elicits genuine company values through four diagnostic questions, enforces a story-over-slogan format rule, and outputs values with anti-patterns and hiring/operational applications.
+  * Minimalist_Decision_Reviewer
+      Audits any business decision or plan against eight minimalist entrepreneur dimensions and routes to a three-way verdict with a minimum-viable alternative and a this-week validation action.
+  * Product_Build_Planning_Protocol
+      Generates a structured build plan for {INITIAL_VERSION} of a product covering scope, technical approach, complexity tier, dependencies, and product outline.
+  * Technical_Collaboration_Conduct_Protocol
+      Enforces five interaction behavior rules for a technical executor working under a non-technical decision authority.
+  * Community_Business_Discovery_Engine
+      Guides users through a structured self-audit to identify, evaluate, and shortlist viable communities as the foundation for a minimalist business.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 1000]
+  ## Marketing (331)
+      - Social Media Campaign Strategy Builder Prompt  (sc=37)
+      - Sales Copy Generator for Landing Pages  (sc=35)
+      - Tweet Writing Coach  (sc=35)
+      - Marketing Funnel Ideas Generator (AARRR Framework)  (sc=34)
+      - LinkedIn Funnel Blueprint Generator for ChatGPT  (sc=33)
+      - Social Media Campaign Strategy Builder Prompt  (sc=33)
+      - Social Media Strategy Builder for Brand Growth  (sc=33)
+      - LinkedIn Content Ideas Generator for Engagement  (sc=33)
+      - Social Media Ad Copy Generator for Multiple Platforms  (sc=32)
+      - Ecommerce Marketing Prompt Generator for ChatGPT  (sc=32)
+      - Sales Funnel Builder Prompt for ChatGPT  (sc=32)
+      - Social Media Strategy Builder Prompt  (sc=32)
+      - Social Media Content Calendar Prompt for ChatGPT  (sc=32)
+      - Reddit Content Ideas Generator for Organic Growth  (sc=32)
+  ## Strategy (207)
+      - Evaluate Business Idea Viability Prompt  (sc=34)
+      - Solopreneur Blog Monetization Plan Generator  (sc=34)
+      - Product Prototyping and Testing Process Builder  (sc=33)
+      - AI Business Ideas Generator for Solopreneurs  (sc=32)
+      - Handmade Craft Business Plan & Launch Guide  (sc=32)
+      - $10K MRR Startup Roadmap Builder  (sc=32)
+      - $10K MRR Startup Roadmap Builder  (sc=32)
+      - First Customer Acquisition Ideas Generator  (sc=32)
+      - First Customer Acquisition Ideas Generator  (sc=32)
+      - Pricing Optimization Strategy Prompt for ChatGPT  (sc=32)
+      - Pricing Perception Analysis  (sc=32)
+      - Sell Artwork Online Business Plan Generator  (sc=31)
+      - Business Idea Generator From Skills and Resources  (sc=31)
+      - Business Scaling Roadmap to $100M ARR  (sc=31)
+  ## Sales (78)
+      - Personalized Lead Engagement Content Strategy Prompt  (sc=32)
+      - Sales Funnel Leakage Analysis Prompt  (sc=31)
+      - Automated Review Follow-Up System Builder  (sc=31)
+      - Personalized Lead Engagement Content Strategy Prompt  (sc=31)
+      - Cold Email Template Generator for B2B Outreach  (sc=30)
+      - Influencer Outreach Message Generator  (sc=30)
+      - Social Selling Strategy Generator for LinkedIn & Twitter  (sc=30)
+      - Lead Generation Tool Recommendation Prompt  (sc=30)
+      - Sales Funnel Leakage Analysis Prompt  (sc=30)
+      - Sales Follow-Up Sequence Generator With SPIN Selling  (sc=30)
+      - Targeted Sales Strategy Generator for Revenue Growth  (sc=30)
+      - Sales Pitch Writer for Product and Service Offerings  (sc=30)
+      - Cold Email Template Coach  (sc=29)
+      - Affiliate Partnership Cold Outreach Email Generator  (sc=29)
+  ## Customer Service (52)
+      - Onboarding FAQ Generator for New Customer Journey  (sc=34)
+      - Social Media Comment Response Generator  (sc=34)
+      - Customer Review and Backlink Incentive System Builder  (sc=31)
+      - FAQ Section Generator for Products and Services  (sc=30)
+      - Customer Onboarding Checklist Builder  (sc=30)
+      - Customer Outage Response Templates for Live Chat  (sc=30)
+      - Product FAQ Generator for Customer Support Teams  (sc=29)
+      - Customer Onboarding Checklist Builder  (sc=29)
+      - Onboarding Notification Sequence Writer  (sc=29)
+      - Customer Outage Response Templates for Live Chat  (sc=29)
+      - Social Media Comment Response Generator  (sc=29)
+      - Personalized Fan Reply Generator for Influencers  (sc=29)
+      - Social Media Comment Automation Prompt for ChatGPT  (sc=28)
+      - Onboarding FAQ Generator for New Customer Journey  (sc=28)
+  ## Research (44)
+      - Recursive Research Iteration Prompt for ChatGPT  (sc=30)
+      - Customer Persona Role-Play Interview Prompt  (sc=29)
+      - Validate SaaS Business Ideas From User Complaints  (sc=29)
+      - Competitor Digital Marketing Analysis Prompt  (sc=28)
+      - Competitor Analysis Prompt for Digital Marketing  (sc=28)
+      - Target Market Segmentation Analyzer  (sc=28)
+      - Validate SaaS Business Ideas From User Complaints  (sc=28)
+      - Research Emerging Market Trends Prompt for ChatGPT  (sc=28)
+      - Customer Needs and Preferences Assessment Prompt  (sc=27)
+      - Social Media Sentiment Analysis for Investment Research  (sc=27)
+      - Customer Needs and Preferences Assessment Prompt  (sc=26)
+      - Market Segmentation Strategy Evaluator  (sc=26)
+      - Customer Pain Point Analysis Prompt  (sc=26)
+      - High-Margin Dropshipping Category Research Prompt  (sc=26)
+  ## SEO (44)
+      - Customer Journey SEO Enhancement Plan Builder  (sc=29)
+      - Customer Journey SEO Enhancement Plan Builder  (sc=28)
+      - SEO Link Building Strategy Plan Generator  (sc=27)
+      - Social Media Strategy for Local SEO Visibility  (sc=27)
+      - XML Sitemap Builder Prompt for SEO  (sc=27)
+      - Seasonal SEO Campaign Builder for Holidays and Events  (sc=26)
+      - Programmatic SEO Content System Builder  (sc=26)
+      - SEO-Optimized Blogging Strategy Planner  (sc=26)
+      - Blog Content Calendar Planner Prompt  (sc=26)
+      - Programmatic SEO Strategy Builder  (sc=26)
+      - Community Event and Contest Planning for Link Building  (sc=26)
+      - Social Media SEO Link Building Strategy Generator  (sc=26)
+      - Website User Engagement Optimization Strategy  (sc=26)
+      - Multichannel Marketing Strategy Prompt for SEO  (sc=25)
+  ## Finance (43)
+      - Crisis Cash Flow Survival Protocol Generator  (sc=30)
+      - First-Year Financial Projections Generator  (sc=30)
+      - Passive Income Strategy Builder Prompt for ChatGPT  (sc=29)
+      - Analyze VC Trends for Fundraising  (sc=28)
+      - Portfolio Performance Tracker for Investors  (sc=28)
+      - Personal Finance Planning Workflow Generator  (sc=28)
+      - Financial Goal-Setting Prompt for Self-Employed  (sc=28)
+      - Recommend Budgeting Methods Prompt for ChatGPT  (sc=27)
+      - Cryptocurrency Performance Analysis Prompt  (sc=27)
+      - Passive Income Strategy Builder Prompt for ChatGPT  (sc=27)
+      - Portfolio Rebalancing Strategy Prompt  (sc=25)
+      - Student Loan Payoff Calculator and Optimizer Prompt  (sc=25)
+      - Daily Spending Tracker With Emotional Awareness  (sc=24)
+      - Cost Cutting Recommendations Prompt for Business Expense  (sc=24)
+  ## Productivity (42)
+      - Collaborative Thinking Partner Prompt for ChatGPT  (sc=31)
+      - Honest Idea Feedback Generator for Solopreneurs  (sc=31)
+      - Jobs to Be Done App Idea Generator  (sc=29)
+      - Business Problem Solving Prompt for Strategic Ideas  (sc=29)
+      - Reverse Brainstorming Prompt for Problem Solving  (sc=29)
+      - Marketing Task Prioritizer by Impact and Revenue Value  (sc=29)
+      - Viral Side-Project Marketing Ideas Generator  (sc=28)
+      - Contrarian Content Ideas Generator Prompt  (sc=28)
+      - Reverse Brainstorming Prompt for Problem Solving  (sc=28)
+      - Daily Gratitude Journal Entry Prompt for ChatGPT  (sc=28)
+      - Digital Product Idea Generator for Solopreneurs  (sc=27)
+      - Content Idea Generator for Digital Marketing  (sc=27)
+      - Marketing Solutions Generator for Solopreneurs  (sc=27)
+      - Pomodoro Technique Learning Planner for ChatGPT  (sc=27)
+  ## Human Resources (36)
+      - Candidate Rejection Feedback Template Generator  (sc=32)
+      - Workplace Communication Skills Prompt for ChatGPT  (sc=30)
+      - Job Interview Practice and Preparation Prompt  (sc=30)
+      - New Hire Welcome Kit Planner  (sc=29)
+      - Campus Hiring Strategy Prompt  (sc=28)
+      - Candidate Application Red Flag Analysis Prompt  (sc=28)
+      - Workplace Community Building Program Design Prompt  (sc=26)
+      - Remote Onboarding Tools Analysis Prompt  (sc=26)
+      - First-Week Onboarding Checklist Prompt for ChatGPT  (sc=26)
+      - Leadership Development Plan Prompt for Business Owners  (sc=26)
+      - Situational Leadership Adaptation Plan Builder  (sc=25)
+      - Employee Stress Management Resource Guide Builder  (sc=25)
+      - Interview Questions Generator for Job Roles  (sc=25)
+      - Employee Onboarding Program Designer Prompt  (sc=25)
+  ## Real Estate (27)
+      - Below Market Property Acquisition System  (sc=29)
+      - Property Marketing Plan Prompt for Rental Properties  (sc=29)
+      - Residential Property Valuation Analysis Prompt  (sc=28)
+      - Rental Market Pricing Analysis Prompt  (sc=27)
+      - Neighborhood Quality Assessment for Home Buyers  (sc=27)
+      - Real Estate Customer Journey Mapping Prompt  (sc=27)
+      - Room-by-Room Decluttering Plan for Home Staging  (sc=27)
+      - Room-by-Room Decluttering Plan for Home Staging  (sc=27)
+      - Negotiate Property Inspection Objections  (sc=26)
+      - Home Buying Offer Preparation Prompt  (sc=26)
+      - Rental Market Pricing Analysis Prompt  (sc=26)
+      - Real Estate Social Media Campaign Strategy Prompt  (sc=26)
+      - Tenant Acceptance Letter Generator  (sc=26)
+      - Rent Roll Document Generator for Property Portfolios  (sc=26)
+  ## Careers (17)
+      - Virtual Assistant Career Launch Guide Generator  (sc=30)
+      - Cover Letter Writer for Job Applications  (sc=30)
+      - Job Search Platform Comparison by Industry  (sc=28)
+      - Skill-Building Roadmap Generator for Career Growth  (sc=27)
+      - Job Application Follow-Up Strategy Builder  (sc=27)
+      - Job Interview Simulation Coach Prompt  (sc=27)
+      - LinkedIn Networking Strategy Builder  (sc=27)
+      - LinkedIn Profile and Company Page Optimization Prompt  (sc=27)
+      - LinkedIn Recommendation Request Message Generator  (sc=27)
+      - Ride-Share Driver Launch Guide Prompt  (sc=25)
+      - Professional Networking Strategy Builder  (sc=24)
+      - Freelance Platform Launch Strategy Generator  (sc=24)
+      - Harvard-Format Resume Builder Prompt for ChatGPT  (sc=23)
+      - Personal Career Strategy Development Prompt  (sc=22)
+  ## Operations (16)
+      - Alumni Engagement Program Design Prompt  (sc=28)
+      - Project Management Tool Comparison Prompt  (sc=26)
+      - Customer Retention Strategy for CRM Prompt  (sc=26)
+      - Preventive Maintenance Schedule Generator for Tech Teams  (sc=25)
+      - Business Continuity Plan Generator for ChatGPT  (sc=25)
+      - Onboarding Progress Monitoring System Design Prompt  (sc=25)
+      - Social Media Crisis Management Plan Builder  (sc=24)
+      - Affiliate Relationship Management Framework Generator  (sc=24)
+      - Quality Assurance Framework for Dropshipping  (sc=23)
+      - Customer Advocacy Program Builder  (sc=23)
+      - Volunteer Engagement Program Design Prompt  (sc=22)
+      - Knowledge Base Maintenance Automation Strategies  (sc=22)
+      - Mobile Website Optimization Prompt for E-Commerce  (sc=22)
+      - Whistleblower Protection System Implementation Prompt  (sc=21)
+  ## Writing (14)
+      - Social Proof Copy Generator Prompt  (sc=32)
+      - Email Editing Coach for Tone and Audience Fit  (sc=30)
+      - Book Writing Coach Prompt for ChatGPT and Claude  (sc=29)
+      - Book Writing Coach Prompt for ChatGPT and Claude  (sc=29)
+      - Blog Post Idea Generator for Product Marketing  (sc=28)
+      - Product Description Copywriting Prompt  (sc=28)
+      - Product Description Copywriting Prompt  (sc=27)
+      - Brand Story Generator for Mission-Driven Companies  (sc=26)
+      - Brand Story Generator for Mission-Driven Companies  (sc=26)
+      - Brand Story Generator for Mission-Driven Companies  (sc=26)
+      - Gift Guide Writer for Seasonal Shopping Content  (sc=25)
+      - Direct Response Copywriting Prompt  (sc=25)
+      - John Oliver Educational Explainer Prompt  (sc=24)
+      - Product Review Writer for Affiliate Marketing  (sc=22)
+  ## Data Analysis (11)
+      - Student Dropout Prediction Model Builder  (sc=29)
+      - Sales Dashboard Analysis Prompt for Data Insights  (sc=27)
+      - Sales Forecasting Model Builder for Predictive Analytics  (sc=23)
+      - Customer Behavior Analysis Prompt for E-Commerce Data  (sc=23)
+      - Sales Forecasting Prompt for ChatGPT  (sc=22)
+      - Customer Behavior Analysis Prompt for Marketing Strategy  (sc=22)
+      - Sales Forecasting Prompt for ChatGPT  (sc=21)
+      - Employee Happiness Index Report Generator  (sc=21)
+      - Conversion Rate Analysis Prompt  (sc=20)
+      - Social Media Impact on Sales Analysis Prompt  (sc=20)
+      - Customer Lifetime Value Modeling Prompt  (sc=19)
+  ## Education (11)
+      - Post-Program Follow-Up Email Templates for Education  (sc=27)
+      - Personalized Study Schedule Builder for Any Subject  (sc=27)
+      - Course Introduction Script Generator for Online Learning  (sc=25)
+      - Learning Platform Analysis With Taylor Framework  (sc=24)
+      - Personalized Learning Tools Research Prompt  (sc=24)
+      - Student Learning Community Instructions Generator  (sc=23)
+      - Blended Learning Model Design Prompt for Training  (sc=23)
+      - Programming Practice Exercise Generator  (sc=23)
+      - Online Study Group Organizer Prompt for ChatGPT  (sc=22)
+      - Study Schedule Builder Prompt for Time Management  (sc=21)
+      - Sleep-Based Learning Strategy Prompt for ChatGPT  (sc=21)
+  ## Coding (10)
+      - Technical Co-Founder Prompt for Product Development  (sc=30)
+      - Mobile-First Layout Transformation Plan Prompt  (sc=30)
+      - Technical Co-Founder Prompt for Product Development  (sc=29)
+      - App Wireframe Design Prompt for User-Centered UX  (sc=29)
+      - API Integration Strategy Planner for Software Teams  (sc=27)
+      - Inventory Management App Builder Prompt  (sc=26)
+      - Neural Network Debugging Prompt  (sc=26)
+      - Release Notes Writer for Software Updates  (sc=26)
+      - Multilingual Chatbot Implementation Plan Builder  (sc=24)
+      - AI Children&#x27;s Story App Development Plan Generator  (sc=22)
+  ## Legal (8)
+      - Conflict of Interest Policy Builder  (sc=27)
+      - E-Commerce Return Policy Generator  (sc=26)
+      - Trademark Application Risk Analysis Prompt  (sc=25)
+      - Property Disclosure Statement Drafting Prompt  (sc=23)
+      - Privilege Log Generator for Litigation Discovery  (sc=23)
+      - Property Disclosure Statement Drafting Prompt  (sc=22)
+      - Bureaucracy Navigation and Institutional Accountability  (sc=22)
+      - Refund Policy Generator for E-Commerce  (sc=20)
+  ## Art and Design (7)
+      - User Journey Mapping Prompt for Digital Platforms  (sc=34)
+      - User Journey Mapping Prompt for Digital Platforms  (sc=33)
+      - Circular Product Dial Composition Generator  (sc=24)
+      - Product Image Concept Strategy Prompt  (sc=22)
+      - Lifestyle Food Advertisement Visuals  (sc=20)
+      - Premium Watch Landing Page Design Prompt  (sc=15)
+      - Phone-Style Portrait Generator  (sc=15)
+  ## Audio (2)
+      - Podcast Production Plan Generator for ChatGPT  (sc=24)
+      - Thought Leadership Podcast Launch Plan Generator  (sc=22)
+
+================================================================================
+THIN CATEGORY: Structured_Knowledge_Navigation_Architecture  (existing skills: 4)
+DESC: LLM-Integrated Structured Data Navigation Layer: Handles the design of self-describing knowledge files with embedded navigational metadata, two-tier retrieval pipelines, and dual-layer guidance systems that exploit LLM positional bias to enable high-accuracy routing over large structured corpora wit
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Dual_Layer_Knowledge_Navigation_Design
+      Designs a two-layer LLM routing guidance system combining in-file primacy metadata with prompt-level abstraction rules for structured knowledge libraries.
+  * SDSR_Two_Tier_Retrieval_Pipeline
+      Executes a two-tier structured retrieval: scan per-file summary blocks to identify relevant files, then load only matched files' full content for LLM selection.
+  * Flat_Namespace_Wikilink_Knowledge_Organization
+      Organizes a knowledge base as a flat namespace of bidirectionally-linked notes, using pure-link index notes instead of folder hierarchy.
+  * Dual_Column_Personalization_Quality_Standard
+      Enforces asymmetric quality rules for two-column documents where one column preserves source content and the other maps it to a named subject's actual life.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 6]
+  ## Coding (2)
+      - Data Dictionary Generator Prompt for Database Schema  (sc=24)
+      - Logging Implementation Prompt for Production Code  (sc=21)
+  ## Art and Design (2)
+      - Fashion Portrait Photography Generator  (sc=22)
+      - Hyperrealistic Cosplay Portrait Generator  (sc=20)
+  ## Education (1)
+      - Structured Study Guide Generator for Any Subject  (sc=30)
+  ## Legal (1)
+      - Whistleblower Protection System Development Prompt  (sc=22)
+
+================================================================================
+THIN CATEGORY: Strategic_Decision&Adversarial_Thinking  (existing skills: 16)
+DESC: High-level decision analysis and adversarial thinking: probabilistic scenario simulation, second-order effect simulation, first-principles stress-testing, externality quantification, and cognitive-leverage identification. Input is a decision situation or strategy problem; output is a structured anal
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Probabilistic_Outcome_Analysis
+      Probabilistic Decision: Evaluates potential outcomes based on probability and impact weighting rather than binary logic.
+  * Second_Order_Effect_Simulation
+      Chain Reaction Analysis: Simulates long-term consequences and systemic feedback loops triggered by the current action.
+  * Trend_Signal_Detection
+      Identify emerging signals from social media, search trends, and community discussions.
+  * User_Research_Synthesis
+      Aggregate qualitative and quantitative research findings into actionable product insights.
+  * Multi_Criteria_Solution_Matrix
+      Systematic generation of diverse solutions followed by rigorous multi-criteria evaluation matrix.
+  * Deterrence_Inequality_Design_Principle
+      Calibrates intervention parameters by ensuring the expected utility of unwanted behavior minus total intervention cost is strictly less than the expected utility of the desired baseline behavior.
+  * Monetization_Focus_Convergence_Gate
+      Collapses three or more parallel technical pillars into a monetizable core and a deferred roadmap tier before narrative drafting begins.
+  * First_Principles_Anchor
+      Systems Theory Alignment: Maps the current task to universal laws (e.g., Entropy, Feedbacks Loops, Thermodynamics) to ensure structural logic integrity.
+  * Adversarial_Risk_Audit
+      Actively identifies logical gaps, hidden risks, and cognitive biases within the proposed solution or prompt. Focuses on forward-looking risk enumeration in the chosen path — 'what can still go wrong from here?' Distinct from Contrastive_Logic_Simulation&Residual_Validation (which
+  * Hallucination_Probe_Protocol
+      Detects factual hallucination candidates in LLM output by testing consistency across semantically equivalent prompt mutations, flagging claims that produce divergent responses.
+  * Externalities_Quantification
+      Convert intangible costs into evaluable metrics.
+  * Risk_Gap_Analysis
+      Assess if compensation mechanisms are sufficient.
+  * Psychological_Model_Mapping
+      Empathy Alignment: Maps the user prompt to underlying psychological drivers and cognitive biases.
+  * Social_Capital_Checklist_Scorer
+      Scores a multi-item background resource checklist, classifies the result into tiers, and generates life-course attribution analysis based on the score tier.
+  * Specific_Knowledge_Leverage
+      High-Leverage Pivot: Identifies unique insights or 'Specific Knowledge' to maximize output per unit of effort.
+  * Timing_Urgency_Narrative_Anchor
+      Opens a persuasive narrative with a concrete 'why now' timing argument paired with verifiable traction evidence.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 106]
+  ## Strategy (45)
+      - Growth Strategy Generator for Business Expansion  (sc=29)
+      - Risk Mitigation Strategy Framework Generator  (sc=29)
+      - KPI Measurement Strategy Development Prompt  (sc=28)
+      - Business Opportunity Viability Assessment Prompt  (sc=28)
+      - Strategic Risk Vulnerability Assessment Prompt  (sc=27)
+      - Catastrophic Scenario Analysis Prompt for Risk Planning  (sc=27)
+      - Business Risk Analysis Prompt for ChatGPT  (sc=27)
+      - Scenario Planning Prompt for Strategic Foresight  (sc=27)
+      - SWOT Analysis Prompt for Business Strategy  (sc=27)
+      - SWOT Analysis Generator for Business Strategy  (sc=27)
+      - Competitor-Driven Risk Management Strategy Prompt  (sc=26)
+      - Identify Market Gaps  (sc=26)
+      - Product Performance Analysis Prompt  (sc=26)
+      - Product Performance Analysis Prompt  (sc=26)
+  ## Research (22)
+      - Market Risk Assessment Table Generator  (sc=30)
+      - Market Research Analysis Prompt for Business Viability  (sc=28)
+      - Competitive Analysis Table Generator  (sc=27)
+      - Market Feasibility Study Prompt for New Launches  (sc=27)
+      - Market Growth Insights Report Generator  (sc=27)
+      - Competitor Business Strategy Analysis Report Prompt  (sc=26)
+      - Product Review Analysis Generator  (sc=26)
+      - Market Opportunity Identification Prompt  (sc=26)
+      - Market Trend Analysis Report Generator  (sc=26)
+      - Market Gap Analysis Guide for Business Analysts  (sc=25)
+      - Market Opportunity Identification Prompt  (sc=25)
+      - Market Opportunity Identification Prompt  (sc=25)
+      - Customer Persona Research Builder for Business Ideas  (sc=24)
+      - Market Research Study Prompt for ChatGPT  (sc=24)
+  ## Data Analysis (7)
+      - Performance Metrics Strategy Generator  (sc=27)
+      - Lead Generation Metrics Analysis Prompt  (sc=26)
+      - Data Analysis Error Prevention Framework  (sc=26)
+      - Performance Metrics Strategy Generator  (sc=25)
+      - Online Sales Metrics Analysis Prompt for ChatGPT  (sc=23)
+      - Predict Customer Lifetime Value  (sc=23)
+      - Sales Initiative ROI Calculator Prompt  (sc=21)
+  ## Finance (7)
+      - REIT Category Analysis Prompt for Investment Research  (sc=25)
+      - Monthly Cash Flow Forecast Generator  (sc=23)
+      - Financial Forecast Model Generator for Five Years  (sc=23)
+      - Financial Risk Assessment Prompt for Cash Flow Analysis  (sc=22)
+      - Earnings Call Analyzer Prompt for Investment Research  (sc=22)
+      - Franchise Investment Analysis Prompt  (sc=21)
+      - Short-Term Financing Options Planner for Business  (sc=20)
+  ## SEO (7)
+      - SEO SWOT Analysis Prompt for Competitive Positioning  (sc=25)
+      - SEO User Intent Analyzer for Keyword Research  (sc=25)
+      - Competitor Keyword Analysis Prompt for SEO Strategy  (sc=25)
+      - Keyword Audit Strategy for SEO Optimization  (sc=24)
+      - Competitor Traffic Analysis Review Prompt  (sc=24)
+      - Affiliate Keyword Research Report Generator  (sc=23)
+      - SEO Content Gap Analysis and Keyword Research Prompt  (sc=21)
+  ## Legal (5)
+      - Supplier Contract Template Generator for ChatGPT  (sc=25)
+      - Contract Negotiation Points Analysis Prompt  (sc=24)
+      - Risk and Compliance Review Report Generator  (sc=23)
+      - Mediation Position Statement Builder for Attorneys  (sc=21)
+      - Case Law Matrix Generator for Legal Research  (sc=20)
+  ## Real Estate (4)
+      - Diagnose Deal Failure Risks  (sc=25)
+      - Analyze Property Site Selections  (sc=24)
+      - Analyze Real Estate Refinance Decisions  (sc=23)
+      - Analyze Investment Profitability Ratios  (sc=22)
+  ## Productivity (3)
+      - Evaluate Decisions Systematically  (sc=28)
+      - Evaluate Decisions Systematically  (sc=28)
+      - Freelancer Networking Strategy Builder  (sc=24)
+  ## Operations (2)
+      - Risk Register Update Prompt for ChatGPT and Claude  (sc=26)
+      - Organizational Alignment Framework for Hypergrowth  (sc=24)
+  ## Human Resources (2)
+      - Team Feedback Generator for Performance Reviews  (sc=23)
+      - Occupational Stress Assessment Tool Generator  (sc=22)
+  ## Coding (1)
+      - Regression Test List Generator for QA Teams  (sc=24)
+  ## Careers (1)
+      - Freelance Skills Improvement Guide Generator  (sc=21)
+
+================================================================================
+THIN CATEGORY: Software_Architecture&Performance  (existing skills: 11)
+DESC: Architecture design principles, module-boundary definition, dependency-management norms, and performance-optimization strategy for software systems. Operating object is the structural design of a software system; output is architecture decisions, boundary norms, or performance plans, never business 
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Domain_Boundary_Integrity
+      Uses Domain-Driven Design (DDD) logic to identify bounded contexts and prevent 'Leaky Abstractions' between system modules.
+  * Unidirectional_Dependency_Boundary
+      Enforces a strict one-way import rule between two architectural layers, where the consumer layer may import the provider layer but never vice versa, verified by automated test.
+  * Deep_Module_Interface_Design_Heuristics
+      Tests whether a module's complexity earns its interface and whether a proposed seam is real, then applies dependency-injection testability rules.
+  * Live_Terminology_Precision_Discipline
+      Challenges, sharpens, and cross-validates domain terminology against a living glossary the moment imprecision surfaces in conversation.
+  * Trade_off_Matrix_Rationalization
+      Formalizes the decision-making process by explicitly naming what is sacrificed to gain a specific benefit (e.g., consistency vs. availability).
+  * Static_Dynamic_Boundary_Optimization
+      Decision logic for mapping system features to either high-performance native layers or flexible high-level scripting layers.
+  * Terminal_Workflow_Optimization
+      Design efficient command-line workflows and automation scripts for developer productivity.
+  * CI_CD_Pipeline_Design
+      Design automated pipelines for build, test, and deployment processes.
+  * Database_Performance_Tuning_Logic
+      Automated diagnosis of database performance bottlenecks through analysis of slow queries, index usage, and schema design, with prioritized, executable recommendations for optimization.
+  * Physics_Kinetic_Narrative
+      Literary and scientific description based on physical logic. Enforces mass-scaled motion calculation and mandatory inertial lag injection for large-scale objects.
+  * Spatial_Geometry&Immersive_System_Logic
+      Enforces physical coordinates, perspective locking, occlusion rules, and spatial interaction constraints across 2D interface and immersive 3D contexts.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 10]
+  ## Coding (9)
+      - Integration Test Case Generator for Software Systems  (sc=28)
+      - Database Query Optimization Prompt for SQL Performance  (sc=27)
+      - SQL Query Performance Analysis Prompt  (sc=25)
+      - Find Redundant Tables in Database Schema  (sc=25)
+      - Data Archiving Strategy Prompt for Database Design  (sc=23)
+      - Quick-View Product Card UI Design Prompt  (sc=23)
+      - Data Archiving Strategy Prompt for Database Design  (sc=22)
+      - Data Archiving Strategy Prompt for Database Design  (sc=22)
+      - React Rendering Bottleneck Optimizer  (sc=22)
+  ## SEO (1)
+      - Landing Page Schema Markup & SEO Implementation Plan  (sc=22)
+
+================================================================================
+THIN CATEGORY: Commercial_Growth&Acquisition  (existing skills: 10)
+DESC: Converts market signals, brand assets, and audience insight into executable commercial-conversion actions: paid-acquisition optimization, behavioral-nudge design, sales-conversion structure, and cross-cultural localization routing. Input is market or audience data; output is concrete acquisition/con
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Commercial_Conversion&Deal_Structuring
+      Logic for identifying high-intent signals and structuring persuasive commercial proposals.
+  * Community_Trust_Engineering
+      Designs engagement strategies that build long-term community credibility as a prerequisite for commercial conversion. Enforces a value-first gate before any product promotion is introduced.
+  * Visual_Focal_To_Selling_Point_Converter
+      Extracts visual focal points from a brand asset and converts each into audience-specific selling point insights with enforced word-count constraints.
+  * Multi_Angle_Content_Script_Generator
+      Distills core insights from multiple source documents and generates a fixed number of angle-differentiated script outlines with duration and platform constraints.
+  * Tiered_Content_Authority_Engine
+      Selects the appropriate content level based on account stage and authority score, and gates promotional content behind a quantified trust threshold.
+  * Deficiency_Active_Reframing_Protocol
+      Reframes a disclosed capability or team gap as an active, evidence-based pipeline instead of a passive future promise.
+  * Technical_Claim_Translation_Quantification_Gate
+      Requires every technical claim to carry a plain-language business translation and a credibility-tagged quantified benchmark before inclusion.
+  * Algorithmic_Spend&Bidding_Optimization
+      Logic for real-time spend management and search intent mapping to eliminate wasted ad budget.
+  * Behavioral_Nudge_Architecture
+      Logic for selecting and embedding psychologically grounded nudges based on user lifecycle stage, motivation type, and friction point analysis. Enforces an ethical manipulation gate before deployment.
+  * Cultural_Context_Routing_Engine
+      Detects cultural and regional operating context from locale, platform signals, or explicit user declaration, then routes to region-specific strategy modules and enforces cultural exclusion checks on audience-facing output.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 8]
+  ## Marketing (3)
+      - Student Success Story Social Media Post Generator  (sc=24)
+      - LinkedIn Personal Branding Strategy for Solopreneurs  (sc=21)
+      - Social Media Strategy Builder for Multiple Platforms  (sc=21)
+  ## Strategy (2)
+      - Customer Loyalty Program Strategy Framework  (sc=24)
+      - Product Localization Strategy Prompt for Global Markets  (sc=23)
+  ## Data Analysis (2)
+      - Predict Customer Lifetime Value  (sc=23)
+      - CRM Dashboard Framework Design Prompt  (sc=22)
+  ## Human Resources (1)
+      - New Hire Engagement Analysis Using Gallup Q12  (sc=21)
+
+================================================================================
+THIN CATEGORY: RPG&Immersive_World_Systems  (existing skills: 11)
+DESC: Mechanics design for interactive immersive world systems: character-attribute mapping, fate-dice logic, branching-narrative control, combat-value balancing, economic-ecosystem design, and ritual-randomness engines. Core trait is 'rule-driven interactive systems' requiring explicit mechanic rules, no
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Semantic_Attribute_Mapping
+      Convert character background into game attributes.
+  * Fate_Director_Engine
+      Controls random events, plot rhythm, and sensory surprises in interactive narrative and TRPG contexts. Unified engine covering both full narrative fate arcs and lightweight dialogue chaos injection.
+  * Branching_Narrative_Logic
+      Designs and manages branching narratives in interactive stories and TRPG sessions, ensuring logical coherence, consequence propagation, and dynamic dialogue flows.
+  * Sensory_Code_Interaction
+      Generates contextually appropriate sensory feedback responses triggered by command codes within immersive interactive sessions. Provides physical and environmental texture to narrative moments on demand.
+  * Visual_Generation_Trigger
+      Active trigger mechanism that detects narrative moments where a visual representation would enhance immersion, then prompts the image generation pipeline or invites collaborative drawing.
+  * Multi_Agent_Scene_Pressure_Design
+      Designs multi-agent world scenes for emergent behavior by enforcing role pressure, information asymmetry, consequence-bearing actions, and inspectable artifact history.
+  * Soul_Prototype_Architecture
+      Personality prototype construction based on cards and astrology.
+  * Ritual_Randomness_Engine
+      Simulates the randomness and sense of ritual in real physical card drawing.
+  * Combat_Balance_Matrix
+      Combat numerical and experience balance analysis.
+  * Economic_Ecosystem_Design
+      In-game economic system monitoring and design.
+  * Meta_Game_Evolution
+      Game theory and player behavior prediction.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 81]
+  ## Writing (17)
+      - UI Text and Microcopy Generator  (sc=30)
+      - Story Plot Ideas Generator for Fiction Writers  (sc=30)
+      - Video Tutorial Script Generator for Products  (sc=29)
+      - Business Presentation Slide Deck Builder  (sc=28)
+      - Character-Driven Dialogue Generator for Fiction Writing  (sc=27)
+      - Short Story Generator With Narrative Structure  (sc=27)
+      - Persuasive Speech Outline Generator  (sc=27)
+      - Fiction Scene Writer Prompt for ChatGPT and Claude  (sc=26)
+      - Script Dialogue Writer Prompt for Character Scenes  (sc=26)
+      - E-Book Outline and Content Framework Generator  (sc=25)
+      - Movie Scene Script Generator for Film and Video  (sc=25)
+      - Character Dialogue Writer for Scripts and Stories  (sc=25)
+      - Flash Fiction Story Generator  (sc=24)
+      - Investigative Editorial Writing Prompt  (sc=24)
+  ## Marketing (14)
+      - Twitter Thread Hook Generator  (sc=30)
+      - Scarcity-Driven Marketing Copy Generator  (sc=28)
+      - Loyalty Program Design Prompt for ChatGPT & Claude  (sc=27)
+      - Referral Contest Launch Copy Generator  (sc=27)
+      - Draft Referral Program Messages  (sc=26)
+      - Pinterest Ad Copy Generator for ChatGPT  (sc=25)
+      - Cross-Sell Automation Sequence Builder  (sc=25)
+      - Influencer Marketing Storytelling Framework Generator  (sc=24)
+      - Twitter Thread Generator for Brand Visibility  (sc=24)
+      - TikTok Ad Copy Script Generator  (sc=23)
+      - Twitter Ad Copy Generator Prompt  (sc=23)
+      - Empty State UX Design Prompt for E-Commerce  (sc=23)
+      - Elevator Pitch Generator for Business Presentations  (sc=23)
+      - Multichannel Outreach Flow Builder for Marketing Teams  (sc=16)
+  ## Art and Design (14)
+      - Industrial Minimalist Office Interior Design Prompt  (sc=22)
+      - Food Advertisement Grid Generator  (sc=19)
+      - Cinematic Noir Couple Portrait Generator  (sc=19)
+      - Macro Action Ads Prompt for Image AI  (sc=17)
+      - Fantasy Game UI Design Prompt  (sc=17)
+      - Contemporary Spa Interior Design Prompt  (sc=16)
+      - Desert Landscape Photography Prompt  (sc=16)
+      - Celestial Vehicle Visual Generator  (sc=15)
+      - Cyberpunk Pixel Art Street Generator  (sc=15)
+      - Skate Photography Shot Generator  (sc=15)
+      - Music Streaming App Mockup Generator  (sc=14)
+      - Dramatic Fashion Editorial Photoshoot Generator  (sc=14)
+      - Sci-Fi Robot Concept Art Generator  (sc=13)
+      - Game UI Design Screenshot Generator  (sc=13)
+  ## Education (9)
+      - Microlearning Concept Generator for Time-Compressed Learning  (sc=27)
+      - Flexible Scheduling Options Generator for Education  (sc=26)
+      - Badge Reward System Builder for Gamified Learning  (sc=24)
+      - SEO Training Session for Web Developers  (sc=24)
+      - Streak-Based Gamification Design for Learning Goals  (sc=24)
+      - Study Routine Checklist Builder for Students  (sc=23)
+      - Note-Taking System Builder for Students  (sc=23)
+      - Grammar and Punctuation Learning Plan Prompt  (sc=23)
+      - Study Schedule Template Generator for Students  (sc=22)
+  ## Coding (7)
+      - E-Commerce Wishlist Feature Design Prompt  (sc=27)
+      - Performance Test Plan Generator for Stress Testing  (sc=27)
+      - WebGL Landing Page Design Prompt  (sc=26)
+      - Interview Prep App Builder Prompt for React  (sc=25)
+      - Interactive Quiz Application Builder Prompt  (sc=22)
+      - Investment Tracking Dashboard Builder Prompt  (sc=21)
+      - Database Naming Convention Standardization Prompt  (sc=21)
+  ## Customer Service (3)
+      - Self-Service Tutorial Script Generator  (sc=29)
+      - Chat Closing Script Library Builder  (sc=26)
+      - Refund Communication System Builder for Service Recovery  (sc=21)
+  ## Finance (3)
+      - Trading Strategy Research & Analysis Prompt  (sc=29)
+      - Develop Personalized Savings Strategies  (sc=25)
+      - Savings and Investment Allocation Strategy Builder  (sc=22)
+  ## Human Resources (3)
+      - Affordable Recognition Practices for Managers  (sc=27)
+      - Gamified Onboarding System Using Octalysis Framework  (sc=23)
+      - Learning Incentive System Design Prompt  (sc=21)
+  ## Operations (3)
+      - Remote Productivity System Design Prompt  (sc=26)
+      - Dynamic Customer Segmentation Builder  (sc=26)
+      - Onboarding Progress Monitoring System Design Prompt  (sc=25)
+  ## Real Estate (2)
+      - Viral Real Estate Content Generator  (sc=26)
+      - Real Estate Price Trend Analysis Prompt  (sc=20)
+  ## SEO (1)
+      - SEO Blog Post Writer With Keyword Integration  (sc=29)
+  ## Research (1)
+      - Customer Persona Builder for Market Segmentation  (sc=27)
+  ## Sales (1)
+      - Sales Incentive Program Builder for Teams  (sc=26)
+  ## Strategy (1)
+      - Customer Loyalty Program Design Blueprint  (sc=25)
+  ## Legal (1)
+      - Risk Mitigation Plan Builder  (sc=24)
+  ## Productivity (1)
+      - Digital Wellness System Design Prompt  (sc=22)
+
+================================================================================
+THIN CATEGORY: Interactive_Pedagogy&Diagnostic_Systems  (existing skills: 7)
+DESC: Design and execution of interactive learning systems, plus vertical-domain diagnostic triage. Input is learner state or problem situation; output is an adaptive teaching sequence, difficulty-adjustment decision, or diagnostic-triage result. Core trait: dynamically adjusting output based on user resp
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Theme_Manager_Engine
+      Role importation and random attribute expansion.
+  * Transition_Orchestrator
+      Handle smooth dynamic transitions and language switching.
+  * Happiness_Multiplier
+      Contextualization and happiness enhancement for vocabulary learning.
+  * Feynman_Iterative_Teaching_Loop
+      Guides learners through iterative concept simplification cycles using analogy-first explanations, knowledge gap elicitation, and mastery verification.
+  * Stateful_Curriculum_Workspace_Protocol
+      Manages a multi-session teaching workspace by deriving each lesson's zone of proximal development from persisted learning records and mission context.
+  * Diagnostic_Triage_Guide
+      Classifies a described situation into predefined categories and conducts single-question-per-turn elicitation until sufficient information is gathered to either recommend home care or escalate to professional consultation.
+  * Narrative_Domain_Input_Analyzer_Spec
+      Conditionally injects a three-variable input analysis spec for narrative/emotional-domain workflows into the compiled manifest.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 155]
+  ## Education (74)
+      - Feynman Technique Learning Prompt for Complex Concepts  (sc=46)
+      - Data Types Explanation Prompt With Real-World Analogies  (sc=35)
+      - Teaching Strategy Generator for Any Subject  (sc=34)
+      - Complex Topic Explainer Prompt  (sc=33)
+      - Programming Concept Simplifier for Beginners  (sc=33)
+      - Adaptive Learning Module Builder for Online Courses  (sc=31)
+      - Adaptive Learning Module Builder for Online Courses  (sc=31)
+      - Custom Learning Path Generator for Any Topic  (sc=31)
+      - Academic Note Expansion Prompt for Study Materials  (sc=31)
+      - System Explanation Simplifier Prompt  (sc=31)
+      - Complex Topic Explanation Generator  (sc=31)
+      - Case Study Builder for Academic Research  (sc=30)
+      - Interactive Lesson Plan Generator With 15 Activities  (sc=30)
+      - Study Flashcard Generator Prompt for ChatGPT  (sc=30)
+  ## Coding (14)
+      - Algorithm Explainer Prompt for Beginners and Students  (sc=32)
+      - Gmail Add-On Development Prompt for Apps Script  (sc=31)
+      - Debugging Methodology Training Prompt  (sc=31)
+      - Debugging Methodology Training Prompt  (sc=31)
+      - App Tutorial Generator for User Onboarding  (sc=31)
+      - Generate Coding Project Ideas  (sc=28)
+      - Admin Dashboard Generator for React and TypeScript  (sc=28)
+      - Neural Network Debugging Prompt  (sc=26)
+      - Design System Style Guide Generator  (sc=26)
+      - React TypeScript UI Designer and Code Generator  (sc=26)
+      - Platform-Native UI Layout Generator  (sc=26)
+      - Build Product Mockups With Interactive Code  (sc=25)
+      - AI Content Generator Development Guide  (sc=24)
+      - Mobile E-Commerce Navigation Design Prompt  (sc=22)
+  ## Human Resources (13)
+      - Exit Interview Template Generator for Four Scenarios  (sc=26)
+      - Compliance Training Module Designer  (sc=25)
+      - Evidence-Based Feedback Technique Generator  (sc=24)
+      - Manager Engagement Checklist Builder  (sc=24)
+      - Behavior-Driven Compensation Structure Designer  (sc=24)
+      - Post-Exit Talent Pipeline Builder  (sc=24)
+      - Employee Engagement Survey Question Generator  (sc=23)
+      - Employee Motivation and Rewards Framework Designer  (sc=23)
+      - Performance Management System Analysis Prompt  (sc=23)
+      - Leadership Training Program Builder for Organizations  (sc=23)
+      - Employee Training Program Development Prompt  (sc=23)
+      - Leadership Training Program Builder Prompt  (sc=22)
+      - Mentor Selection Criteria Using Emotional Intelligence  (sc=21)
+  ## Art and Design (12)
+      - Corporate Workspace Interior Render Prompt  (sc=20)
+      - Isometric Residential Tower Diagram Generator  (sc=19)
+      - Modern Character Portrait Generator  (sc=19)
+      - Cinematic Monochrome Portrait Generator  (sc=18)
+      - Hyperrealistic Selfie Portrait Generator  (sc=18)
+      - Realistic Tattoo Design Generator  (sc=18)
+      - Portrait Photography Variations Generator  (sc=16)
+      - Epic Fantasy Landscape Image Prompt  (sc=14)
+      - Sci-Fi Robot Concept Art Generator  (sc=13)
+      - Human Muscle Anatomy Illustration Prompt  (sc=12)
+      - Human Muscle Anatomy Illustration Prompt  (sc=12)
+      - Neon Cyberpunk Diner Image Prompt  (sc=12)
+  ## Finance (9)
+      - Income Source Classification Prompt for Tax Planning  (sc=33)
+      - Investment Terminology Explainer Prompt  (sc=28)
+      - Personal Finance Optimizer Prompt for ChatGPT  (sc=28)
+      - Simple Expense Tracking System Prompt  (sc=24)
+      - Self-Employment Tax Calculator Prompt for ChatGPT  (sc=24)
+      - Grant Application Writer Prompt for Nonprofits  (sc=23)
+      - Tax Software Recommendation Prompt for ChatGPT  (sc=23)
+      - Analyze Inventory Financing Options  (sc=21)
+      - Small Business Forecasting Bias Correction Prompt  (sc=20)
+  ## Writing (7)
+      - Complex Text Simplification Prompt for ChatGPT  (sc=33)
+      - Technical Explainer Article Generator  (sc=31)
+      - Educational Blog Series Planner for ChatGPT  (sc=28)
+      - Audience-Tailored Speech Writer  (sc=28)
+      - John Oliver-Style Exposé Writer  (sc=27)
+      - Quote Collection Compiler for Themed Anthologies  (sc=26)
+      - Speech Outline Generator With Audience Engagement  (sc=23)
+  ## Research (6)
+      - Key Points Extractor for Any Topic  (sc=32)
+      - Research Paper Summary Generator for General Audiences  (sc=29)
+      - Find Credible Research Sources Prompt  (sc=28)
+      - Interdisciplinary Problem-Solving Framework Prompt  (sc=26)
+      - Research Funding Landscape Analysis Prompt  (sc=24)
+      - Mobile-First Research Strategy Prompt  (sc=19)
+  ## Customer Service (5)
+      - Knowledge Base Article Writer Prompt  (sc=32)
+      - Customer Onboarding Email Prompt for Welcome Sequences  (sc=31)
+      - Customer Issue Decision Tree Builder  (sc=29)
+      - FAQ Page Generator for Customer Support  (sc=28)
+      - Checkout Help Notes & Microcopy Generator  (sc=25)
+  ## Productivity (4)
+      - 4D Thinking Framework for Strategic Breakthroughs  (sc=32)
+      - Skill Development Plan Prompt for ChatGPT  (sc=28)
+      - Checkout Process Optimization Prompt  (sc=26)
+      - Rapid Learning Framework Builder for Business Skills  (sc=26)
+  ## Marketing (3)
+      - Marketing Framework Tutorial & Implementation Prompt  (sc=32)
+      - 5-Day Email Course Builder for Engagement and Sales  (sc=30)
+      - How It Works Section Copy Generator  (sc=27)
+  ## Data Analysis (2)
+      - Text Sentiment Analysis Tutorial Prompt  (sc=33)
+      - Visual Representation Design Prompt for Complex Insights  (sc=26)
+  ## Legal (2)
+      - Legal Concept Explainer for Clients  (sc=30)
+      - Legal Rights Summary Generator  (sc=27)
+  ## SEO (2)
+      - Voice Search SEO Optimization Guide Generator  (sc=29)
+      - Keyword Research for Lead Generation Prompt  (sc=25)
+  ## Operations (2)
+      - Kanban Implementation Plan Generator for Teams  (sc=27)
+      - Communication Gap Diagnosis Prompt  (sc=25)
+
+================================================================================
+THIN CATEGORY: Agent_SOP_Framework&Extraction_Protocol  (existing skills: 5)
+DESC: Skill-extraction SOP only: end-to-end procedure for an agent that reads source content and outputs skill JSON. Do not use for general agent execution or state modeling.
+--- EXISTING SKILLS.JSON SKILLS ---
+  * Agent_Initialization_Protocol
+      Loads and indexes a knowledge base, builds a lookup list, gates on verified counts, then emits an initialization message.
+  * Output_Format_Field_Enforcement
+      Enforces output block format templates, field naming rules, and content constraints for all routing judgment results.
+  * Coverage_Sweep_And_Closure_Protocol
+      Verifies complete segment coverage, confirms category assignments, handles splits, and emits the closure summary.
+  * Session_Count_Definitions
+      Defines precise inclusion and exclusion rules for segment count and output count across all judgment types and merge operations.
+  * Agent_Extraction_Workflow_Sequence
+      Orchestration sequence for the skill-extraction agent: orders the atomic skills (which implement each step) into the full SOP. Sequencing descriptor only; does not duplicate atomic logic.
+--- FEEDING PROMPTS (project_cat | title | score) ---
+  [total feeding prompts: 45]
+  ## Writing (16)
+      - Story Subplot Integration Builder  (sc=31)
+      - Text Simplification and Clarity Editor Prompt  (sc=30)
+      - Adapt Content for Target Audience Prompt  (sc=28)
+      - Product Description Writer for E-Commerce  (sc=28)
+      - Draft Editing and Revision Prompt  (sc=28)
+      - Grammar and Punctuation Mastery Prompt  (sc=27)
+      - Blog Template Generator With Typography Principles  (sc=26)
+      - Content Structure Diagnostic and Reorganization Prompt  (sc=26)
+      - Readability Optimizer for Audience Engagement  (sc=26)
+      - Adjust Tone for Target Audience  (sc=26)
+      - Press Release Announcement Generator  (sc=25)
+      - Vocabulary Enhancement and Text Refinement Prompt  (sc=25)
+      - Video Script Generator for Social Media Platforms  (sc=25)
+      - Opinion Article Writer for Newsletters and Blogs  (sc=24)
+  ## Marketing (10)
+      - Elevator Pitch Generator for Business and Startups  (sc=29)
+      - Drip Campaign Builder for New Lead Nurturing  (sc=28)
+      - Press Release Generator for Product Launches  (sc=27)
+      - Homepage Welcome Text Generator  (sc=27)
+      - Social Media Content Strategy Generator  (sc=26)
+      - Promotional Email Copywriting Prompt for Marketing  (sc=24)
+      - Email Marketing Template Builder Prompt  (sc=24)
+      - Translate Ad Copy Prompt for Marketing Teams  (sc=22)
+      - Content Guidelines Framework Builder for ChatGPT  (sc=22)
+      - Landing Page Headline Generator for ChatGPT  (sc=22)
+  ## SEO (4)
+      - Featured Snippet Target Blog Post Generator  (sc=28)
+      - SEO Product Description Generator for E-Commerce  (sc=28)
+      - SEO Content Rewriter and Keyword Optimizer  (sc=28)
+      - Alt Text Guidelines Generator for Accessibility and SEO  (sc=24)
+  ## Finance (4)
+      - Grant Proposal Writing Prompt for Funding Applications  (sc=27)
+      - Grant Needs Statement Generator for Funding Proposals  (sc=27)
+      - Tax Withholding Optimization Prompt for W-4 Adjustments  (sc=27)
+      - Executive Summary Writer for Grant Proposals  (sc=25)
+  ## Sales (2)
+      - Personalized Sales Pitch Generator  (sc=31)
+      - Business Proposal Follow-Up Email Sequence Generator  (sc=27)
+  ## Legal (2)
+      - IP Assignment Agreement Generator  (sc=28)
+      - Compliance Checklist Generator for Any Regulation  (sc=27)
+  ## Careers (2)
+      - Ghostwriting Rate Negotiation Framework Generator  (sc=27)
+      - LinkedIn Profile Summary Writer  (sc=25)
+  ## Data Analysis (1)
+      - Excel Task Guide Prompt for ChatGPT  (sc=33)
+  ## Operations (1)
+      - Customer Support Guidelines Generator for AI  (sc=28)
+  ## Real Estate (1)
+      - Airbnb Property Description Writer  (sc=27)
+  ## Research (1)
+      - Competitor Research Prompt for Direct Market Analysis  (sc=25)
+  ## Education (1)
+      - Digital Assessment Builder for Online Learning  (sc=23)
