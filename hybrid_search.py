@@ -249,14 +249,31 @@ def search(query, top_n=5, cat=None, sub=None, mode='hybrid', index=None, emb=No
         sims = pool_vecs @ qvec
         dense_rank = sorted(range(len(pool)), key=lambda k: float(sims[k]), reverse=True)
         k = 60
-        rrf = {}
-        for rank, gi in enumerate(lex_rank, start=1):
-            rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
-        for rank, gi in enumerate(dense_rank, start=1):
-            rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+        # 候選集策略: dense 只用來「重排詞彙候選」, 不允許把零詞彙命中的離題文件拉進結果。
+        # 例: "房地產" 在舊 Hybrid 下會被 embedding 誤關聯到 "Photorealistic ... real ..." (real 子串 / 房產視覺),
+        #      那些文件詞彙得分為 0, 若放進全量融合就會污染結果。
+        #      詞彙命中足夠 (>= top_n) 時, 限制 dense 只在詞彙候選內重排; 命中過少才回退全量融合,
+        #      以保證純語意 / 轉述查詢仍有結果。
+        lexical_cands = list(lex_rank)
+        if len(lexical_cands) >= max(top_n, 5):
+            cand_set = set(lexical_cands)
+            rrf = {}
+            for rank, gi in enumerate(lexical_cands, start=1):
+                rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+            for rank, gi in enumerate(dense_rank, start=1):
+                if gi in cand_set:
+                    rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+            dense_top = {gi for gi in dense_rank[:10] if gi in cand_set}
+        else:
+            # 詞彙命中過少 -> 傳統 hybrid 全量融合 (詞彙 + dense 全池)
+            rrf = {}
+            for rank, gi in enumerate(lex_rank, start=1):
+                rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+            for rank, gi in enumerate(dense_rank, start=1):
+                rrf[gi] = rrf.get(gi, 0) + 1.0 / (k + rank)
+            dense_top = set(dense_rank[:10])
         fused = sorted(rrf.keys(), key=lambda gi: rrf[gi], reverse=True)
         final = fused[:top_n]
-        dense_top = set(dense_rank[:10])
     else:
         final = lex_rank[:top_n]
 
